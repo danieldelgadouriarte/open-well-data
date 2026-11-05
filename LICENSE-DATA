@@ -1,22 +1,36 @@
-Open Well Data catalogue
+Open Well Data catalogue and dictionary
 Copyright 2026 Daniel Delgado-Uriarte (https://danieldelgadouriarte.com, ORCID 0009-0006-0536-5158)
 
-The catalogue (the source records in fichas/ and owd/owd/datos/, their verification fields, the variable and
-channel dictionaries and synonym tables in owd/owd/*.tsv and owd/owd/_lector/*.tsv, the recipe files in
-owd/owd/recetas.d/, the coverage and unit-alert tables, and the derived files published on the website under
-data/) is licensed under the
-Creative Commons Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0).
+The catalogue and dictionary of Open Well Data are licensed under the Creative Commons Attribution-NonCommercial
+4.0 International licence (CC BY-NC 4.0). This covers: the source records (fichas/), their verification fields,
+the variable, channel and mnemonic dictionaries, context rules, synonym and unit tables (owd/owd/*.tsv,
+owd/owd/data/, owd/owd/_reader/*.tsv), the recipe files (owd/owd/recipes.d/), the coverage and unit-alert tables
+(coverage/), and the derived files published on the website under data/.
 
 Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
 Summary: https://creativecommons.org/licenses/by-nc/4.0/
 
-Attribution required: credit "Open Well Data, by Daniel Delgado-Uriarte", link the catalogue or its DOI when one
+Copyright and database rights
+-----------------------------
+Daniel Delgado-Uriarte, a national of Spain, is the author of the catalogue and dictionary and the maker of the
+database they form. Besides copyright in their selection and arrangement, the database is protected by the sui
+generis database right of Directive 96/9/EC, which rewards the substantial investment in obtaining, verifying and
+presenting its contents: reading and checking each source, and checking each mnemonic mapping against real files.
+CC BY-NC 4.0 licenses these Sui Generis Database Rights on the same non-commercial terms (Sections 1 and 4 of the
+legal code). Extracting or re-using all or a substantial part of the database for commercial purposes needs written
+permission.
+
+Attribution
+-----------
+Credit "Open Well Data, by Daniel Delgado-Uriarte", link https://openwelldata.org or the catalogue's DOI when one
 exists, state the licence and indicate changes. Suggested citation in CITATION.cff.
 
 Commercial use
 --------------
-Commercial use is not covered by CC BY-NC 4.0 and needs a separate written licence from the copyright holder.
-Request one through https://danieldelgadouriarte.com. A free, non-exclusive evaluation licence with an end date may be granted on request.
+Commercial use is not covered by CC BY-NC 4.0 and needs written permission from the rights holder: any use by or
+for a company, including internal research, products, services and consulting. Request it by email to
+danieldelgadouriarte@gmail.com (see COMMERCIAL-LICENSE.md and https://openwelldata.org/licence/#permission).
+Permission is currently free of charge.
 
 How we read "commercial" (a clarification, not a change to CC BY-NC 4.0; when in doubt, ask):
 - Commercial: use primarily intended for commercial advantage or monetary compensation, including use inside a
@@ -25,6 +39,7 @@ How we read "commercial" (a clarification, not a change to CC BY-NC 4.0; when in
 - Not commercial: personal study, teaching, academic research and publications that are not commissioned by a
   company, public-sector research, and non-profit work.
 
-This licence covers only this catalogue. The data held by each listed source belongs to its provider and keeps the
-provider's own licence, as stated in each record. Nothing here grants rights over third-party data.
-The code (owd/, sitio/, scripts/) is licensed separately under the Apache License 2.0 (see LICENSE).
+This licence covers only Open Well Data's own work. The data held by each listed source belongs to its provider and
+keeps the provider's own licence, as stated in each record. Nothing here grants rights over third-party data.
+The code (owd/ Python files, sitio/, scripts/, desktop/) is licensed separately under the PolyForm Noncommercial
+License 1.0.0 (see LICENSE and NOTICE).
