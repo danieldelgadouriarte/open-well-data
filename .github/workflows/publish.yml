@@ -1,6 +1,6 @@
-# Publica el paquete openwelldata en PyPI cuando se publica una release de GitHub.
-# PyPI «trusted publisher»: sin tokens. En PyPI → Publishing → pending publisher:
-#   proyecto openwelldata · owner danieldelgadouriarte · repo open-well-data · workflow publish.yml · environment pypi
+# Publishes the openwelldata package to PyPI when a GitHub release is published.
+# PyPI trusted publisher, no tokens. On PyPI, Publishing, pending publisher:
+#   project openwelldata, owner danieldelgadouriarte, repo open-well-data, workflow publish.yml, environment pypi
 name: publish
 
 on:
