@@ -1,0 +1,34 @@
+{
+ "title": "Open Well Data: public subsurface data for oil, gas and CCS (code, catalogue and site)",
+ "upload_type": "software",
+ "description": "Open Well Data indexes public subsurface data sources for oil, gas and CCS (wireline logs, drilling, production, seismic, CO2 storage) with checked access and licences, and ships the openwelldata Python package: readers that return standard channel names in SI units, recipes for datasets that cannot be redistributed, a variable index, and an MCP server. Website: https://openwelldata.org",
+ "creators": [
+  {
+   "name": "Delgado-Uriarte, Daniel",
+   "orcid": "0009-0006-0536-5158"
+  }
+ ],
+ "license": "PolyForm-Noncommercial-1.0.0",
+ "keywords": [
+  "well data",
+  "well logs",
+  "drilling data",
+  "petroleum engineering",
+  "geoscience",
+  "subsurface",
+  "CCS",
+  "open data",
+  "data catalogue",
+  "LAS",
+  "WITSML",
+  "MCP"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://openwelldata.org",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  }
+ ],
+ "notes": "Code PolyForm Noncommercial 1.0.0 (free for non-commercial use); catalogue, dictionaries and recipes CC BY-NC 4.0; commercial licences from the author (https://danieldelgadouriarte.com)."
+}

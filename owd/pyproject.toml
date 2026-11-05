@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openwelldata"
+version = "0.1.0"
+license = "PolyForm-Noncommercial-1.0.0 AND CC-BY-NC-4.0"
+license-files = ["LICENSE", "LICENSE-DATA"]
+description = "Open Well Data, public subsurface data for oil, gas and CCS: public well, drilling and production data with standard channel names and SI units, plus a catalogue of public subsurface data sources"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Daniel Delgado-Uriarte"}]
+keywords = ["well data", "drilling", "well logs", "petroleum engineering", "geoscience", "open data", "units", "mcp"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "Operating System :: OS Independent",
+]
+dependencies = ["numpy", "pandas>=2.2"]
+
+[project.optional-dependencies]
+mcp = ["mcp>=2.3"]
+full = ["lasio", "dlisio", "pyarrow", "mcp>=2.3"]
+
+[project.urls]
+Homepage = "https://openwelldata.org"
+Source = "https://github.com/danieldelgadouriarte/open-well-data"
+"Author" = "https://danieldelgadouriarte.com"
+
+[project.scripts]
+owd = "owd.recipes:main"
+owd-mcp = "owd.mcp_server:main"
+
+[tool.setuptools]
+packages = ["owd", "owd._reader"]
+
+[tool.setuptools.package-data]
+owd = ["channels.tsv", "synonyms.tsv", "variables.tsv", "recipes.d/*.json", "data/*.jsonl", "data/*.csv"]
+"owd._reader" = ["units.tsv"]

@@ -1,0 +1,150 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Open Well Data source record",
+ "type": "object",
+ "required": [
+  "id",
+  "name",
+  "url",
+  "status"
+ ],
+ "properties": {
+  "record_type": {
+   "const": "record"
+  },
+  "id": {
+   "type": "string",
+   "description": "stable identifier"
+  },
+  "name": {
+   "type": "string"
+  },
+  "url": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "format": "uri",
+   "description": "null when the address was discarded (see issue)"
+  },
+  "country": {
+   "type": "string"
+  },
+  "operator": {
+   "type": "string",
+   "description": "publisher of the source"
+  },
+  "category": {
+   "enum": [
+    "aggregator",
+    "benchmark_dataset",
+    "ccs_geothermal",
+    "commercial",
+    "community",
+    "documents",
+    "government_portal",
+    "index",
+    "model_or_software",
+    "national_lab",
+    "open_dataset",
+    "pretrained_model",
+    "product",
+    "regulator",
+    "repository",
+    "research",
+    "scientific",
+    "seismic_archive",
+    "standard",
+    "state_regulator"
+   ]
+  },
+  "disciplines": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "data_types": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "declared_variables": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "variable ids of the Open Well Data dictionary named by the source"
+  },
+  "access": {
+   "enum": [
+    "dead",
+    "embargo",
+    "mixed",
+    "not_stated",
+    "open",
+    "paid",
+    "registration",
+    "request_form",
+    "restricted"
+   ]
+  },
+  "license": {
+   "type": "string",
+   "description": "the source's licence as written"
+  },
+  "license_url": {
+   "type": "string"
+  },
+  "redistribution": {
+   "type": "string"
+  },
+  "status": {
+   "enum": [
+    "confirmed",
+    "declared",
+    "not_stated",
+    "seed",
+    "url_discarded",
+    "web_verified"
+   ]
+  },
+  "verification": {
+   "type": "object",
+   "description": "what the page said when it was read: page_status, what_it_is, page_type, access_as_written, license_as_written, formats_as_written, relevance, date, method"
+  },
+  "evidence": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "quote": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "http": {
+   "type": "object",
+   "description": "last address check: status_code, final_url, content_type, date, reading"
+  },
+  "issue": {
+   "type": "string",
+   "description": "problems found: dead links, hijacked domains, inconsistent licences"
+  },
+  "notes": {
+   "type": "string"
+  },
+  "parent": {
+   "type": "string",
+   "description": "id of the record this one is part of"
+  },
+  "duplicate_of": {
+   "type": "string"
+  }
+ }
+}

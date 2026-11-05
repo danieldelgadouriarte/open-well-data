@@ -1,0 +1,89 @@
+variable	family	dimension	unit	standard_channel	mnemonics	description
+hookload	drilling	force	kN	yes	HKLD|HKL|HKLA|HKLX	Hook load
+wob	drilling	force	kN	yes	SWOB|WOB|WOBA	Weight on bit (surface)
+surface_rpm	drilling	angular_velocity	rpm	yes	RPM|RPMA|TD_RPM	Surface rotary speed
+surface_torque	drilling	torque	kN.m	yes	TQA|STOR|TORQUE	Surface torque
+spp	drilling	pressure	kPa	yes	SPPA|SPP	Standpipe pressure
+flow_in	drilling	flow_rate	L/min	yes	MFIA|FLOWIN|TFLO	Mud flow in
+flow_out	drilling	flow_rate	L/min	no	MFOA|FLOWOUT|MFOP	Mud flow out
+bit_depth	drilling	length	m	yes	DBTM|BDEP|BIT_DEPTH	Bit depth (MD)
+hole_depth	drilling	length	m	yes	DMEA|HDTH|DEPTH	Hole depth (MD)
+rop	drilling	velocity	m/h	yes	ROPA|ROP|ROP5	Rate of penetration
+block_position	drilling	length	m	no	BPOS|BLKPOS|BHT_POS	Block position
+pit_volume	drilling	volume	m3	no	TVT|PITVOL|TVA	Active pit volume
+mud_density_in	drilling	density	g/cm3	no	MWIN|MDIA|MUDWEIGHT|MW	Mud density in
+mud_density_out	drilling	density	g/cm3	no	MWOUT|MDOA	Mud density out
+mud_temp_in	drilling	temperature	degC	no	TMIA|TEMPIN	Mud temperature in
+mud_temp_out	drilling	temperature	degC	no	TMOA|TEMPOUT	Mud temperature out
+total_gas	drilling	fraction	%	no	GASA|TGAS|GAS	Total gas at the shakers
+ecd	drilling	density	g/cm3	no	ECD|ECDA	Equivalent circulating density (downhole)
+annular_pressure	drilling	pressure	kPa	no	APRS|ANNP|PWD	Annular pressure while drilling (downhole)
+downhole_rpm	drilling	angular_velocity	rpm	yes	DRPM|RPM_DH	Downhole rotary speed
+downhole_torque	drilling	torque	kN.m	yes	DTOR|TQ_DH	Downhole torque
+downhole_wob	drilling	force	kN	yes	DWOB|WOB_DH	Downhole weight on bit
+md	position	length	m	no	DEPT|DEPTH|DEPTH_MD|MD	Measured depth of a log sample
+tvd	position	length	m	no	TVD|TVDRKB	True vertical depth
+tvdss	position	length	m	no	TVDSS|z_loc	True vertical depth below sea level
+easting	position	length	m	no	X|x_loc|EASTING	Projected easting of the sample
+northing	position	length	m	no	Y|y_loc|NORTHING	Projected northing of the sample
+inclination	surveys	angle	deg	no	INCL|DEVI|INC	Well inclination
+azimuth	surveys	angle	deg	no	AZIM|HAZI|AZI	Well azimuth
+gr	logs	radioactivity	gAPI	yes	GR|GRC|SGR|CGR	Gamma ray
+rhob	logs	density	g/cm3	yes	RHOB|RHOZ|DEN	Bulk density
+drho	logs	density	g/cm3	no	DRHO|DCOR|HDRA	Density correction
+nphi	logs	fraction	v/v	yes	NPHI|TNPH|NPOR	Neutron porosity
+dt	logs	slowness	us/ft	yes	DTC|DT|DTCO|AC	Compressional slowness
+dts	logs	slowness	us/ft	yes	DTS|DTSM|DTSHEAR	Shear slowness
+res_deep	logs	resistivity	ohm.m	yes	RDEP|ILD|RD|AT90|LLD	Deep resistivity
+res_medium	logs	resistivity	ohm.m	yes	RMED|ILM|RM|AT30	Medium resistivity
+res_shallow	logs	resistivity	ohm.m	no	RSHA|SFL|LLS|AT10	Shallow resistivity
+res_flushed	logs	resistivity	ohm.m	no	RXO|MSFL|RXOZ	Flushed-zone (micro) resistivity
+caliper	logs	length	in	yes	CALI|HCAL|C1	Borehole diameter
+bit_size	logs	length	in	no	BS|BIT	Bit size
+pef	logs	dimensionless	b/e	yes	PEF|PE|PEFZ	Photoelectric factor
+sp	logs	potential	mV	yes	SP|SPBL	Spontaneous potential
+log_temperature	logs	temperature	degC	no	BHT|TEMP	Borehole (log) temperature
+lithology	logs	code	_	no	FORCE_2020_LITHOFACIES_LITHOLOGY|LITH	Interpreted lithology label
+core_porosity	core	fraction	v/v	no	CPOR|PHI_CORE	Core porosity
+core_permeability	core	permeability	mD	no	CKH|KLH|PERM_CORE	Core permeability
+grain_density	core	density	g/cm3	no	CGD|RHOG	Grain density
+ucs	core	pressure	MPa	no	UCS	Unconfined compressive strength
+static_youngs_modulus	core	pressure	GPa	no	E_STAT	Static Young's modulus
+static_poisson_ratio	core	dimensionless	_	no	PR_STAT	Static Poisson's ratio
+formation_pressure	geomechanics	pressure	kPa	no	FP|RFT|MDT|XPT	Formation pressure point
+lot_pressure	geomechanics	pressure	kPa	no	LOT|FIT|EMW	Leak-off or formation integrity test pressure
+elapsed_time	well_test	time	h	no	TIME|ELTIM	Elapsed test time
+delta_p	well_test	pressure	kPa	no	DP|DELTA_P	Pressure change since the start of the test
+test_rate	well_test	flow_rate	m3/d	no	Q|QO	Surface rate during the test
+net_thickness	well_test	length	m	no	H|NET	Net pay thickness
+porosity	well_test	fraction	v/v	no	PHI	Porosity used in the test interpretation
+total_compressibility	well_test	compressibility	1/kPa	no	CT	Total compressibility
+wellbore_radius	well_test	length	m	no	RW	Wellbore radius
+oil_rate	production	flow_rate	m3/d	no	BORE_OIL_VOL|OIL_RATE|QO	Oil rate (stock-tank)
+gas_rate	production	flow_rate	m3/d	no	BORE_GAS_VOL|GAS_RATE|QG	Gas rate (standard)
+water_rate	production	flow_rate	m3/d	no	BORE_WAT_VOL|WATER_RATE|QW	Water rate
+water_injection_rate	production	flow_rate	m3/d	no	BORE_WI_VOL|WINJ	Water injection rate
+bhp	production	pressure	kPa	no	AVG_DOWNHOLE_PRESSURE|BHP|PWF	Bottom-hole pressure
+bht	production	temperature	degC	no	AVG_DOWNHOLE_TEMPERATURE|BHT_PROD	Bottom-hole temperature
+whp	production	pressure	kPa	no	AVG_WHP_P|WHP|THP	Wellhead (tubing head) pressure
+wht	production	temperature	degC	no	AVG_WHT_P|WHT	Wellhead temperature
+choke_opening	production	fraction	%	no	AVG_CHOKE_SIZE_P|CHOKE	Choke opening
+on_stream_hours	production	time	h	no	ON_STREAM_HRS|HRS	Hours on stream per period
+p_pdg	production	pressure	kPa	yes	P-PDG	Permanent downhole gauge pressure (3W)
+p_tpt	production	pressure	kPa	yes	P-TPT	Temperature-pressure transducer pressure (3W)
+t_tpt	production	temperature	degC	yes	T-TPT	Temperature-pressure transducer temperature (3W)
+p_mon_ckp	production	pressure	kPa	yes	P-MON-CKP	Pressure upstream of the production choke (3W)
+t_jus_ckp	production	temperature	degC	yes	T-JUS-CKP	Temperature downstream of the production choke (3W)
+q_gas_lift	production	flow_rate	m3/d	yes	QGL	Gas-lift injection rate (3W)
+bubble_point_pressure	pvt	pressure	kPa	no	PB|PSAT	Bubble-point pressure
+rs	pvt	ratio	m3/m3	no	RS|GOR	Solution gas-oil ratio
+bo	pvt	ratio	m3/m3	no	BO|FVF	Oil formation volume factor
+oil_viscosity	pvt	viscosity	mPa.s	no	MUO|VISO	Oil viscosity
+api_gravity	pvt	dimensionless	API	no	API	Stock-tank oil gravity
+gas_gravity	pvt	dimensionless	_	no	SGG|GG	Gas specific gravity (air = 1)
+reservoir_temperature	pvt	temperature	degC	no	TRES|TR	Reservoir temperature
+z_factor	pvt	dimensionless	_	no	Z	Gas compressibility factor
+treating_pressure	completions	pressure	kPa	no	TP|TREAT_P|STP	Surface treating pressure
+slurry_rate	completions	flow_rate	m3/min	no	SLUR_RATE|RATE	Slurry rate
+proppant_concentration	completions	concentration	kg/m3	no	PROP_CON|BH_CONC	Proppant concentration
+co2_injected	co2	mass	t	no	CO2_MASS|INJ_MASS	Injected CO2 mass

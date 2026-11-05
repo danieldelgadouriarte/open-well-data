@@ -1,0 +1,19 @@
+Open Well Data
+Copyright 2026 Daniel Delgado-Uriarte (https://danieldelgadouriarte.com, ORCID 0009-0006-0536-5158)
+
+Open Well Data is free for non-commercial use and, separately, available under commercial licences.
+
+1. Code (owd/ Python files, sitio/, web/, scripts/): PolyForm Noncommercial License 1.0.0
+   (PolyForm-Noncommercial-1.0.0), see LICENSE. Free for personal study and research, education, public research,
+   non-profit and government organizations. Any use by or for a company needs a commercial licence.
+   Versions published before 5 November 2026 were released under AGPL-3.0-only and keep that licence.
+2. Catalogue and data files, wherever they sit in the repository: CC BY-NC 4.0, see LICENSE-DATA. This includes the
+   source records (fichas/, owd/owd/datos/), the variable and channel dictionaries and synonym tables
+   (owd/owd/*.tsv, owd/owd/_lector/*.tsv), the recipe files (owd/owd/recetas.d/), the coverage and unit-alert tables
+   (cobertura/) and the derived files published on the website under data/.
+3. Commercial licence: to use the code for any commercial purpose, or to use the catalogue commercially, ask for a commercial licence through https://danieldelgadouriarte.com. See
+   COMMERCIAL-LICENSE.md.
+
+owd/owd/_lector/ is a copy of lector-canales by the same author (see owd/owd/_lector/ORIGEN.txt) and is covered by
+the same terms.
+Third-party datasets are not part of this repository's licences; each keeps its provider's licence.

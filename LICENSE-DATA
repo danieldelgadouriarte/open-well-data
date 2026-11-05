@@ -1,0 +1,30 @@
+Open Well Data catalogue
+Copyright 2026 Daniel Delgado-Uriarte (https://danieldelgadouriarte.com, ORCID 0009-0006-0536-5158)
+
+The catalogue (the source records in fichas/ and owd/owd/datos/, their verification fields, the variable and
+channel dictionaries and synonym tables in owd/owd/*.tsv and owd/owd/_lector/*.tsv, the recipe files in
+owd/owd/recetas.d/, the coverage and unit-alert tables, and the derived files published on the website under
+data/) is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International licence (CC BY-NC 4.0).
+
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+Attribution required: credit "Open Well Data, by Daniel Delgado-Uriarte", link the catalogue or its DOI when one
+exists, state the licence and indicate changes. Suggested citation in CITATION.cff.
+
+Commercial use
+--------------
+Commercial use is not covered by CC BY-NC 4.0 and needs a separate written licence from the copyright holder.
+Request one through https://danieldelgadouriarte.com. A free, non-exclusive evaluation licence with an end date may be granted on request.
+
+How we read "commercial" (a clarification, not a change to CC BY-NC 4.0; when in doubt, ask):
+- Commercial: use primarily intended for commercial advantage or monetary compensation, including use inside a
+  company's operations, products or services, paid consulting, and research projects funded by a company to serve
+  its business.
+- Not commercial: personal study, teaching, academic research and publications that are not commissioned by a
+  company, public-sector research, and non-profit work.
+
+This licence covers only this catalogue. The data held by each listed source belongs to its provider and keeps the
+provider's own licence, as stated in each record. Nothing here grants rights over third-party data.
+The code (owd/, sitio/, scripts/) is licensed separately under the Apache License 2.0 (see LICENSE).

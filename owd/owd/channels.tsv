@@ -1,0 +1,29 @@
+canonical	family	dimension	unit	reader_role	description	aliases
+hookload	drilling	force	kN	HKL	Hook load	HKLD|HKLD_AVG|THKD|Hook Load|Hookload|HOOKLOAD|HKL
+wob	drilling	force	kN	WOB	Weight on bit (surface)	SWOB|WOB|WOB_AVG|CWOB|Weight on Bit|WOB_SURF
+surface_rpm	drilling	angular_velocity	rpm	RPM	Surface rotary speed	RPM|SURF_RPM|Rotary RPM|Top Drive RPM|RPMA|TD_RPM
+surface_torque	drilling	torque	kN.m	TQ	Surface torque	TQA|TORQUE|TORQUE_AVG|Top Drive Torque|Rotary Torque|Torque|STOR
+spp	drilling	pressure	kPa	SPP	Standpipe pressure	SPPA|PUMP|PUMP_AVG|Standpipe Pressure|Pump Pressure|SPP
+flow_in	drilling	flow_rate	L/min	FLOW	Pump flow rate	TFLO|FLOWIN|Flow In|Total Pump Output|FLOW_IN
+bit_depth	drilling	length	m	BITDEP	Bit depth (MD)	DBTM|BITDEP|Bit Depth|Depth - Bit|BIT_DEPTH
+hole_depth	drilling	length	m	HOLEDEP	Hole depth (MD)	DMEA|MDEPTH|Hole Depth|Total Depth|DEPT_HOLE
+rop	drilling	velocity	m/h	ROP	Rate of penetration	ROP|ROP5|ROP_AVG|Rate of Penetration|ROPA
+downhole_rpm	drilling	angular_velocity	rpm	DH_RPM	Downhole rotary speed (MWD)	CRPM_RT|SSRPMAVM|RPMX
+downhole_torque	drilling	torque	kN.m	DH_TQ	Downhole torque (MWD)	DTOR_RT
+downhole_wob	drilling	force	kN	DH_WOB	Downhole weight on bit (MWD)	DWOB_RT
+gr	logs	radioactivity	gAPI		Gamma ray	GR|GRC|GR_EDTC|SGR|CGR
+rhob	logs	density	g/cm3		Bulk density	RHOB|DEN|RHOZ|ZDEN
+nphi	logs	fraction	v/v		Neutron porosity	NPHI|NPOR|TNPH|CNC
+dt	logs	slowness	us/ft		Compressional sonic slowness	DT|DTC|DTCO|AC
+dts	logs	slowness	us/ft		Shear sonic slowness	DTS|DTSM
+res_deep	logs	resistivity	ohm.m		Deep resistivity	RDEP|RD|ILD|LLD|RT|AT90
+res_medium	logs	resistivity	ohm.m		Medium resistivity	RMED|RM|ILM|AT30
+caliper	logs	length	in		Caliper (borehole diameter)	CALI|CAL|HCAL|C1
+pef	logs	dimensionless	b/e		Photoelectric factor	PEF|PE|PEFZ
+sp	logs	potential	mV		Spontaneous potential	SP
+p_pdg	production	pressure	kPa		Pressure at the PDG (downhole)	P-PDG
+p_tpt	production	pressure	kPa		Pressure at the TPT (subsea tree)	P-TPT
+t_tpt	production	temperature	degC		Temperature at the TPT	T-TPT
+p_mon_ckp	production	pressure	kPa		Pressure upstream of the production choke	P-MON-CKP
+t_jus_ckp	production	temperature	degC		Temperature downstream of the production choke	T-JUS-CKP
+q_gas_lift	production	flow_rate	m3/d		Gas-lift rate	QGL

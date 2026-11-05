@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.danieldelgadouriarte/open-well-data",
+  "title": "Open Well Data",
+  "description": "Catalogue of public well, drilling and production data for oil, gas and CCS, plus open datasets.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/danieldelgadouriarte/open-well-data",
+    "source": "github"
+  },
+  "websiteUrl": "https://openwelldata.org",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "openwelldata",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": []
+    }
+  ]
+}

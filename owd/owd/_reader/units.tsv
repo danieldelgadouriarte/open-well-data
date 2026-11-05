@@ -1,0 +1,54 @@
+symbol	dimension	canonical	factor	offset	confidence	source
+rpm	angular_velocity	rpm	1	0	exact	Energistics UOM Dictionary v1.0: rpm = revolution per minute
+RPM	angular_velocity	rpm	1	0	alias	Same symbol as rpm in upper case (Volve LAS and WITSML headers)
+c/min	angular_velocity	rpm	1	0	exact	Energistics UOM: c/min = cycle per minute; 1 cycle = 1 revolution (Volve F-4 DLIS: CRPM_RT «MWD CRPM 6in» in c/min)
+c/s	angular_velocity	rpm	60	0	exact	Energistics UOM: c/s = cycle per second; 1 c/s = 60 c/min. In the data: SURF_RPM in c/s has a median of maxima of 2.33 against 160.9 in RPM
+rad/s	angular_velocity	rpm	9.549296585513721	0	exact	Definition: 1 rad/s = 60/(2π) rpm
+kN.m	torque	kN.m	1	0	exact	Energistics UOM: kN.m
+N.m	torque	kN.m	0.001	0	exact	Energistics UOM: N.m; SI prefix k = 10^3
+km.daN	torque	kN.m	10	0	literal	Literal reading of the DLIS symbol (km·daN = 10^3 m × 10 N = 10^4 N·m = 10 kN·m); Volve F-4 DLIS TQA «SRF STOR 6in»: median 0.555 km.daN = 5.55 kN·m
+KMDN	torque	kN.m	10	0	literal	Literal reading K·M·DN = km·daN (same factor as km.daN); Volve LAS, TQA «SRF STOR 2hz»
+KMN	torque	kN.m	1	0	literal	Literal reading K·M·N = km·N = 10^3 N·m = 1 kN·m; Volve F-15 LAS TQA «SRF STOR 2hz» (values 7.8-8.3 in the first rows of WL_RAW_BHPR-GR-MECH_MWD_1.LAS)
+kft_lb	torque	kN.m	1.3558179483314004	0	interpretation	NIST SP 811 (2008) B.9: 1 ft·lbf = 1.355818 N·m; «lb» in a torque channel = lbf (FORGE Pason EDR, «Rotary Torque (kft_lb)»)
+kft-lbs	torque	kN.m	1.3558179483314004	0	interpretation	Same as kft_lb (Sanvean «Surface_Top Drive Torque(kft-lbs)»; unit row «kilofoot-pounds (kft-lbs)»)
+ft-lbs	torque	kN.m	0.0013558179483314004	0	interpretation	NIST SP 811 B.9: 1 ft·lbf = 1.355818 N·m (FORGE unit row «foot-pounds (ft-lbs)»)
+kkgf	force	kkgf	1	0	exact	Energistics UOM: kkgf = 1000 kgf (canonical: tonne-force)
+KKGF	force	kkgf	1	0	alias	Same symbol as kkgf in upper case (Volve LAS)
+1000 kgf	force	kkgf	1	0	alias	Literal spelling of kkgf (Volve F-4 DLIS: HKLD, SWOB)
+N	force	kkgf	0.00010197162129779283	0	exact	NIST SP 811 B.9: 1 kgf = 9.80665 N (exact) → 1 N = 1/9806.65 kkgf
+kN	force	kkgf	0.10197162129779283	0	exact	NIST SP 811 B.9: 1 kgf = 9.80665 N
+tonne	force	kkgf	1	0	interpretation	The file uses tonne (mass) in force channels (WOB_AVG «Weight On Bit», HKLD_AVG «Hookload»); read as tonne-force = 1000 kgf. Consistent range: HKLD_AVG median of maxima 209.5 tonne against 1.469e6 N = 149.8 t
+t	force	kkgf	1	0	interpretation	Same as tonne (GS_HKLD, GS_SWOB in t)
+klbs	force	kkgf	0.45359237	0	interpretation	NIST SP 811 B.9: 1 lb = 0.45359237 kg (exact) and lbf = lb·g_n → 1 klbf = 0.45359237 kkgf; «klbs» in a force channel = klbf (FORGE Pason and Sanvean EDR)
+klb	force	kkgf	0.45359237	0	interpretation	Same as klbs
+klbf	force	kkgf	0.45359237	0	exact	NIST SP 811 B.9 (lbf = lb·g_n)
+kPa	pressure	kPa	1	0	exact	Energistics UOM: kPa
+KPA	pressure	kPa	1	0	alias	kPa in upper case (Volve LAS)
+Pa	pressure	kPa	0.001	0	exact	Energistics UOM: Pa; SI prefix k = 10^3
+bar	pressure	kPa	100	0	exact	NIST SP 811 B.9: 1 bar = 10^5 Pa (exact)
+BAR	pressure	kPa	100	0	alias	bar in upper case (Volve F-15 LAS: SPPA «SRF PUMPRS 2hz»)
+psi	pressure	kPa	6.894757293168361	0	exact	NIST SP 811 B.9: 1 psi = 6.894757 kPa (lbf/in²)
+ksi	pressure	kPa	6894.757293168361	0	exact	NIST SP 811 B.9: 1 ksi = 6.894757 MPa
+L/min	flow_rate	L/min	1	0	exact	Energistics UOM: L/min
+LPM	flow_rate	L/min	1	0	alias	Litres per minute (Volve F-15 LAS: TFLO «HSPM Total Pump Flow 2hz» in LPM, 2990.9 in the first rows)
+m3/s	flow_rate	L/min	60000	0	exact	1 m³ = 1000 L; 1 min = 60 s
+m3/min	flow_rate	L/min	1000	0	exact	1 m³ = 1000 L
+gal_per_min	flow_rate	L/min	3.785411784	0	interpretation	NIST SP 811 B.9: 1 US gal = 3.785411784 L (exact); US gallon because the EDR files are from Utah wells (Pason)
+GPM	flow_rate	L/min	3.785411784	0	interpretation	Same as gal_per_min (Sanvean «Surface_Flow In(GPM)», unit row «gallons per minute (GPM)»)
+m	length	m	1	0	exact	SI
+M	length	m	1	0	alias	m in upper case (Volve LAS: DEPT .M)
+ft	length	m	0.3048	0	exact	NIST SP 811 B.9: 1 ft = 0.3048 m (exact)
+feet	length	m	0.3048	0	exact	Same as ft (FORGE Pason EDR «Bit Depth (feet)»)
+0.1 in	length	m	0.00254	0	exact	NIST SP 811 B.9: 1 in = 0.0254 m (exact); TDEP index of the Volve DLIS in «0.1 in»
+in	length	m	0.0254	0	exact	NIST SP 811 B.9: 1 in = 0.0254 m
+m/h	velocity	m/h	1	0	exact	Energistics UOM: m/h
+M/HR	velocity	m/h	1	0	alias	m/h written in upper case (Volve LAS: ROP5 .M/HR)
+m/s	velocity	m/h	3600	0	exact	1 h = 3600 s
+ft/hr	velocity	m/h	0.3048	0	exact	NIST SP 811 B.9: 1 ft = 0.3048 m
+ft_per_hr	velocity	m/h	0.3048	0	exact	Same as ft/hr (FORGE Pason EDR)
+degC	temperature	degC	1	0	exact	Energistics UOM: degC
+DEGC	temperature	degC	1	0	alias	degC in upper case (Volve LAS)
+C	temperature	degC	1	0	alias	Sanvean «Temperature(C)»: degrees Celsius
+K	temperature	degC	1	-273.15	exact	Definition: t/°C = T/K − 273.15
+degF	temperature	degC	0.5555555555555556	-17.77777777777778	exact	Definition: t/°C = (t/°F − 32)·5/9
+degrees Fahrenheit	temperature	degC	0.5555555555555556	-17.77777777777778	exact	Same as degF (FORGE unit row)

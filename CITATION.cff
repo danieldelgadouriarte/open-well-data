@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If Open Well Data helped you find or check data, please cite it, and cite the original provider of every dataset you use."
+title: "Open Well Data: an index of public subsurface data sources"
+type: dataset
+license:
+  - CC-BY-NC-4.0
+  - PolyForm-Noncommercial-1.0.0
+authors:
+  - family-names: "Delgado-Uriarte"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0009-0006-0536-5158"
+    website: "https://danieldelgadouriarte.com"
+keywords: [well data, drilling data, seismic, well logs, open data, subsurface, oil and gas, data catalogue]
+abstract: "Catalogue of public well, drilling, seismic and production data sources with checked access, quoted licences and a verification status per record, plus a Python package (owd) that loads selected datasets with standard channel names and SI units."
