@@ -1,0 +1,42 @@
+scope	key	field	note
+dimension	force	klbf
+dimension	torque	kft.lbf
+dimension	pressure	psi
+dimension	flow_rate	gal/min	Drilling and cementing flow rates; production rates have their own row
+dimension	length	ft
+dimension	velocity	ft/h
+dimension	volume	bbl
+dimension	density	ppg	Mud weights and equivalent densities; log densities have their own row
+dimension	concentration	lb/gal
+dimension	temperature	degF
+dimension	compressibility	1/psi
+dimension	viscosity	cP
+dimension	power	hp
+dimension	acceleration	ft/s2
+variable	caliper	in	Borehole diameters stay in inches
+variable	bit_size	in	Borehole diameters stay in inches
+variable	differential_caliper	in	Borehole diameters stay in inches
+variable	easting	m	Projected coordinates keep the unit of their coordinate reference system; convert them with the CRS, not here
+variable	northing	m	Projected coordinates keep the unit of their coordinate reference system; convert them with the CRS, not here
+variable	rhob	g/cm3	Log densities are given in g/cm3 in field units too
+variable	drho	g/cm3	Log densities are given in g/cm3 in field units too
+variable	grain_density	g/cm3	Core densities are given in g/cm3 in field units too
+variable	ucs	psi
+variable	static_youngs_modulus	Mpsi
+variable	oil_rate	bbl/d
+variable	water_rate	bbl/d
+variable	water_injection_rate	bbl/d
+variable	test_rate	bbl/d
+variable	gas_rate	Mscf/d
+variable	q_gas_lift	Mscf/d
+variable	slurry_rate	bbl/min
+variable	block_velocity	ft/s
+variable	annular_velocity	ft/min
+variable	jet_velocity	ft/s
+variable	rs	scf/bbl
+variable	bo	bbl/bbl
+variable	cable_tension	lbf
+variable	jet_impact_force	lbf
+variable	total_gravity_field	gn	Survey gravity fields are given in units of standard gravity
+variable	co2_injected	t	Injected CO2 is reported in metric tonnes in field units too
+dimension	temperature_difference	delta_degF	A temperature difference is shown in degF in the field preset

@@ -1,0 +1,19 @@
+{
+ "id": "iodp-rigwatch",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.5281/zenodo.18497030",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": ["zenodo.org"],
+ "files": [
+  {"name": "data_by_expedition.zip",
+   "url": "https://zenodo.org/api/records/18497030/files/data_by_expedition.zip/content",
+   "bytes": 229034994,
+   "sha256": "acd9af7d249ec6b68198f502fb732d758c7f4d92cf406401146ed7e9418c79c9",
+   "md5": "8d332de8e552b7454553d395507d869f"}
+ ],
+ "process": {"type": "zip_members", "file": "data_by_expedition.zip", "pattern": "\\.csv$"},
+ "notes": "IODP Expedition 399 RigWatch rig instrumentation, 1 s. Checksums from the Zenodo record (md5) and from a verified copy (sha256), 3 Nov 2026."
+}

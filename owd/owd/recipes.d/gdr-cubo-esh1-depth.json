@@ -1,0 +1,25 @@
+{
+ "id": "gdr-cubo-esh1-depth",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://gdr.openei.org/submissions/1849",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "Pason_Depth_June18-August 13_2022_115-9791_FT_standard.csv",
+   "url": "https://gdr.openei.org/files/1849/Pason_Depth_June18-August%2013_2022_115-9791_FT_standard.csv",
+   "bytes": 1084390,
+   "sha256": "c878e7f4dafb6ab16289a6440bcd570d7c5bfb2dbaef61d37849ef676362a9df"
+  }
+ ],
+ "process": {
+  "type": "csv_files"
+ },
+ "tested": "yes",
+ "notes": "Cornell University Borehole Observatory well ESH-1 (CUBO, New York, 2022), Pason drilling parameters in the depth domain (1 ft, 115-9791 ft), GDR 1849, the GDR standardized copy (second row = units). The non-standard depth CSV of the submission carries the same data and is not used. GDR publishes no checksum: sha256 of our download of 7 Nov 2026."
+}

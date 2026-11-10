@@ -1,0 +1,35 @@
+Open Well Data™
+© 2026 Daniel Delgado-Uriarte (https://danieldelgadouriarte.com, ORCID 0009-0006-0536-5158)
+
+Daniel Delgado-Uriarte is the sole creator of Open Well Data and holds the copyright in it. Open Well Data is licensed
+for non-commercial use and, separately, available for commercial use by written permission (currently no fee).
+
+1. Code (owd/ Python files, sitio/, web/, scripts/, desktop/): PolyForm Noncommercial License 1.0.0
+   (PolyForm-Noncommercial-1.0.0), see LICENSE. For personal study and research, education, public research,
+   non-profit and government organizations. Any use by or for a company needs a commercial licence.
+   Versions published before 5 November 2026 were released under other licences and keep them.
+2. Catalogue, dictionary, schema and standardized data: CC BY-NC 4.0, see LICENSE-DATA. This includes the source
+   records (fichas/), the variable, channel and mnemonic dictionaries, context rules, synonym and unit tables
+   (owd/owd/*.tsv, owd/owd/data/, owd/owd/_reader/*.tsv), the record schema, the recipe files (owd/owd/recipes.d/),
+   the coverage and unit-alert tables (coverage/), the derived files published on the website under data/, and the
+   standardized copies of public datasets. Exceptions for standardized copies, set by the source licence:
+   share-alike sources (ANH Colombia, IBDP) CC BY-SA 4.0; Equinor Volve keeps the Equinor Open Data Licence; any
+   source with a more restrictive licence keeps it. Nothing of Open Well Data's own work is licensed CC BY.
+   The author is also the maker of the database and holds the EU sui generis database right in it
+   (Directive 96/9/EC); CC BY-NC 4.0 licenses that right on the same non-commercial terms.
+3. Commercial use, including embedding in products, training or fine-tuning AI models, resale or redistribution
+   and consulting deliverables: ask for written permission at contact@openwelldata.org or
+   https://openwelldata.org/permission/. See COMMERCIAL-LICENSE.md and https://openwelldata.org/terms/.
+4. Contributions are accepted only under the contributor licence agreement in CONTRIBUTING.md.
+
+owd/owd/_reader/ is a copy of lector-canales by the same author (see owd/owd/_reader/ORIGIN.txt) and is covered by
+the same terms.
+Third-party datasets are not part of this repository's licences; each keeps its provider's licence.
+Open Well Data™ and its logo are trademarks of Daniel Delgado-Uriarte.
+
+No warranty: provided as is, without warranty of any kind; to the extent the law allows, the author is not liable
+for any loss or damage arising from its use. Data are reproduced as reported by each source, on the date shown in
+each record; not for regulatory, legal, safety or investment decisions. Open Well Data is not affiliated with or endorsed by any
+regulator, company or university; names and trademarks belong to their owners. Terms: https://openwelldata.org/terms/
+
+Required Notice: © 2026 Daniel Delgado-Uriarte. Open Well Data™ (https://openwelldata.org). Commercial licences: contact@openwelldata.org

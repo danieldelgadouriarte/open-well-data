@@ -1,0 +1,82 @@
+Open Well Data™: licence of the catalogue, dictionary, schema and standardized data
+© 2026 Daniel Delgado-Uriarte (https://danieldelgadouriarte.com, ORCID 0009-0006-0536-5158)
+
+Daniel Delgado-Uriarte is the sole creator of Open Well Data and holds the copyright and the database rights in it.
+
+1. Default licence: CC BY-NC 4.0
+--------------------------------
+The following are licensed under the Creative Commons Attribution-NonCommercial 4.0 International licence
+(CC BY-NC 4.0):
+- the catalogue of sources: the source records (fichas/), their verification fields and evidence;
+- the dictionary and the schema: the variable, channel and mnemonic dictionaries, context rules, conflict lists,
+  synonym and unit tables (owd/owd/*.tsv, owd/owd/data/, owd/owd/_reader/*.tsv), the JSON Schema of a record
+  (web/data/source.schema.json) and the recipe files (owd/owd/recipes.d/);
+- the coverage and unit-alert tables (coverage/) and the derived files published on the website under data/;
+- the standardized data that Open Well Data prepares from public sources, except as stated in section 2.
+
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+2. Standardized data: when the source decides
+---------------------------------------------
+A standardized copy can never carry fewer obligations than the source licence allows. Therefore:
+- Sources under a share-alike licence (for example ANH Colombia and IBDP, CC BY-SA): the standardized copy is
+  licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), as the source licence requires.
+- Equinor Volve: the standardized copy keeps the Equinor Open Data Licence (Volve) of the original data
+  (https://www.equinor.com/energy/volve-data-sharing).
+- Any other source whose own licence is more restrictive than CC BY-NC 4.0: the standardized copy keeps that
+  licence.
+When a source is under a more permissive licence (for example CC BY 4.0 or CC0), the original data keeps that
+licence at its source; the CC BY-NC 4.0 licence applies to Open Well Data's own contribution (the standardized
+names, units, provenance and packaging). The licence of every standardized copy is stated in its README,
+CITATION.cff, metadata and on its page at https://openwelldata.org/datasets/.
+
+No part of Open Well Data's own work is licensed CC BY.
+
+3. Commercial use: permission on request
+---------------------------------------------
+Commercial use is not covered by CC BY-NC 4.0 and needs prior written permission from the rights holder. This
+includes any use by or for a company (internal research, products and services, consulting deliverables),
+embedding in products, training or fine-tuning AI models, and resale or redistribution. There is currently
+no fee. Ask at contact@openwelldata.org or https://openwelldata.org/permission/. Terms of use:
+https://openwelldata.org/terms/.
+
+How we read "commercial" (a clarification, not a change to CC BY-NC 4.0; when in doubt, ask):
+- Commercial: use primarily intended for commercial advantage or monetary compensation, including use inside a
+  company's operations, products or services, paid consulting, and research projects funded by a company to serve
+  its business.
+- Not commercial: personal study, teaching, academic research and publications that are not commissioned by a
+  company, public-sector research, and non-profit work.
+
+4. Database rights and text and data mining
+-------------------------------------------
+Daniel Delgado-Uriarte, a national of Spain, is the maker of the database formed by the catalogue and the
+dictionary. Besides copyright in their selection and arrangement, the database is protected by the sui generis
+database right of Directive 96/9/EC, which rewards the substantial investment in obtaining, verifying and
+presenting its contents. CC BY-NC 4.0 licenses these Sui Generis Database Rights on the same non-commercial terms
+(Sections 1 and 4 of the legal code). Extracting or re-using all or a substantial part of the database for
+commercial purposes needs written permission. Text and data mining rights in the database files are reserved
+under Art. 4(3) of Directive (EU) 2019/790.
+
+5. Attribution
+--------------
+Credit "Open Well Data, by Daniel Delgado-Uriarte", link https://openwelldata.org or the DOI of the release you
+used, state the licence and indicate changes. Suggested citation in CITATION.cff.
+
+6. Third-party data and code
+----------------------------
+This licence covers only Open Well Data's own work. The data held by each listed source belongs to its provider and
+keeps the provider's own licence, as stated in each record. Nothing here grants rights over third-party data.
+The code (owd/ Python files, sitio/, scripts/, desktop/) is licensed separately under the PolyForm Noncommercial
+License 1.0.0 (see LICENSE and NOTICE), with commercial licences available from the author.
+
+7. No warranty, limitation of liability, no endorsement
+-----------------------------------------------------
+Open Well Data is provided as is, without warranty of any kind, express or implied, including fitness for a
+particular purpose, accuracy and completeness. To the extent the law allows, the author is not liable for any loss or
+damage arising from its use. The data are reproduced as reported by each source, on the date shown in each record.
+Open Well Data is not for regulatory, legal, safety or investment decisions. It is not affiliated with or endorsed by
+any regulator, company or university. Names and trademarks of sources and organizations belong to their owners.
+Corrections policy: https://openwelldata.org/corrections/. Terms of use: https://openwelldata.org/terms/.
+
+Open Well Data™ and its logo are trademarks of Daniel Delgado-Uriarte.

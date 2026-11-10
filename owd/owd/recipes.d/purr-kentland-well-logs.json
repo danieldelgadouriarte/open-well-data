@@ -1,0 +1,32 @@
+{
+ "id": "purr-kentland-well-logs",
+ "version": 1,
+ "level": "A",
+ "license": "CC0-1.0",
+ "source": "https://purr.purdue.edu/publications/4738/1",
+ "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "download": "auto",
+ "domains": [
+  "purr.purdue.edu"
+ ],
+ "files": [
+  {
+   "name": "purr-4738-v1-bundle.zip",
+   "url": "https://purr.purdue.edu/publications/4738/serve/1?render=archive",
+   "bytes": 221737749,
+   "sha256": "af334ed38dc89c54ccddaaff1dac7908ddc00dc45c511d6ef8caf193b97aabf5"
+  }
+ ],
+ "process": {
+  "type": "nested_zip_members",
+  "file": "purr-4738-v1-bundle.zip",
+  "inner": [
+   "(?i)/bundle\\.zip$",
+   "(?i)^Logs_for_Synthetics\\.zip$"
+  ],
+  "pattern": "(?i)_LID\\d+_[^/]*\\.txt$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "Kentland impact structure (Indiana), well-log data of the Robitaille MSc thesis (Purdue PURR 4738 v1): 15 digital logs as LAS 2.0 text files in Logs_for_Synthetics.zip, inside bundle.zip, inside the archive PURR generates (the scans, PDFs, MATLAB files, tomography and tops are not used). PURR serves only the whole bundle: two downloads of 7 Nov 2026 gave the same size and sha256, so the archive is deterministic. Licence CC0 1.0 on the PURR page."
+}

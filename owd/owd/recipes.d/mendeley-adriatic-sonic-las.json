@@ -1,0 +1,92 @@
+{
+ "id": "mendeley-adriatic-sonic-las",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.17632/xrb2ny6scm.2",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "data.mendeley.com",
+  "prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com"
+ ],
+ "files": [
+  {
+   "name": "Branzino-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/e3aeeed2-570c-41ee-a905-db25fd620175/file_downloaded",
+   "bytes": 116615,
+   "sha256": "1c693c5ac8b6a25633c6821088e1a8cbd4e7a16dfb62be2f5b1af01eb99eaf26"
+  },
+  {
+   "name": "Chiara-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/2cb249ed-39b9-4a96-84db-0c86ea83a1b2/file_downloaded",
+   "bytes": 48948,
+   "sha256": "b85f4f0734d96a48eeddb90f6ba8d34c887e68353ff669a2f0c65bf170a17aea"
+  },
+  {
+   "name": "Cristina-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/3167afa5-0a3e-4ceb-938a-de70b520d71e/file_downloaded",
+   "bytes": 51053,
+   "sha256": "e656bbeb0203ec9cdeb1dc137b37429e63daca0923233415effbe036fd9affb2"
+  },
+  {
+   "name": "Famoso-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/f1d3fded-4cb0-43d9-b9ea-0f20a67e3cca/file_downloaded",
+   "bytes": 247828,
+   "sha256": "3ddf5bfa47a30cbde8f606b2abf5fe2d66e746dc4ea59767a93e081a4de7cc78"
+  },
+  {
+   "name": "Giove-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/234bdea1-5ce4-41fd-b0c0-e77274a7e273/file_downloaded",
+   "bytes": 7488,
+   "sha256": "536d5c12282020bad2109e8e2942b9568b8378c8e318bf82fbe9cadc5543fea2"
+  },
+  {
+   "name": "Giove-2.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/043efcab-71ab-404c-8a96-de8009894781/file_downloaded",
+   "bytes": 18392,
+   "sha256": "207892c76293fd953e7649a1e536fe6759fd6557b14f42d0ca7420910640c83b"
+  },
+  {
+   "name": "Grazia-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/1f708bb0-5ad0-46d2-bdb4-1eb2b9285809/file_downloaded",
+   "bytes": 75463,
+   "sha256": "190e22ef0a315ae0369c2d3f497dde47faa9343aaba9e8ca8b5c2209b4178f74"
+  },
+  {
+   "name": "Grifone-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/4ff5c18f-d7f0-4ac4-9360-97dc21c81f30/file_downloaded",
+   "bytes": 93447,
+   "sha256": "3b575d6f6ebfa194c95ee0a7381133808be281a408627a0c3c335ebcb97d5584"
+  },
+  {
+   "name": "Medusa-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/15c047e2-afcd-4492-a64f-2f7480f7b607/file_downloaded",
+   "bytes": 71257,
+   "sha256": "76c18f1b89c3aca09cdc52ad1dd572623f86caa19a09a5ac12757f47cbf8d7cf"
+  },
+  {
+   "name": "Sabrina-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/e9d49dea-4c16-4b14-92ff-423fadd745e2/file_downloaded",
+   "bytes": 65634,
+   "sha256": "d185e63aeb356d5cf2c2b6c60dfc211cc4b0ca8ec2b675217561cb2bbda38f14"
+  },
+  {
+   "name": "Simona-1.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/7be097ab-4bb5-48df-a100-443e7dfc2587/file_downloaded",
+   "bytes": 52734,
+   "sha256": "a1d5b2b60c2d3fb5be6e39f2c21479daf7d5a20c2f28aceea0dafd0956509586"
+  },
+  {
+   "name": "Sparviero-1bis.las",
+   "url": "https://data.mendeley.com/public-files/datasets/xrb2ny6scm/files/d53fcb51-28ef-41f4-81f7-6dba93775655/file_downloaded",
+   "bytes": 89018,
+   "sha256": "8cda9e5671ec1a38372625d332dec171894cec5fa012f4c73bfac08ebb55e647"
+  }
+ ],
+ "process": {
+  "type": "las_files"
+ },
+ "tested": "yes",
+ "notes": "Sonic logs of 12 offshore exploration wells, middle and southern Adriatic Sea (Italy), digitized from ViDEPI composite logs, Mendeley Data xrb2ny6scm v2. sha256 published by Mendeley Data, equal to the download of 6 Nov 2026."
+}

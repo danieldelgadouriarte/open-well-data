@@ -1,0 +1,18 @@
+{
+ "id": "utah-forge-16b",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.15121/1998591",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": ["gdr.openei.org"],
+ "files": [
+  {"name": "16B_Pason.zip",
+   "url": "https://gdr.openei.org/files/1516/16B_Pason.zip",
+   "bytes": 135676899,
+   "sha256": "858a6eaf56c2cb3cbf45b59f431e59f82fc0ef2502ced244608d4d7b76ac54a2"}
+ ],
+ "process": {"type": "zip_csv_by_day", "file": "16B_Pason.zip", "member": "10 Second Data.csv"},
+ "notes": "Utah FORGE well 16B(78)-32, Pason EDR at 10 s (GDR 1516). The 1.8 GB CSV is split by day and each day is standardized. sha256 from a verified download (28 Sep 2026)."
+}

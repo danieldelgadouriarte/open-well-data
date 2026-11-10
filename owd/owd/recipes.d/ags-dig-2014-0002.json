@@ -1,0 +1,28 @@
+{
+ "id": "ags-dig-2014-0002",
+ "version": 1,
+ "level": "A",
+ "license": "LicenseRef-OGL-Alberta",
+ "source": "https://ags.aer.ca/publication/dig-2014-0002",
+ "terms": "https://open.alberta.ca/licence",
+ "download": "auto",
+ "domains": [
+  "static.ags.aer.ca"
+ ],
+ "files": [
+  {
+   "name": "DIG_2014_0002.zip",
+   "url": "https://static.ags.aer.ca/files/document/DIG/DIG_2014_0002.zip",
+   "bytes": 127674221,
+   "sha256": "66e13756083974ea9493c58241ee828374b09ee3e4153af1bd94a066e5d669c3"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "DIG_2014_0002.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "Alberta Geological Survey DIG 2014-0002: 8,763 LAS 2.0 of water-well geophysical logs (mostly resistivity, ~1 % with natural gamma) from the Alberta ESRD holdings, digitized by Divestco 2002-2007. Licence: Open Government Licence - Alberta, as stated on the open.canada.ca record (read 6 Nov 2026); the AGS page states no licence. The AGS publishes no checksum: sha256 of our download of 7 Nov 2026. Water wells, not oil and gas wells."
+}

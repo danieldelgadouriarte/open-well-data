@@ -1,0 +1,14 @@
+[
+ {
+  "date": "2026-11-10",
+  "version": "1.1.0",
+  "what": "Website text",
+  "correction": "Website and package text corrections (wording, translation of access notes); no change to data values, packages or DOIs. The Zenodo 1.1.0 files are unchanged; the next catalogue deposit is 1.2.0."
+ },
+ {
+  "date": "2026-11-10",
+  "version": "1.1.0",
+  "what": "Access classes",
+  "correction": "Access classes restored for 104 sources (filters, counts, JSON-LD), which had shown «not stated» after the translation of their access notes, and the class shown as «Direct download» renamed «Public access»; no change to data values, packages or DOIs."
+ }
+]

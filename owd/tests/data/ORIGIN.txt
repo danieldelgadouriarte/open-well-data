@@ -1,0 +1,11 @@
+Test fixtures for owd.convert (tests/test_convert.py and the parity test). Small files, no downloads.
+
+synthetic_drilling.las      Written for these tests: a LAS 2.0 file with depth index and common drilling and log curves.
+                            Synthetic values, not real data.
+synthetic_rig_1s.csv        Written for these tests: a 1 s rig-data CSV with a units row. Synthetic values, not real data.
+witsml_F-15S_1-2-1/00001.xml  Equinor Volve WITSML, 15/9-F-15S log 1/2/1, an excerpt of 32 rows. Equinor Open Data Licence
+                            (Volve). Credit: Equinor ASA, ExxonMobil Exploration & Production Norway AS and Bayerngas Norge AS
+                            (former Volve licence partners). Terms:
+                            https://www.equinor.com/content/dam/statoil/documents/what-we-do/Equinor-HRS-Terms-and-conditions-for-licence-to-data-Volve.pdf
+synthetic_*.las, synthetic_table.csv  Written by hand for these tests (mislabelled units, context rules, wrapped LAS,
+                            semicolon CSV with a units row). Not real data.

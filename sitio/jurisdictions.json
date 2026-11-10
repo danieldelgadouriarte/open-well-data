@@ -1,0 +1,6 @@
+{
+ "_comment": "10 Nov 2026 (Daniel): T1 in every country. Nothing is stored on the device or measured in the browser without explicit consent; Reject and Accept have the same weight; Global Privacy Control is honoured; session replay only with a separate consent. Read by sitio/build.py and by the collector (serve.py --jurisdictions).",
+ "unlisted": "t1",
+ "tiers": {},
+ "countries": {}
+}

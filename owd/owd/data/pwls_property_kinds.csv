@@ -1,0 +1,26 @@
+variable,mnemonics_v11,pwls_property_kind,catalog_example,catalog_page,note
+apparent_grain_density,DGA,grain density,Baker Hughes GDENC (Chemically derived grain density),https://curves.energistics.org/catalog/Baker_Hughes/curves/,no separate apparent grain density kind seen
+crossplot_porosity,XPOR|XPHI,porosity,Baker Atlas CPP (Crossplot Porosity from PORD and CNC),https://curves.energistics.org/catalog/Baker_Atlas/curves/,no specific crossplot kind seen
+compressional_velocity,SVEL,acoustic velocity,Halliburton CVEL,https://curves.energistics.org/catalog/Halliburton/curves/,catalog compressional curves are slownesses (compressional slowness)
+shear_velocity,SSVE,acoustic velocity,,https://curves.energistics.org/catalog/Halliburton/curves/,no shear velocity kind seen
+vp_vs_ratio,VPVS,shear compressional velocity ratio,Baker Atlas SCRD,https://curves.energistics.org/catalog/Baker_Atlas/curves/,kind named for the slowness ratio; dimensionless
+displacement_east,ED,,,,not found in the catalog pages read
+displacement_north,ND,,,,not found in the catalog pages read
+vertical_section,VSEC|PGVS,,,,not found in the catalog pages read
+cbl_amplitude,AMP3FT|AMP3|CBL,cement bond amplitude,SLB CBL (CBL Amplitude),https://curves.energistics.org/catalog/SLB/curves/,some vendors map CBL amplitude to acoustic amplitude or electric potential
+bond_index,BONDIX|BI,cement bond index,SLB BI (Bond Index),https://curves.energistics.org/catalog/SLB/curves/,
+time_after_bit,TAB_ARC_RES|RPTHM|TAB_DEN|TAB_NEU|DTAB|NTAB|RTIM|TAB_GR|GTIM|AGTM,time after bit,Sperry ACXT (Formation Exposure Time),https://curves.energistics.org/catalog/Halliburton_Sperry_Drilling_Services/curves/,measurement-specific kinds exist (resistivity/density/gamma ray/neutron time after bit)
+drho,COMP,bulk density correction,Baker Atlas ZCOR,https://curves.energistics.org/catalog/Baker_Atlas/curves/,
+res_flushed,MINV|INV_RF,micro inverse resistivity,SLB BMIN (Micro Inverse),https://curves.energistics.org/catalog/SLB/curves/,Halliburton MINV maps to resistivity
+res_flushed,NOR_RF,micro normal resistivity,SLB BMNO (Micro Normal),https://curves.energistics.org/catalog/SLB/curves/,
+conductivity_induction,CTAO|CO*|CT*|AHTCO60,array induction conductivity,SLB AIBC,https://curves.energistics.org/catalog/SLB/curves/,
+res_shallow|res_medium|res_deep,RT10|RT20|RT30|RO10|RO20|RO30|R40O|R60O|R85O|AHORT|RTO,array induction resistivity,SLB AHT10 / AHT90,https://curves.energistics.org/catalog/SLB/curves/,
+sigma,SIGC|SIFA,neutron capture cross section,SLB SIGM,https://curves.energistics.org/catalog/SLB/curves/,
+sonic_porosity,PORS|SPHL|SPHS|SPHD|SPHW|SHRL,sonic porosity,Baker Atlas PORA,https://curves.energistics.org/catalog/Baker_Atlas/curves/,
+hole_volume,BHVT,borehole volume,Baker Atlas BVOL,https://curves.energistics.org/catalog/Baker_Atlas/curves/,
+annular_volume,AHVT|LAGVOL,borehole volume,Halliburton AHVT (Annular Hole Volume),https://curves.energistics.org/catalog/Halliburton/curves/,no separate annular volume kind seen
+casing_collar_locator,CCLPERF1-4,casing collar locator,SLB CCL,https://curves.energistics.org/catalog/SLB/curves/,
+cable_tension,LWTLB,surface cable tension,Baker Atlas TTEN (Total Tension),https://curves.energistics.org/catalog/Baker_Atlas/curves/,
+log_temperature,CGXT,borehole temperature,Baker Atlas WTBH,https://curves.energistics.org/catalog/Baker_Atlas/curves/,
+downhole_temperature,TEMP_DNI_RT|DHAT|TEMP_ARC|TTEM,annulus temperature,BP BP_TEMP_DH,https://curves.energistics.org/catalog/BP/curves/,tool temperatures may map to temperature
+pef,DPEFM,photoelectric factor,Baker Hughes DPEFM,https://curves.energistics.org/catalog/Baker_Hughes/curves/,same mnemonic in the catalog

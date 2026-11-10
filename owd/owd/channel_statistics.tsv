@@ -1,0 +1,38 @@
+kind	pattern	statistic	window	not_dimension	note
+name_token	AVG	mean			a whole token of the name (HKLD_AVG, TOTGAS_AVG_LAGGAS); tokens are split on any character that is not a letter or a digit
+name_token	AVE	mean			whole token
+name_token	AVERAGE	mean			whole token
+name_token	MEAN	mean			whole token (also the OWD output names, e.g. hookload_mean)
+name_token	MAX	max			whole token (HKLD_MAX, wob_max)
+name_token	MAXIMUM	max			whole token
+name_token	MIN	min		time	whole token (HKLD_MIN); not for time variables, where MIN is minutes
+name_token	MINIMUM	min			whole token
+name_token	STD	std			whole token
+name_token	STDEV	std			whole token
+name_token	MEDIAN	median			whole token
+name_token	RMS	rms			whole token
+name_suffix	AVG	mean			glued suffix, only when the rest of the name is itself a mnemonic of the same variable (WOBAVG, PUMPAVG, ROPAVG)
+name_suffix	MAX	max			glued suffix, same condition
+name_suffix	MIN	min		time	glued suffix, same condition (HMIN is a microlog curve: H is not a mnemonic of its variable)
+window	(?:^|[^A-Za-z0-9./])(\d+(?:\.\d+)?)\s*(?:ft|feet|foot)\b		{1} ft		depth window in feet (5ft avg, averaged over the last 5 ft, averaged over 2.5 feet); the number must not follow a letter, digit, point or slash (H2S, 1/2ft)
+window	(?:^|[^A-Za-z0-9./])(\d+(?:\.\d+)?)\s*(?:m|metres?|meters?)\b		{1} m		depth window in metres
+window	(?:^|[^A-Za-z0-9./])(\d+(?:\.\d+)?)(?:\s*(?:sec|secs|seconds?)|\s+s)\b		{1} s		time window in seconds (a bare s only after a space: H2S is not a window)
+window	(?:^|[^A-Za-z0-9./])(\d+(?:\.\d+)?)\s*(?:min|mins|minutes?)\b		{1} min		time window in minutes
+window	\btime[\s-]*averaged?\b		time		time-averaged, length of the window not stated
+window	\bdepth[\s-]*averaged?\b		depth		depth-averaged, length of the window not stated
+exclude	\bmean\s+sea\s+level\b				a datum, not a statistic
+exclude	\bweighted\s+average\b				how the tool computes the measurement (e.g. photoelectric factor), not a statistic of the series
+exclude	\b(?:max|maximum|min|minimum)\.?\s+label+ing\b				labelling bounds of a sonic processing, not a statistic of the series
+exclude	/\s*min\b				unit per minute (ft/min, L/min)
+exclude	\bper\s+min(?:ute)?s?\b				unit per minute
+exclude	\d+(?:\.\d+)?\s*(?:min|mins|minutes?)\b				a duration (read as a window above), not a minimum
+description	\binstantaneous\b	inst			instantaneous value: written without a statistic qualifier
+description	\b(?:avg|ave|average|averages|averaged|mean)\b	mean			average, averaged, avg, mean
+description	\b\d+(?:\.\d+)?\s*(?:ft|m)\s+rop\b	mean			an N-ft ROP is the rate of penetration averaged over the last N ft (5ft ROP)
+description	\b(?:max|maximum)\b	max			max, maximum
+description	\b(?:min|minimum)\b	min		time	min, minimum; not for time variables
+description	\bstandard\s+deviation\b|\bstd\.?\s*dev\b|\bstdev\b	std			standard deviation (Std. alone is standard resolution, not a statistic)
+description	\bmedian\b	median			median
+description	\brms\b	rms			root mean square
+qualify_family	drilling				the statistic always goes into the output name (hookload_max); other families only when two different statistics of one variable coexist in the file (Daniel, 7 Nov 2026)
+qualify_family	mud_gas				same as drilling

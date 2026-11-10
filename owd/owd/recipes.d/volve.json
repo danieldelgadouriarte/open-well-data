@@ -1,0 +1,24 @@
+{
+ "id": "volve",
+ "version": 2,
+ "level": "C2",
+ "license": "LicenseRef-Equinor-Open-Data",
+ "source": "https://www.equinor.com/energy/volve-data-sharing",
+ "terms": "https://www.equinor.com/content/dam/statoil/documents/what-we-do/Equinor-HRS-Terms-and-conditions-for-licence-to-data-Volve.pdf",
+ "download": "manual",
+ "manual_reason": "Since 2025 Equinor distributes Volve through Databricks Marketplace (listing by Equinor ASA), which needs a Databricks account (no fee); you accept the Equinor Open Data Licence when you get the data. Download the WITSML realtime drilling zip there and import it with owd.import_data(\"volve\", path). The data may be shared but not sold. Checked 4 Nov 2026.",
+ "domains": [],
+ "files": [
+  {
+   "name": "WITSML Realtime drilling data.zip",
+   "url": "",
+   "bytes": 0
+  }
+ ],
+ "process": {
+  "type": "witsml_zip",
+  "file": "WITSML Realtime drilling data.zip",
+  "min_channels": 2,
+  "note": "Each WITSML 1.4 log is read whole from the zip (units and nulls from its own header) and standardized; logs with fewer than 2 standard channels are skipped. Logs with an undeclared unit on a known channel are not guessed: they are listed in _failures.json."
+ }
+}

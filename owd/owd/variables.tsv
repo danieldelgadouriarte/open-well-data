@@ -1,0 +1,180 @@
+variable	family	dimension	unit	standard_channel	mnemonics	description
+hookload	drilling	force	kN	yes	HKLD|HKL|HKLA|HKLX|HKLD_AVG|HKLD_MAX|HKLD_MIN|THKD|GS_HKLD|CONNHKLD|HKLN|CHK|HL|CTH|MHKL	Hook load
+wob	drilling	force	kN	yes	SWOB|WOB|WOBA|WOB_AVG|WOB_MIN|WOB_MAX|WOBAVG|WOBCX|WOBOX|WOBAX|GS_SWOB|MUDL_WOB|WOBX|CWOB	Weight on bit (surface)
+surface_rpm	drilling	angular_velocity	rpm	yes	RPM|RPMA|TD_RPM|SURF_RPM|GS_RPM|MUDL_RPM	Surface rotary speed
+surface_torque	drilling	torque	kN.m	yes	TQA|STOR|TORQUE|TORQUE_AVG|TORQUE_MAX|TORQUE_MIN|TQX|GS_TQA|MUDL_TORQUE	Surface torque
+spp	drilling	pressure	kPa	yes	SPPA|SPP|PUMP|PUMP_AVG|PUMP_MIN|PUMP_MAX|PUMP2|GS_SPPA|MUDL_PP|PMPP|PUMPAVG	Standpipe pressure
+flow_in	drilling	flow_rate	L/min	yes	MFIA|FLOWIN|TFLO|GS_TFLO|MUDL_FLOWIN|GS_CFIA	Mud flow in
+flow_out	drilling	flow_rate	L/min	no	MFOA|FLOWOUT	Mud flow out
+bit_depth	drilling	length	m	yes	DBTM|BDEP|BIT_DEPTH|BITDEP|GS_DBTM	Bit depth (MD)
+hole_depth	drilling	length	m	yes	DMEA|HDTH|DEPTH|MDEPTH|GS_DMEA	Hole depth (MD)
+rop	drilling	velocity	m/h	yes	ROPA|ROP|ROP5|ROP_AVG|ROP5_RM|ROP_BIT|GS_ROP|QROP|MUDL_ROP|ROPH|ROP_RM|OROP|ROPAVG|ROP1_RM|ROP2M|ROP_MWD	Rate of penetration
+block_position	drilling	length	m	no	BPOS|BLKPOS|BHT_POS|BLOCKCOMP|BLOCKUCOMP|GS_BPOS|BLKP	Block position
+pit_volume	drilling	volume	m3	no	TVT|PITVOL|TVA|PITTOT|GS_TVA|MUDL_PITVOL|PIT_DRILL	Active pit volume
+mud_density_in	drilling	density	g/cm3	no	MWIN|MDIA|MUDWEIGHT|MW|MWTI|GS_MWTI	Mud density in
+mud_density_out	drilling	density	g/cm3	no	MWOUT|MDOA	Mud density out
+mud_temp_in	drilling	temperature	degC	no	TMIA|TEMPIN|MTIN|TDH|MTIA	Mud temperature in
+mud_temp_out	drilling	temperature	degC	no	TMOA|TEMPOUT|MTOUT|MTOA|GS_MTOA	Mud temperature out
+total_gas	drilling	fraction	%	no	GASA|TGAS|GAS|TOTGAS|GS_GASA|GASX|TOTGAS_AVG|TOTGAS_MAX|TOTGAS_MIN|TOTGAS_AVG_DRILLDEPTH|TOTGAS_AVG_LAGGAS	Total gas at the shakers
+ecd	drilling	density	g/cm3	no	ECD|ECDA|ECDBIT|ACTECDM|ACTECDX|ECD_ARC|ECD_ARC_RT|ECD_ECO_RT|ECDT|FPECDX|ECD_MWD	Equivalent circulating density (downhole)
+annular_pressure	drilling	pressure	kPa	no	APRS|ANNP|PWD|APRESM|APRESX|APRS_ARC|APRS_RT|DANPAX|APRS_MWD|PWPA|DHAP	Annular pressure while drilling (downhole)
+downhole_torque	drilling	torque	kN.m	yes	DTOR|TQ_DH|DTOR_RT	Downhole torque
+downhole_wob	drilling	force	kN	yes	DWOB|WOB_DH|DWOB_RT|DWOB_RAW_RT	Downhole weight on bit
+md	position	length	m	no	DEPT|DEPTH|DEPTH_MD|MD|TDEP|TODEPTH	Measured depth of a log sample
+tvd	position	length	m	no	TVD|TVDRKB|TVDE|DVER|VDEPTH|PGTVD|GS_DVER|GRTVD|DGRTVD|DGTVD|ECD_TVD|EWRTVD|EWTVD	True vertical depth
+tvdss	position	length	m	no	TVDSS|z_loc|TVSS	True vertical depth below sea level
+easting	position	length	m	no	X|x_loc|EASTING	Projected easting of the sample
+northing	position	length	m	no	Y|y_loc|NORTHING	Projected northing of the sample
+inclination	surveys	angle	deg	no	INCL|DEVI|INC|INCL_CONT_RT|GDEV|INNM|GDEV_EDTC|SDEV|INCB|SDEVM|FINC|INNXS|INNX|INCL_CONT|CRS_CNINC|PDINCL|DEVIM|Inclination|INCGX|INCGB|INRX|DPAP|DPTR|GYRO_CINC|HDev|SINCL|DEV|DEVI_ADN|INCE|ORD_INNX	Well inclination
+azimuth	surveys	angle	deg	no	AZIM|HAZI|AZI|AZIM_CONT_RT|HAZIM|CRS_CNAZI|Azimuth|IAZI|AZNX|AZIM_CONT|AZMH|AZM|BAZI|HAZI_ADN	Well azimuth
+gr	logs	radioactivity	gAPI	yes	GR|GRC|SGR|CGR|GRGC|GRSG|HCGR|HSGR|GR_EDTC|SCGR|HGR|ECGR|HGR_EDTC|ECGR_EDTC|EHGR_EDTC|GRCFM|GRAX|GRCX|GR1AX|GR1CX|GRM1|GR2CX|GR2CFM|GR1CFM|RGR_EDTC|RHGR_EDTC|GR2AX|ARC_GR_RT|GR_ARC|PGXR-T|GRMA|RSGR|GK1|GR_ARC_FILT|GRMA_FILT|GR_ARC_CAL|GRAFM|GRML_FILT|GRMB_FILT|GRMR_FILT|GRMU_FILT|GRMA_DH_ECO_RT|GRX|GR2AFM|GR1AFM|GRMA_ECO_RT|GRTO|PD_GRAV_BHC|GRADX|GRPD|GRCDX|GRCLX|GRCRX|NBGRCX|GRARX|GRAUX|ARC_GR_UNC_RT|GRALX|GRCUX|GRCUFM|GRCLFM|GRCRFM|GRCDFM|GR2|NBGR2AX|NBGR1CX|NBGR1AX|GRGM|NBGRAX|NBGR2CX|GR_RAB|GR_RAB_CAL|NBGRCDX|NBGRCLX|NBGRCRX|NBGRCUX|GR_STGC|HGR_STGC|NBGRARX|NBGRAUX|NBGRADX|NBGRALX|EHGR|GR_RAB_DN|GRS|GR_RAB_UP|GR_RAB_RG|GR_RAB_LF|RGR|RHGR|NBGRAFM|NBGR2AM|NBGRAM|NBGR1AM|GR_RAB_RT|DGRCC|PGGR|GR_CDR|GAMMARAY|GR_RAB_CAL_UP|GR_RAB_FILT|GR_RAB_FILT_DN|GR_RAB_FILT_LF|GR_RAB_FILT_RG|GR_RAB_FILT_UP|MWD_GR_BHC|NBGRCFM|PGXRC-T|DGRC|GR1|GRCS01M|GRCS02M|GRCS03M|GRCS04M|GRCS05M|GRCS06M|GRCS07M|GRCS08M|GR_RAB_CAL_DN|GR_RAB_CAL_LF|GR_RAB_CAL_RG|GRAX5|ECGR_STGC|EHGR_STGC|Gamma Ray|GR3|GR_CAL|GR_CAL_RAB|GR_EC|GR_PROCESS|GR_SL|GR_SPLICE|H-GR|RGR_SL|GRDI|GRDN_RAB|GRLT_RAB|GRRT_RAB|GRUP_RAB|GRTL1|AzGRu|AzGRd|GAMMA|GCGR|GGRM|GRD|GGCE|GRE	Gamma ray
+rhob	logs	density	g/cm3	yes	RHOB|RHOZ|DEN|RHO8|ROBB|ROBU|ROBL|ROBR|BDCFM|RHOL|ROLB|ABDC10M|ABDC14M|ABDC15M|ABDC16M|ABDC13M|ABDC12M|ABDC11M|ROLR|ROSL|RHOS|ROLL|ROSR|ROSB|ROLU|ROSU|BDCX|ROBB_DH_ECO_RT|ZDEN|HRHO|LSRH|HLRH|RHOB_1IN|ROBU_DH_ECO_RT|ABDCQF01M|ABDCQF02M|ABDCQF03M|ABDCQF04M|ABDC06M|ABDC07M|ABDC08M|ABDC01M|ABDC02M|ABDC03M|ABDC04M|ABDC05M|ABDC09M|ABDCQF01|ABDCQF04|ABDCQF02|ABDCQF03|ROBB_DH_RT|HNRH|RHNB|RHNL|RHNR|RHNU|RHOB_DH_ADN_RT|RHON|HRS3|HRS4|LSRHOB|RHS3|RHS4|SSRHOB|DNDN|RHOB_ALP|RHOZ_EDIT|ROBB_ALP|ROMB|ROML|ROMT|ROMU|RHO|RHOM|NRHB|HDEB|HROM|CDT|DEN(CDL)|SSRH|NRHO|NROB|NROM|RHOS_ALP|ROMR|ROSB_ALP|HDEN	Bulk density
+drho	logs	density	g/cm3	no	DRHO|DCOR|HDRA|RHOC|DRHB|DRHU|DRHL|HDRH|DRHR|DRHFM|DRHX|ZCOR|DRHB_DH_ECO_RT|HDRB|DENC|DROR|DRHB_DH_RT|CORR|DRHO_DH_ADN_RT|DRHU_DH_ECO_RT|DNDC|LCORX|DRH|HBDC|COMP	Density correction
+nphi	logs	fraction	v/v	yes	NPHI|TNPH|NPOR|POR(NEU)|NPHS|NPHL|NPHD|NPLS|HTNP|HNPO|DNPH|NPSS|NPCKLFM|NPLFM|NPCLFM|HTNP_SAN|BPHI|NPCKSFM|NPSFM|NPKLFM|TNPL|TNPU|TNPR|TNPB|NPHI_LS|NPDL|BPHB|BPHU|CNC|BPHI_UNC|BPHR|BPHL|BPHB_UNC|BPHU_UNC|NPHIDEC|BPHR_UNC|BPHL_UNC|TNPH_UNC|PHXN|TNPH_DOL|NPL|TNPH_LIM|TNPH_SAN|PHINDOL|TNPH_ECO_RT|TNP1|TNP2|HTNP_PCOR|TN1B|TN1U|BPHI_ECO_RT|HTNP_APS|TN2B|TN2U|TNPH_APS|TNPH_PCOR|PHIN|NPH1|TNPH_ADN_RT|CN|NP|HNPO_SAN|HTNP_LIM|NPHI_SS|NPOR_DOL|HNPO_LIM|NPOR_SAN|NPOR_LIM|HTNP_DOL|HNPO_DOL|TNPB_RT|CNS|NPDOLX|NPHI_DOL|NPLSX|SNP|BPHI_MATR|CNCF|ENPH_MATR|PHXNSS|NPDOL|NPHU|NPHU_EDIT|NPX|PHINSS|PHXNDOL|PHXNLS|TN1L|TN1R|TN2L|TN2R|NPHI_LIM|NPHI_SAN|NPRL|APLC|HALC|NPRS|NPRD|ENPI|APDC|APSC|EFPU|FPMC|FPSC|HADC|HNPI|ENPU|HFLC|FPLC|HFSC|HFMC|HFPU|HNPU|NPKLX|NPLX|NPKSX|NPSX|NPDX|NPKDX|NPKTPDX|NPKTPLX|NPKTPSX|NPTPDX|NPTPLX|NPTPSX|CNLS|CNSS|CNDL|CNPOR|NEU|PHINDEC|SWPOR|SWLS|SWSS|SWDL	Neutron porosity
+dt	logs	slowness	us/ft	yes	DTC|DT|DTCO|AC|DTLN|DTLF|DTRP|DTL|DTCO_RT|DTTP|DT4P|DTCO3|DTCO1|DTCO2|DT24|DTCM|DT5|DT35|ACTC|ITT|DELTAT|DTHM	Compressional slowness
+dts	logs	slowness	us/ft	yes	DTS|DTSM|DTSHEAR|DT4S|DTSH5|DTSH3|DTSH6|DTSH2|DTSH1|DTSH_MH|DTSH_YD|DTSM_FAST|DTRS|DT1R|DT2|DT2R|DT0S|DTSH_FAST|DTSH_SLOW|DT1|DTTS	Shear slowness
+res_deep	logs	resistivity	ohm.m	yes	RDEP|ILD|RD|AT90|LLD|RES(DI)|RT|RT90|AF90|AO90|IDPH|RLA5|RO90|IDVR|IDER|RF90|AHT90|M2R9|LAT19|IA90_2|RT91|RT_2|RVDRU|HHLD|IND|RDLI|RLLD|RT_4|ILD4|M2RX|REID|AHO90|IA90_4|IDID|AORT|AHF90|AFRT|ATRT|RVDR|RILD|VEIRDDS|TBIT90|RT_HRLT|RES(DG)|RTAO|DI|R85O|AHORT|RTO	Deep resistivity
+res_medium	logs	resistivity	ohm.m	yes	RMED|ILM|RM|AT30|RT60|AT60|AO60|AF60|IMPH|RLA4|RLA3|RO60|IMER|IMVR|RF60|AHT60|M2R6|IA60_2|RT61|IA60_4|IDIM|ILM4|ILS|REIM|AF30|AO30|AHF60|EIRMDS|RILM|RES(GRD)|RES(MI)|TBIT30|TBIT60|R40O|R60O|RT30|RO30	Medium resistivity
+res_shallow	logs	resistivity	ohm.m	no	RSHA|SFL|LLS|AT10|RLL3|SFLU|AT20|AF20|AO20|AO10|AF10|RLA2|RLA1|AHT20|AHT10|M2R1|M2R2|RN16|LGRD|RVSRU|SFLAEC|HHLS|RLL3F|RLLS|ASFL|SFLA|SGRD|TBIT10|TBIT20|FEFE|RT10|RT20|RO10|RO20	Shallow resistivity
+res_flushed	logs	resistivity	ohm.m	no	RXO|MSFL|RXOZ|RXO8|HMNO|HMIN|RXOI|RXR|AORX|AFRX|ATRX|MI|MN|MNOR|MNRL|MEL15|MEL20|MINV|INV_RF|NOR_RF|RXO_HRLT|AHORX|RMIC	Flushed-zone (micro) resistivity
+caliper	logs	length	in	yes	CALI|HCAL|C1|MELCAL|CALIPER|CLDC|CALIPERL|MLTC|CALD|CALN|CALM|MBTC|MSFCAL|GHD|RLCA|CALX|CALCM|DCAV|DCHO|DCVE|UCVE|UCHO|UCAV|BCAV|CALCX|CALY|BCHO|BCVE|UCAL2|UCAL3|UCAL4|UCAL1|UCAL8|UCAL7|UCAL6|UCAL5|UCAV_DH_ECO_RT|CAPD|HDAR|IECX|RCAL|IECY|CLCNIN|DCAV_DH_ECO_RT|VERD|HORD|RC1|RC2|HD1_PPC2|EHD2_PPC2|UCHD|HDOV_PPC2|HD2_PPC2|ADIA_ADN_RT|EHD1_PPC2|CALS|CAL1|AIBD|C1_13|C1_24|C3_24|HDIA|HRCAL|C2_13|C2_24|C3_13|CL15|DCAV_RT|ECAL_RAB|CALA|CALR|ECAL_RAB_AT_0P7RM|ECAL_RAB_AT_1P3RM|CAL2|C24|CDAL|CL26|CL37|CL48|DCC\|MSF|NHID|C13|SCCL|SCCL01|VCAD|MCAL|SCAL|CAL|LCAL|C2|DCAL	Borehole diameter
+bit_size	logs	length	in	no	BS|BIT|BITSIZE|BIT_DIAM|BDIA|BSZ|BS_RM	Bit size
+pef	logs	dimensionless	b/e	yes	PEF|PE|PEFZ|PEFL|PEB|PEU|PEL|PER|PDPE|PEDN|HPEF|PHOTO EL|LPE|LPE_HR|PEF8|HPEL|DPEFM	Photoelectric factor
+sp	logs	potential	mV	yes	SP|SPBL|SPCG|SPR|SPC|SPDH|SPU|RSPA|SPAR|SPD|SPDF|ASFI|ASCA	Spontaneous potential
+log_temperature	logs	temperature	degC	no	BHT|TEMP|GTEM|IHTF|WTEP|BHTF|WTEP_LDEO|HTEM|FTEMP|MSSTEMP_LDEO|TEMP_MWD|WTEP_SL|TEMPERATURE|MTEM|MTEM_FILT|BFTU|BFT|BFT2|MDTMP|TFAST|TSLOW|CGXT	Borehole (log) temperature
+lithology	logs	code	_	no	FORCE_2020_LITHOFACIES_LITHOLOGY|LITH	Interpreted lithology label
+core_porosity	core	fraction	v/v	no	CPOR|PHI_CORE	Core porosity
+core_permeability	core	permeability	mD	no	CKH|KLH|PERM_CORE	Core permeability
+grain_density	core	density	g/cm3	no	CGD|RHOG	Grain density
+ucs	core	pressure	MPa	no	UCS	Unconfined compressive strength
+static_youngs_modulus	core	pressure	GPa	no	E_STAT	Static Young's modulus
+static_poisson_ratio	core	dimensionless	_	no	PR_STAT	Static Poisson's ratio
+formation_pressure	geomechanics	pressure	kPa	no	FP|RFT|MDT|XPT	Formation pressure point
+lot_pressure	geomechanics	pressure	kPa	no	LOT|FIT|EMW	Leak-off or formation integrity test pressure
+elapsed_time	well_test	time	h	no	TIME|ELTIM	Elapsed test time
+delta_p	well_test	pressure	kPa	no	DP|DELTA_P	Pressure change since the start of the test
+test_rate	well_test	flow_rate	m3/d	no	Q|QO	Surface rate during the test
+net_thickness	well_test	length	m	no	H|NET	Net pay thickness
+porosity	well_test	fraction	v/v	no	PHI	Porosity used in the test interpretation
+total_compressibility	well_test	compressibility	1/kPa	no	CT	Total compressibility
+wellbore_radius	well_test	length	m	no	RW	Wellbore radius
+oil_rate	production	flow_rate	m3/d	no	BORE_OIL_VOL|OIL_RATE|QO	Oil rate (stock-tank)
+gas_rate	production	flow_rate	m3/d	no	BORE_GAS_VOL|GAS_RATE|QG	Gas rate (standard)
+water_rate	production	flow_rate	m3/d	no	BORE_WAT_VOL|WATER_RATE|QW	Water rate
+water_injection_rate	production	flow_rate	m3/d	no	BORE_WI_VOL|WINJ	Water injection rate
+bhp	production	pressure	kPa	no	AVG_DOWNHOLE_PRESSURE|BHP|PWF	Bottom-hole pressure
+bht	production	temperature	degC	no	AVG_DOWNHOLE_TEMPERATURE|BHT_PROD	Bottom-hole temperature
+whp	production	pressure	kPa	no	AVG_WHP_P|WHP|THP	Wellhead (tubing head) pressure
+wht	production	temperature	degC	no	AVG_WHT_P|WHT	Wellhead temperature
+choke_opening	production	fraction	%	no	AVG_CHOKE_SIZE_P|CHOKE	Choke opening
+on_stream_hours	production	time	h	no	ON_STREAM_HRS|HRS	Hours on stream per period
+p_pdg	production	pressure	kPa	yes	P-PDG	Permanent downhole gauge pressure (3W)
+p_tpt	production	pressure	kPa	yes	P-TPT	Temperature-pressure transducer pressure (3W)
+t_tpt	production	temperature	degC	yes	T-TPT	Temperature-pressure transducer temperature (3W)
+p_mon_ckp	production	pressure	kPa	yes	P-MON-CKP	Pressure upstream of the production choke (3W)
+t_jus_ckp	production	temperature	degC	yes	T-JUS-CKP	Temperature downstream of the production choke (3W)
+q_gas_lift	production	flow_rate	m3/d	yes	QGL	Gas-lift injection rate (3W)
+bubble_point_pressure	pvt	pressure	kPa	no	PB|PSAT	Bubble-point pressure
+rs	pvt	ratio	m3/m3	no	RS|GOR	Solution gas-oil ratio
+bo	pvt	ratio	m3/m3	no	BO|FVF	Oil formation volume factor
+oil_viscosity	pvt	viscosity	mPa.s	no	MUO|VISO	Oil viscosity
+api_gravity	pvt	dimensionless	API	no	API	Stock-tank oil gravity
+gas_gravity	pvt	dimensionless	_	no	SGG|GG	Gas specific gravity (air = 1)
+reservoir_temperature	pvt	temperature	degC	no	TRES|TR	Reservoir temperature
+z_factor	pvt	dimensionless	_	no	Z	Gas compressibility factor
+treating_pressure	completions	pressure	kPa	no	TP|TREAT_P|STP	Surface treating pressure
+slurry_rate	completions	flow_rate	m3/min	no	SLUR_RATE|RATE	Slurry rate
+proppant_concentration	completions	concentration	kg/m3	no	PROP_CON|BH_CONC	Proppant concentration
+co2_injected	co2	mass	t	no	CO2_MASS|INJ_MASS	Injected CO2 mass
+flow_out_paddle_pct	drilling	fraction	%	no	MFOP|MUDL_FLOWOUT|FLOWOUTPC	Mud flow out as percent of paddle/sensor full scale
+block_velocity	drilling	velocity	m/s	no	BVEL	Travelling block (hook) vertical speed
+tank_volume	drilling	volume	m3	no	PIT24|PIT25|PIT26|PIT12|PIT13|PIT14|PIT15|PIT16|PIT8|PIT9|PIT2|PIT20|PIT21|PIT22|PIT23|PIT3|PIT4|PIT5|PIT6|PIT17|PIT18|PIT10|PIT11|PIT19|PIT1|PIT7|TV10|TV11|TV12|TV13|TV14|TV03|TV07|TV01|TV04|TV02|TV06|TV05|TV08|TV09|GS_TV06|GS_TV05|GS_TV04|GS_TV11|GS_TV14|GS_TV13|GS_TV07|GS_TV08|GS_TV09|GS_TV10|GS_TV12|GS_TV01|GS_TV02|GS_TV03|TV8|TV9|TV3|TV4|TV5|TV6|TV7|TV1|TV2	Volume of one individual mud pit or tank
+trip_tank_volume	drilling	volume	m3	no	TTV2|TTV1	Trip tank volume
+downhole_temperature	drilling	temperature	degC	no	TCDM|TCDX|ATMP|DATEMPX|ATMP_RT|ATMP_MWD|TEMP2|TEMP_DNI_RT|DHAT|TEMP_ARC|TTEM	Annulus or tool temperature measured by MWD/LWD
+casing_pressure	drilling	pressure	kPa	no	CASPR|CHOKE_HIGH|CHOKE_PRESS|CHKP|GS_CHKP	Casing (choke) back-pressure at surface
+pump_stroke_rate	drilling	angular_velocity	spm	no	STRATESUM|STRATE1|STRATE3|STRATE2|SPM1|SPM2|SPM3|TSPM|MUDL_SPM1|MUDL_SPM2|GS_SPM1|GS_SPM2|GS_SPM3|MUDL_SPM3	Mud pump stroke rate (one pump or total)
+d_exponent	drilling	dimensionless	_	no	DXC|DX|DXN|GS_DXC	Drilling exponent (normal or corrected d-exponent)
+gas_c1	mud_gas	fraction	ppm	no	G_C1|GS_G_C1|MTHA|G_C1N|G_C1X|PC1G|C1|CHR1C1|CHR1C1_AVG|CHR1C1_MAX|CHR1C1_MIN	Methane in mud gas
+gas_c2	mud_gas	fraction	ppm	no	G_C2|GS_G_C2|ETHA|G_C2X|G_C2N|PC2G|C2|CHR1C2|CHR1C2_AVG|CHR1C2_MAX|CHR1C2_MIN	Ethane in mud gas
+gas_c3	mud_gas	fraction	ppm	no	G_C3|C3|GS_G_C3|PRPA|G_C3X|G_C3N|PC3G|CHR1C3|CHR1C3_AVG|CHR1C3_MAX|CHR1C3_MIN	Propane in mud gas
+gas_ic4	mud_gas	fraction	ppm	no	G_IC4|GS_G_IC4|IBTA|G_IC4X|G_IC4N	Iso-butane in mud gas
+gas_nc4	mud_gas	fraction	ppm	no	G_NC4|GS_G_NC4|NBTA|G_NC4N	Normal butane in mud gas
+gas_ic5	mud_gas	fraction	ppm	no	G_IC5|GS_G_IC5|IPNA|G_IC5N|G_IC5X	Iso-pentane in mud gas
+gas_nc5	mud_gas	fraction	ppm	no	G_NC5|GS_G_NC5|NPNA|G_NC5N	Normal pentane in mud gas
+gas_h2s	mud_gas	fraction	ppm	no	H2S2|H2S3|H2S1|G_H2SA	Hydrogen sulphide at the gas sensors
+res_propagation	logs	resistivity	ohm.m	no	P34H|P16H|P22H|P40H|P28H|A34H|A28H|A40H|P28L|P16L|P40L|P34L|P22L|RPCELM|RACEHM|RACELM|RPCEHM|A16H|A22H|A22L|A28L|A34L|A40L|A16L|RPCESHM|RPAESHM|RAAEHM|RAAESHM|RPAESLM|RPCESLM|RAAELM|RAAESLM|RACESHM|RACESLM|RPAELM|RPAEHM|RPCHX|RPCEHX|RACLX|RACELX|RPAEHX|RPAHX|RAALX|RAAELX|RACEHX|RPCELX|A16B|A28B|A22B|P22B|P16B|P34B|P40B|P28B|A40B|A34B|RACHX|RPAELX|RAAHX|RPALX|RAAEHX|RPCLX|A28H_ECO_RT|A40H_ECO_RT|P40H_ECO_RT|P28H_ECO_RT|ATR|PSRU|PSRD|PSR|ATRU|ATRD|A28H_UNC_DH_ECO_RT|A40H_UNC_DH_ECO_RT|P40H_UNC_RT|PS5F|PS1F|PS4F|PS2F|PS3F|AT3F|AT1F|AT5F|AT4F|AT2F|P40H_RT|P28H_UNC_RT|A28H_UNC_RT|P28H_RT|P40H_UNC_DH_ECO_RT|A40H_UNC_RT|P28H_UNC_DH_ECO_RT|A40H_RT|A22L_UNC|P34L_UNC|P40H_UNC|P34H_UNC|P28L_UNC|P22L_UNC|P28H_UNC|P40L_UNC|A22H_UNC|A16H_UNC|P22H_UNC|P16H_UNC|P16L_UNC|A28H_RT|A28H_UNC|A16L_UNC|A40L_UNC|A40H_UNC|A28L_UNC|A34H_UNC|A34L_UNC|P40L_RT|P40L_UNC_RT|P16H_RT|RDAH|RDAL|RMAH|RMAL|RSAH|RSAL	LWD propagation resistivity (phase-shift or attenuation, any spacing)
+dt_stoneley	logs	slowness	us/ft	no	DTST|DT0T|DTR0|DTSTE|DT3R	Stoneley slowness
+formation_water_resistivity	petrophysics	resistivity	ohm.m	no	Rw	Formation water resistivity (Rw); Rw with a length unit is wellbore_radius, see mnemonic_context.csv
+time_index	position	time	s	no	Time	Time index of a time-based log (timestamp or elapsed recording time); TIME in well-test tables is elapsed_time, see mnemonic_context.csv
+differential_caliper	logs	length	in	no	DFCAL|DC_A|DC_L|DC_R|DC_U|DC_B|DCAL	Differential caliper (caliper minus bit size)
+cable_tension	logs	force	kN	no	TENS|TEN1|SMTU|LTEN|LWTLB	Wireline cable tension
+log_pressure	logs	pressure	kPa	no	WPRE|BHPR|HYDP_HRLT|WPRE_SL	Wellbore pressure from a logging or PT-survey gauge
+thorium	logs	fraction	ppm	no	THOR|HTHO|TH|GMTH|GRTH	Thorium concentration from spectral gamma ray
+uranium	logs	fraction	ppm	no	URAN|U|HURA|GMUR|GRUR	Uranium concentration from spectral gamma ray
+potassium	logs	fraction	%	no	POTA|HFK|K|GMPO|GRPO	Potassium concentration from spectral gamma ray
+effective_porosity	petrophysics	fraction	v/v	no	PHIE|PHIF|MPHE|PHIE_HILT|PHIE-CPX|PIGN	Effective porosity (interpreted)
+total_porosity	petrophysics	fraction	v/v	no	PHIT|MPHS|PHIT_B|PHIT-CPX|PIGT|PXND_HILT|PHIX	Total porosity (interpreted)
+water_saturation	petrophysics	fraction	v/v	no	SW|SW_HILT|SUWI|SWE -CPX|SXWI	Water saturation (interpreted)
+shale_volume	petrophysics	fraction	v/v	no	VCLAY|VCL|VCL_HILT|VCL -CPX|VSH	Shale or clay volume (interpreted)
+log_permeability	petrophysics	permeability	mD	no	KLOGH|PERM|KINT|KSDR|KTIM|KWTR|KGAS	Permeability computed from logs (interpreted)
+lag_depth	drilling	length	m	no	MUDRETDEPTH|DRTM|GS_DRTM|PLAD|CUTRETDEPTH	Depth from which the returns now at surface were drilled (lagged depth)
+bit_depth_tvd	drilling	length	m	no	DBTV|BTVD	Bit true vertical depth
+bit_footage	drilling	length	m	no	BIT_DIST|BDDI	Distance drilled by the current bit
+gain_loss_volume	drilling	volume	m3	no	GAINLOSSTOT|GL_DRILL|TVCA|MUDL_GAINLOSS|GS_TVCA	Pit gain (+) or loss (-) volume
+ecd_casing_shoe	drilling	density	g/cm3	no	ECDCS	Equivalent circulating density at the casing shoe
+annular_velocity	drilling	velocity	m/s	no	ANNVEL_MMAX|AVEL|ANNVEL_MMIN	Mud velocity in the annulus
+bore_pressure	drilling	pressure	kPa	no	BPRESM	Pressure inside the drill string measured downhole
+bit_pressure_loss	drilling	pressure	kPa	no	BITLOSS	Pressure loss across the bit nozzles
+annular_pressure_loss	drilling	pressure	kPa	no	ANNLOSS	Annular friction pressure loss
+drillstring_pressure_loss	drilling	pressure	kPa	no	DSTRINGLOSS	Friction pressure loss inside the drill string
+bit_hydraulic_power	drilling	power	kW	no	BITPOWER	Hydraulic power at the bit
+pump_hydraulic_power	drilling	power	kW	no	PUMPPOWER	Hydraulic power of the mud pumps
+jet_velocity	drilling	velocity	m/s	no	JETVEL	Bit nozzle jet velocity
+jet_impact_force	drilling	force	kN	no	IMPACT	Jet impact force at the bit
+kill_line_pressure	drilling	pressure	kPa	no	KILL_HIGH	Kill line pressure
+on_bottom_time	drilling	time	h	no	ONBOTTOM_TIME|BDTI|GS_BDTI	Cumulative time with the bit on bottom
+rotating_time	drilling	time	h	no	ROT_TIME	Cumulative rotating time
+circulating_time	drilling	time	h	no	CUMCIRCTIME|RUNCIRC|TCTI|CIRH	Cumulative circulating time
+pore_pressure_emw	drilling	density	g/cm3	no	POR_EQMD|FPPG|PPG_P	Estimated pore pressure as equivalent mud weight
+fracture_pressure_emw	drilling	density	g/cm3	no	FPG_P	Estimated fracture pressure as equivalent mud weight
+rig_heave	drilling	length	m	no	RIGHEAVE	Vertical heave of a floating rig
+mud_conductivity_in	drilling	conductivity	mS/m	no	MWIN	Mud conductivity at the suction (in)
+cement_pump_pressure	cementing	pressure	kPa	no	CEMPUMPPR	Cementing pump pressure
+cement_flow_in	cementing	flow_rate	L/min	no	CEMFLOWIN|CEMFLOWINC	Cementing flow in (measured)
+cement_flow_out	cementing	flow_rate	L/min	no	CEMFLOWOUT	Cementing flow out (measured)
+cement_volume_pumped	cementing	volume	m3	no	CEMTVOLPUMP	Cumulative cementing volume pumped
+toolface_gravity	surveys	angle	deg	no	GTF_RT|HTFB|HTFX|AT2_GTFM	Gravity (high-side) toolface
+toolface_magnetic	surveys	angle	deg	no	MTFB|MTF_RT|MTFX	Magnetic toolface
+total_gravity_field	surveys	acceleration	m/s2	no	GTB|GTGX	Total gravity field measured by the survey sensors
+total_magnetic_field	surveys	magnetic_field	nT	no	HTB|Btotal|BTotalCalculated|BTotalCalc|BTC|BTM|MAGB	Total magnetic field measured by the survey sensors
+conductivity_propagation	logs	conductivity	mS/m	no	P40L_COND|P40H_COND|A40H_COND|A40L_COND|A22L_COND|A22H_COND|A34H_COND|A34L_COND|A16H_COND|A28H_COND|P34H_COND|A28L_COND|A16L_COND|P28L_COND|P28H_COND|P16L_COND|P16H_COND|P34L_COND|P22H_COND|P22L_COND|CPCHX|CPAEHX|CPAHX|CPCEHX|CACLX|CAAELX|CACELX|CAALX|CPCELX|CACHX|CPAELX|CPALX|CPCLX|CAAEHX|CAAHX|CACEHX|P16B_COND|A16B_COND|A34B_COND|P22B_COND|A28B_COND|A40B_COND|P28B_COND|P40B_COND|P34B_COND|A22B_COND|CATR|P28H_COND_RT|P40H_COND_RT|A40H_COND_RT|A40H_COND_UNC_ECO_RT|P40H_COND_UNC_ECO_RT|A28H_COND_RT|A28H_COND_UNC_ECO_RT|P28H_COND_UNC_ECO_RT	LWD propagation conductivity (phase-shift or attenuation)
+gr_raw_counts	logs	count_rate	cps	no	GR_ARC_RAW|RGRU|RGRA|RGRR|RGRB|RGRL|GR_RAB_RAW|GR_RAB_RAW_LF|GR_RAB_RAW_UP|GR_RAB_RAW_DN|GR_RAB_RAW_RG|GRW9|GR_CDR_RAW|GRW6|GRW7|GRW8|GRW4|GRW5|GRR_RT|GRR_UP|MWD_GR_RAW|GRR_DN|GRR_LT|GRR_RAB|GRR|PD_GRAV	Raw gamma ray count rate, not calibrated to gAPI
+rop_inverse	drilling	slowness	s/m	no	ROPI|RPI5|ROP|TIME_DIST	Inverse rate of penetration (time per unit length drilled)
+density_porosity	logs	fraction	v/v	no	DPOR|POR(DEN)|DPRL|DPHS|DPRS|DPHZ|DPOA|HPOA|DPH8|HDPH_SAN|DPHI_LS|DPDL|DPHIL|PXRLLS|DPHIDEC|PORLDOL|DPHIR|PHID|PORL|PXRL|PXRLSS|DPHI_SAN|DPHB_ECO_RT|DPHI_DOL|DPHI_LIM|CDL|DPDOLX|DPHI_SS|DPLSX|HDPH_DOL|HDPH_LIM|PORZ|DPHI_MATR|DPX|DP_L|HPHN_DOL|HPHN_LIM|HPHN_SAN|PORLSS|PXRLDOL|DPDOL|DPHZ_EDIT|DPL|PHND_DOL|PHND_LIM|PHND_SAN|DPHI|DPO|NDPH|HDPO|HNDP|DPRD|DPLS|DPDX|DPLX|DPSX|DPHD|DLIM|DPHL|HDPH|HPHN|DPHR|DPHU|DPHB|DPHN|DPHM|DP_U|DPNB|DP_B|DP_R|EPOR|DP|DPSS|PORLDEC|PHND	Porosity computed from bulk density
+sonic_porosity	logs	fraction	v/v	no	SPOR|PHIS|SPHIDEC|SPRL|SPHI|PORSDEC|PORS|SPHL|SPHS|SPHD|SPHW|SHRL	Porosity computed from sonic slowness
+conductivity_induction	logs	conductivity	mS/m	no	CILD|COND(DI)|COND(MI)|CILM|CIDP|CIMP|IIRD|IIRM|IIXD|IIXM|CDCR|CDCX|CDLR|CDLX|CMCR|CMLR|CDER|CDVR|CMER|CMVR|CDBC|CDEB|CDVB|CMBC|CMEB|CMVB|A10B_COND_RT|A10H_COND_RT|A10L_COND_RT|A16B_COND_RT|A16H_COND_RT|A16H_COND_UNC_ECO_RT|A16L_COND_RT|A16L_COND_UNC_ECO_RT|A22B_COND_RT|A22H_COND_RT|A22H_COND_UNC_ECO_RT|A22L_COND_RT|A22L_COND_UNC_ECO_RT|A28B_COND_RT|A28L_COND_RT|A28L_COND_UNC_ECO_RT|A34B_COND_RT|A34H_COND_RT|A34H_COND_UNC_ECO_RT|A34L_COND_RT|A34L_COND_UNC_ECO_RT|A40B_COND_RT|A40L_COND_RT|A40L_COND_UNC_ECO_RT|P10H_COND_RT|P10L_COND_RT|P16B_COND_RT|P16H_COND_RT|P16H_COND_UNC_ECO_RT|P16L_COND_RT|P16L_COND_UNC_ECO_RT|P22B_COND_RT|P22H_COND_RT|P22H_COND_UNC_ECO_RT|P22L_COND_RT|P22L_COND_UNC_ECO_RT|P28B_COND_RT|P28L_COND_RT|P28L_COND_UNC_ECO_RT|P34B_COND_RT|P34H_COND_RT|P34H_COND_UNC_ECO_RT|P34L_COND_RT|P34L_COND_UNC_ECO_RT|P40B_COND_RT|P40L_COND_RT|P40L_COND_UNC_ECO_RT|COND|DCSF|CSFL|CSFA|ATCO90|ATCO10|ATCO20|ATCO30|ATCO60|CLLD|AFCO10|AFCO20|AFCO30|AFCO60|AFCO90|AOCO10|AOCO20|AOCO30|AOCO60|AOCO90|AECO10|AECO20|AECO30|AECO60|AECO90|ATCO|AFCO|AHFCO60|AHTCO90|ACCF|CT90|CTAO|CO90|CO10|CO20|CO30|CO60|CT10|CT20|CT30|CT60|AHTCO60	Formation conductivity from an induction tool
+casing_collar_locator	logs	signal	_	no	CCL|CCLPERF1|CCLPERF2|CCLPERF3|CCLPERF4	Casing collar locator signal (amplitude or counts; uncalibrated)
+cable_speed	logs	velocity	m/h	no	CS|CVEL|CABLE SPEED|LSPD	Wireline cable (logging) speed
+neutron_api	logs	radioactivity	API	no	NEUT	Uncalibrated (old) neutron log in API neutron units or counts
+depth_below_seafloor	position	length	m	no	DEPTH_WMSF|DEPTH_WSF|DEPTH_LSF|DEPTH_DSF	Depth below seafloor (IODP WSF, WMSF or CSF depth scales)
+formation_test_pressure	well_test	pressure	kPa	no	PRESSURE|PRESSURE(PSI) P252T181	Gauge pressure of a drill-stem or formation test
+annular_volume	logs	volume	m3	no	AVOL|ICV|ABHV|CVOL|AHVT|LAGVOL	Integrated annular (cement) volume computed from a caliper and a casing size
+hole_volume	logs	volume	m3	no	HVOL|IHV|TBHV|BVOL|BHVT	Integrated hole volume computed from a caliper
+downhole_cable_force	logs	force	kN	no	CDF	Calibrated downhole force or tension at the cable head
+relative_bearing	logs	angle	deg	no	RB|RB_GPIT|RB_MEST|RB_PPC1|RB_MAST|RB_PPC2|RB_FBST|RB_USIT	Relative bearing of the tool reference (pad 1) from the high side
+borehole_fluid_resistivity	logs	resistivity	ohm.m	no	RM_HRLT|RLA0|BHRM|AMF|AIMR|RMUD|AMC[0]|HRM|AHMF	Resistivity of the borehole fluid measured downhole
+pad1_azimuth	logs	angle	deg	no	P1AZ|P1NO|P1AZ_GPIT|P1AZ_MEST|P1AZ_MAST|P1NO_MAST|P1NO_TBDR_TBDS|P1NO_FBST	Azimuth of pad 1 in the horizontal plane
+sigma	logs	capture_cross_section	cu	no	SIGF|HSIG|CSIG|SIGM|ESIGF|ESIGF_HR|SIGC|SIFA	Formation thermal-neutron capture cross section
+gas_content	petrophysics	specific_volume	scf/ton	no	ADSGAS|GIPADS|TGAS_ADSORBED|TGAS_FREE|TGAS_TOTAL|CGAS_ADSORBED	Gas content of the rock (adsorbed or total) per unit mass
+differential_temperature	logs	temperature_difference	delta_degC	no	DEL TEMP|DTMP	Differential (short-interval) temperature: a temperature difference, converted by scale only
+apparent_grain_density	petrophysics	density	g/cm3	no	DGA	Apparent grain (matrix) density computed from logs; grain_density is the core measurement
+crossplot_porosity	petrophysics	fraction	v/v	no	XPOR|XPHI	Neutron-density crossplot porosity (interpreted)
+compressional_velocity	logs	velocity	m/s	no	SVEL	Compressional (P-wave) velocity from sonic logs; dt is its slowness
+shear_velocity	logs	velocity	m/s	no	SSVE	Shear (S-wave) velocity from sonic logs; dts is its slowness
+vp_vs_ratio	logs	dimensionless	_	no	VPVS	Ratio of compressional to shear velocity
+displacement_east	surveys	length	m	no	ED	East (+) or west (-) displacement of the survey station from the well reference point (departure)
+displacement_north	surveys	length	m	no	ND	North (+) or south (-) displacement of the survey station from the well reference point (departure)
+vertical_section	surveys	length	m	no	VSEC|PGVS	Horizontal displacement projected on the vertical section azimuth of the well plan; VS is kept out (mnemonic_context.csv)
+cbl_amplitude	logs	potential	mV	no	AMP3FT|AMP3|CBL	Cement bond log amplitude at the 3-ft receiver
+bond_index	logs	dimensionless	_	no	BONDIX|BI	Cement bond index (0 = free pipe, 1 = fully bonded)
+time_after_bit	logs	time	s	no	TAB_ARC_RES|RPTHM|TAB_DEN|TAB_NEU|DTAB|NTAB|RTIM|TAB_GR|GTIM|AGTM	Time elapsed between drilling a depth and the LWD sensor measuring it (time since drilled)

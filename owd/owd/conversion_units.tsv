@@ -1,0 +1,143 @@
+symbol	dimension	base	factor	offset	aliases	note	source
+m	length	m	1	0	M|meters|metres|meter|metre|METERS|METRES|(mbrf)	(mbrf): metres below rig floor (IODP tables), medians 2000-3800 (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	SI base unit
+cm	length	m	0.01	0	CM		SI prefix c = 10^-2
+mm	length	m	0.001	0	MM		SI prefix m = 10^-3
+km	length	m	1000	0	KM		SI prefix k = 10^3
+ft	length	m	0.3048	0	FT|F|feet|FEET|f|foot|FOOT		NIST SP 811 (2008) B.9: 1 ft = 0.3048 m (exact)
+ftUS	length	m	1200/3937	0	usft|US ft|ftus|FTUS	US survey foot, used in some US projected coordinates	NIST SP 811 (2008) B.9: 1 US survey ft = 1200/3937 m (exact)
+in	length	m	0.0254	0	IN|INCH|inch|inches|INCHES|INS|(IN)|IN.	(IN), IN.: caliper medians 6.3-9 (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	NIST SP 811 (2008) B.9: 1 in = 0.0254 m (exact)
+0.1 in	length	m	0.00254	0	0.1in|0.1 IN		Tenth of an inch (Volve DLIS depth index); NIST SP 811 B.9
+s	time	s	1	0	sec|S|SEC|secs|second|seconds		SI base unit
+ms	time	s	0.001	0	MS|msec|MSEC		SI prefix m = 10^-3
+us	time	s	0.000001	0	usec|US|USEC		SI prefix u = 10^-6
+min	time	s	60	0	MIN|mn|minute|minutes		1 min = 60 s
+h	time	s	3600	0	hr|HR|H|hour|hours|hrs|HRS		1 h = 3600 s
+d	time	s	86400	0	day|days|D|DAY|DAYS		1 d = 86400 s
+m/s	velocity	m/s	1	0	M/S		SI coherent unit
+m/h	velocity	m/s	1/3600	0	M/HR|M/H|m/hr|mph|MPH	«mph»/«MPH» are read as metres per hour, as in the drilling LAS headers where they appear	1 h = 3600 s
+m/min	velocity	m/s	1/60	0	M/MIN		1 min = 60 s
+ft/h	velocity	m/s	0.3048/3600	0	ft/hr|FT/HR|F/HR|ft_per_hr|FPH|fph|FT/H|F/H		NIST SP 811 B.9: 1 ft = 0.3048 m
+ft/min	velocity	m/s	0.3048/60	0	FT/MIN|ft/mn|fpm|FPM		NIST SP 811 B.9: 1 ft = 0.3048 m
+ft/s	velocity	m/s	0.3048	0	FT/S|fps|FPS		NIST SP 811 B.9: 1 ft = 0.3048 m
+s/m	slowness	s/m	1	0	S/M		SI coherent unit
+us/m	slowness	s/m	0.000001	0	US/M|usec/m|USEC/M		SI prefix u = 10^-6
+us/ft	slowness	s/m	0.000001/0.3048	0	US/F|usec/ft|US/FT|uspf|USEC/FT|us/f|USPF		NIST SP 811 B.9: 1 ft = 0.3048 m
+s/ft	slowness	s/m	1/0.3048	0	S/FT		NIST SP 811 B.9: 1 ft = 0.3048 m
+min/m	slowness	s/m	60	0	MIN/M		1 min = 60 s
+min/ft	slowness	s/m	60/0.3048	0	MIN/FT|min_per_ft		1 min = 60 s; 1 ft = 0.3048 m
+kg/m3	density	kg/m3	1	0	K/M3|KG/M3|kg/m^3		SI coherent unit
+g/cm3	density	kg/m3	1000	0	G/CC|G/C3|g/cc|GM/CC|gm/cc|G/CM3|g/c3|gr/cc|kg/L|kg/l|KG/L|GRAMS/CC|g/cm	GRAMS/CC: DEN medians 2.52-2.83; g/cm: truncated g/cm3 (RHOZ 2.70) (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	1 g/cm3 = 1000 kg/m3 (exact)
+sg	density	kg/m3	1000	0	SG	Specific gravity read as g/cm3 (water = 1000 kg/m3); the reference temperature of the water is not corrected	1 g/cm3 = 1000 kg/m3
+ppg	density	kg/m3	0.45359237/0.003785411784	0	PPG|lbm/gal|lb/gal|LB/GAL|lbm/galUS	Pounds per US gallon	NIST SP 811 B.9: 1 lb = 0.45359237 kg, 1 US gal = 3.785411784 L (exact)
+lb/ft3	density	kg/m3	0.45359237/0.028316846592	0	pcf|PCF|lbm/ft3|LB/FT3		NIST SP 811 B.9: 1 lb = 0.45359237 kg, 1 ft3 = 0.028316846592 m3 (exact)
+kg/m3	concentration	kg/m3	1	0	K/M3|KG/M3|kg/m^3		SI coherent unit
+g/L	concentration	kg/m3	1	0	g/l|G/L		1 g/L = 1 kg/m3
+lb/gal	concentration	kg/m3	0.45359237/0.003785411784	0	ppa|PPA|lbm/gal|LB/GAL	Pounds per US gallon (for proppant: pounds of proppant added per gallon of fluid)	NIST SP 811 B.9
+lb/bbl	concentration	kg/m3	0.45359237/0.158987294928	0	ppb|PPB|lbm/bbl|LB/BBL	Pounds per oil barrel (42 US gal)	NIST SP 811 B.9: 1 bbl = 0.158987294928 m3 (exact)
+Pa	pressure	Pa	1	0	PA		SI coherent unit
+kPa	pressure	Pa	1000	0	KPA|kpa		SI prefix k = 10^3
+MPa	pressure	Pa	1000000	0	MPA|mpa		SI prefix M = 10^6
+GPa	pressure	Pa	1000000000	0	GPA|gpa		SI prefix G = 10^9
+bar	pressure	Pa	100000	0	BAR|bars|BARS		NIST SP 811 B.9: 1 bar = 10^5 Pa (exact)
+psi	pressure	Pa	0.45359237*9.80665/(0.0254*0.0254)	0	PSI|lbf/in2|LBF/IN2		NIST SP 811 B.9: 1 psi = 1 lbf/in2 = 6.894757 kPa (lbf = 0.45359237 kg x 9.80665 m/s2)
+psia	pressure	Pa	0.45359237*9.80665/(0.0254*0.0254)	0	PSIA	Absolute pressure; the reference (absolute or gauge) is kept, only the unit changes	NIST SP 811 B.9
+psig	pressure	Pa	0.45359237*9.80665/(0.0254*0.0254)	0	PSIG	Gauge pressure; the reference (absolute or gauge) is kept, only the unit changes	NIST SP 811 B.9
+ksi	pressure	Pa	1000*0.45359237*9.80665/(0.0254*0.0254)	0	KSI|kpsi|KPSI		NIST SP 811 B.9: 1 ksi = 6.894757 MPa
+Mpsi	pressure	Pa	1000000*0.45359237*9.80665/(0.0254*0.0254)	0	MPSI|Mpsia		NIST SP 811 B.9: 1 psi = 6.894757 kPa
+atm	pressure	Pa	101325	0	ATM		NIST SP 811 B.9: 1 standard atmosphere = 101325 Pa (exact)
+kgf/cm2	pressure	Pa	98066.5	0	KGF/CM2|at		NIST SP 811 B.9: 1 kgf/cm2 = 98066.5 Pa (exact)
+N	force	N	1	0			SI coherent unit
+kN	force	N	1000	0	KN|kn		SI prefix k = 10^3
+daN	force	N	10	0	DAN		SI prefix da = 10
+kgf	force	N	9.80665	0	KGF		NIST SP 811 B.9: 1 kgf = 9.80665 N (exact)
+kkgf	force	N	9806.65	0	KKGF|1000 kgf|tf|TF|tonf	Tonne-force (1000 kgf)	NIST SP 811 B.9: 1 kgf = 9.80665 N (exact)
+tonne	force	N	9806.65	0	t|TONNE|TON|ton|tonnes	A tonne (mass) in a force channel is read as tonne-force (1000 kgf), as the values of the drilling files where it appears confirm	units.tsv of the channel reader (Volve hookload and WOB in tonne); NIST SP 811 B.9
+lbf	force	N	0.45359237*9.80665	0	LBF		NIST SP 811 B.9: 1 lbf = 4.448222 N (lbf = lb x 9.80665 m/s2)
+lbs	force	N	0.45359237*9.80665	0	LBS|lb|LB	Pounds in a force channel are read as pounds-force	NIST SP 811 B.9
+klbf	force	N	1000*0.45359237*9.80665	0	KLBF|kip|kips|KIPS		NIST SP 811 B.9: 1 klbf = 4.448222 kN
+klbs	force	N	1000*0.45359237*9.80665	0	klb|KLBS|KLB|1000lbm|1000 lbs	Kilopounds in a force channel are read as kilopounds-force (FORGE Pason files and other public GDR drilling datasets)	units.tsv of the channel reader; NIST SP 811 B.9
+N.m	torque	N.m	1	0	NM|N.M|Nm|N-m|N·m		SI coherent unit
+kN.m	torque	N.m	1000	0	KNM|KN.M|kNm|kN-m|kN·m		SI prefix k = 10^3
+KMN	torque	N.m	1000	0	kmN|km.N	Literal reading K·M·N = km·N = 10^3 N·m = 1 kN·m (Volve F-15 LAS)	units.tsv of the channel reader
+daN.m	torque	N.m	10	0	DANM|daNm|daN-m		SI prefix da = 10
+km.daN	torque	N.m	10000	0	KMDN	Literal reading km·daN = 10^4 N·m = 10 kN·m (Volve DLIS and LAS)	units.tsv of the channel reader
+ft.lbf	torque	N.m	0.3048*0.45359237*9.80665	0	ft-lbs|lb-ft|FT-LBS|LB-FT|ftlb|FTLB|ft-lb|ft.lb|lbf.ft|ftlbf|ft-lbf|FT-LB	«lb» in a torque channel is read as pound-force	NIST SP 811 B.9: 1 ft·lbf = 1.355818 N·m
+kft.lbf	torque	N.m	1000*0.3048*0.45359237*9.80665	0	kft_lb|kft-lbs|KFT-LBS|kftlb|KFTLB|kft-lb|KFTLBS|klbf.ft|kft.lb|kft-lbf|KFT-LB	«lb» in a torque channel is read as pound-force	NIST SP 811 B.9: 1 ft·lbf = 1.355818 N·m
+rpm	angular_velocity	rpm	1	0	RPM|rev/min|RPMS|r/min|REV/MIN|1/min		Revolution per minute (Energistics UOM)
+c/min	angular_velocity	rpm	1	0	C/MIN	1 cycle = 1 revolution (Volve DLIS: MWD rotation channels in c/min)	units.tsv of the channel reader; Energistics UOM
+spm	angular_velocity	rpm	1	0	SPM|strokes/min	Pump strokes per minute, counted as cycles per minute	Energistics UOM
+c/s	angular_velocity	rpm	60	0	C/S|rps|rev/s|Hz|HZ	1 cycle per second = 60 per minute	units.tsv of the channel reader; Energistics UOM
+rad/s	angular_velocity	rpm	60/(2*3.141592653589793)	0	RAD/S		1 rad/s = 60/(2π) rpm
+cps	count_rate	1/s	1	0	CPS|c/s|counts/s|1/s|C/S		Count per second
+cpm	count_rate	1/s	1/60	0	CPM|counts/min		1 min = 60 s
+m3/s	flow_rate	m3/s	1	0	M3/S		SI coherent unit
+L/s	flow_rate	m3/s	0.001	0	l/s|LPS		1 L = 10^-3 m3 (exact)
+L/min	flow_rate	m3/s	0.001/60	0	LPM|L/MN|l/min|lpm|L/M|LPMN		1 L = 10^-3 m3; 1 min = 60 s
+m3/min	flow_rate	m3/s	1/60	0	M3/MIN		1 min = 60 s
+m3/h	flow_rate	m3/s	1/3600	0	M3/H|m3/hr|M3/HR		1 h = 3600 s
+m3/d	flow_rate	m3/s	1/86400	0	M3/D|m3/day|sm3/d|Sm3/d|SM3/D	Standard and in-situ cubic metres are treated alike: the reference conditions are not corrected	1 d = 86400 s
+gal/min	flow_rate	m3/s	0.003785411784/60	0	gpm|GPM|gal_per_min|galUS/min|USgal/min|GAL/MIN	US gallon	NIST SP 811 B.9: 1 US gal = 3.785411784 L (exact)
+bbl/min	flow_rate	m3/s	0.158987294928/60	0	BPM|bpm|BBL/MIN	Oil barrel (42 US gal)	NIST SP 811 B.9: 1 bbl = 0.158987294928 m3 (exact)
+bbl/h	flow_rate	m3/s	0.158987294928/3600	0	BPH|bph|BBL/H|bbl/hr	Oil barrel (42 US gal)	NIST SP 811 B.9
+bbl/d	flow_rate	m3/s	0.158987294928/86400	0	BPD|bpd|BBL/D|bbl/day|STB/d|stb/d|STB/D|BOPD|BWPD	Oil barrel (42 US gal); stock-tank and reservoir barrels are treated alike: the reference conditions are not corrected	NIST SP 811 B.9
+ft3/d	flow_rate	m3/s	0.028316846592/86400	0	cf/d|scf/d|SCF/D|CF/D	Standard and in-situ cubic feet are treated alike: the reference conditions are not corrected	NIST SP 811 B.9: 1 ft3 = 0.028316846592 m3 (exact)
+Mscf/d	flow_rate	m3/s	1000*0.028316846592/86400	0	MSCF/D|Mcf/d|MCF/D|mscf/d|mcf/d|MCFD|Mcfd	Thousand cubic feet per day; the standard conditions of the source (60 °F, 14.696 psia) are not converted to those of the target (15 °C, 101.325 kPa)	NIST SP 811 B.9: 1 ft3 = 0.028316846592 m3 (exact)
+MMscf/d	flow_rate	m3/s	1000000*0.028316846592/86400	0	MMSCF/D|MMcf/d|MMCF/D|MMCFD	Million cubic feet per day; the standard conditions are not converted	NIST SP 811 B.9
+m3	volume	m3	1	0	M3		SI coherent unit
+L	volume	m3	0.001	0	l|LITRE|litre|liter		1 L = 10^-3 m3 (exact)
+bbl	volume	m3	0.158987294928	0	BBL|barrels|bbls|BBLS|STB|stb	Oil barrel (42 US gal)	NIST SP 811 B.9: 1 bbl = 0.158987294928 m3 (exact)
+gal	volume	m3	0.003785411784	0	GAL|galUS|USgal	US gallon	NIST SP 811 B.9: 1 US gal = 3.785411784 L (exact)
+ft3	volume	m3	0.028316846592	0	FT3|cf|CF|scf|SCF|F3	F3: integrated hole and annular volumes (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	NIST SP 811 B.9: 1 ft3 = 0.028316846592 m3 (exact)
+degC	temperature	degC	1	0	DEGC|C|deg C|degc|DEG C|°C|DEG_C|deg_C		Degree Celsius
+degF	temperature	degC	5/9	-32*5/9	DEGF|F|deg F|degf|DEG F|°F|DEG_F|deg_F|degrees Fahrenheit		Definition: t/°C = (t/°F − 32) × 5/9
+delta_degC	temperature_difference	delta_degC	1	0	delta_K|delta_C		Temperature difference in degrees Celsius (a kelvin step); no offset
+delta_degF	temperature_difference	delta_degC	5/9	0	delta_F		Temperature difference in degrees Fahrenheit: 1 delta_degF = 5/9 delta_degC; no offset
+K	temperature	degC	1	-273.15	degK|DEGK		Definition: t/°C = T/K − 273.15
+ohm.m	resistivity	ohm.m	1	0	OHMM|ohmm|ohm-m|OHM-M|Ohm.m|OHM.M|ohm m|Ohmm|Ω.m|ohm·m|OHM_M|ohm_m|ohm/m	ohm/m: usual mislabel of ohm.m on SFL/ILD/ILM (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	SI coherent unit
+S/m	conductivity	S/m	1	0	mho/m|MHO/M		SI coherent unit (1 mho = 1 S)
+mS/m	conductivity	S/m	0.001	0	MS/M		SI prefix m = 10^-3
+mmho/m	conductivity	S/m	0.001	0	MMHO/M|MMHO|mmho|mMHO|MMHOS/M|mmhos/m|mmo/m|mmho-m|MM/M|MILLI-MH|MMHOS	1 mmho/m = 1 mS/m; mmo/m, mmho-m, MM/M, MILLI-MH, MMHOS: induction conductivities (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	1 mho = 1 S
+gAPI	radioactivity	gAPI	1	0	GAPI|API|api|gapi|GAPI units|API units|API UNITS|aapi|API-GR	aapi, API-GR: GR/GAMMA medians 10-180 (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	API gamma-ray unit
+mV	potential	V	0.001	0	MV|mv		SI prefix m = 10^-3
+V	potential	V	1	0	v|VOLT|volt		SI coherent unit
+v/v	fraction	1	1	0	V/V|frac|FRAC|fraction|Fraction|FRACTION|dec|DEC|ft3/ft3|v/v_decimal|CFCF|cfcf|m3/m3|M3/M3|kgf/kgf|KGF/KGF|1|decp|dec(ls)	decp, dec(ls): decimal porosity, medians 0.07-0.09 (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	Volume fraction (decimal)
+%	fraction	1	0.01	0	percent|PERCENT|PCT|pct|%vol|PERC	PERC: WVGS LAS, p99 above 1 in every channel (percent) (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	1 % = 0.01
+pu	fraction	1	0.01	0	PU|p.u.|P.U.	Porosity units: 1 pu = 1 % of the volume	Industry convention
+ppm	fraction	1	0.000001	0	PPM		1 ppm = 10^-6
+m3/m3	ratio	1	1	0	M3/M3|sm3/sm3|Sm3/Sm3|SM3/SM3|v/v|V/V	Standard and in-situ cubic metres are treated alike	Volume ratio
+scf/bbl	ratio	1	0.028316846592/0.158987294928	0	scf/STB|SCF/STB|scf/stb|ft3/bbl|SCF/BBL|cf/bbl	Standard cubic feet per stock-tank barrel; reference conditions are not corrected	NIST SP 811 B.9: 1 ft3 = 0.028316846592 m3, 1 bbl = 0.158987294928 m3 (exact)
+bbl/bbl	ratio	1	1	0	rb/STB|RB/STB|rb/stb|bbl/STB|RB/BBL	Reservoir barrel per stock-tank barrel	Volume ratio
+_	dimensionless	_	1	0	unitless|UNITLESS|none|NONE|ratio		Dimensionless number
+b/e	dimensionless	b/e	1	0	B/E|b/elec|B/ELEC|barns/e|BARN|barn|B/EL|barns/electron|B/E-|barns/e-|BARN/E|BARNE|BARNES	B/E-, barns/e-, BARN/E, BARNE, BARNES: PE/PEF medians about 3.4 (PROPUESTAS-UNIDADES.tsv, 6 Nov 2026: values of the channels checked)	Barn per electron (photoelectric factor)
+API	dimensionless	degAPI	1	0	degAPI|°API|deg API	API gravity; not linear in density, so never converted	API gravity
+_	code	_	1	0	unitless|UNITLESS|none|NONE		Code (lithology or flag)
+_	signal	_	1	0	unitless|UNITLESS|none|NONE		Uncalibrated signal (no physical unit), such as a casing collar locator
+deg	angle	deg	1	0	dega|DEG|degrees|DEGA|°|degree|DEGREES		Degree of arc
+rad	angle	deg	180/3.141592653589793	0	RAD|radian|radians		1 rad = 180/π degrees
+m/s2	acceleration	m/s2	1	0	M/S2|m/s^2		SI coherent unit
+gn	acceleration	m/s2	9.80665	0	G|g_n|gravity|g|GN	Standard acceleration of gravity	NIST SP 811 B.9: g_n = 9.80665 m/s2 (exact)
+ft/s2	acceleration	m/s2	0.3048	0	FT/S2|ft/s^2		NIST SP 811 B.9: 1 ft = 0.3048 m
+mD	permeability	mD	1	0	MD|md|mDarcy		Millidarcy
+D	permeability	mD	1000	0	darcy|DARCY|Darcy		1 D = 1000 mD
+1/Pa	compressibility	1/Pa	1	0	1/PA		SI coherent unit
+1/kPa	compressibility	1/Pa	0.001	0	1/KPA		SI prefix k = 10^3
+1/MPa	compressibility	1/Pa	0.000001	0	1/MPA		SI prefix M = 10^6
+1/bar	compressibility	1/Pa	0.00001	0	1/BAR		1 bar = 10^5 Pa
+1/psi	compressibility	1/Pa	(0.0254*0.0254)/(0.45359237*9.80665)	0	1/PSI|psi-1|1/psia|PSI-1|microsip		Inverse of 1 psi = 6.894757 kPa (NIST SP 811 B.9)
+Pa.s	viscosity	Pa.s	1	0	PA.S|Pa·s		SI coherent unit
+mPa.s	viscosity	Pa.s	0.001	0	MPA.S|mPa·s|mPas		SI prefix m = 10^-3
+cP	viscosity	Pa.s	0.001	0	cp|CP|centipoise		1 cP = 1 mPa·s (exact)
+kg	mass	kg	1	0	KG		SI base unit
+t	mass	kg	1000	0	tonne|TONNE|tonnes|metric ton|Mg	Metric tonne	1 t = 1000 kg (exact)
+lbm	mass	kg	0.45359237	0	lb|lbs|LBM|LB|LBS	Pounds in a mass channel are read as pounds-mass	NIST SP 811 B.9: 1 lb = 0.45359237 kg (exact)
+W	power	W	1	0			SI coherent unit
+kW	power	W	1000	0	KW		SI prefix k = 10^3
+hp	power	W	0.3048*0.45359237*9.80665*550	0	HP	Mechanical horsepower (550 ft·lbf/s)	NIST SP 811 B.9: 1 hp = 745.6999 W
+T	magnetic_field	T	1	0			SI coherent unit
+uT	magnetic_field	T	0.000001	0	UT|µT		SI prefix u = 10^-6
+nT	magnetic_field	T	0.000000001	0	NT|gamma|GAMMA|nanotesla		SI prefix n = 10^-9 (1 gamma = 1 nT)
+ppk	fraction	v/v	0.001	0	PPK	parts per thousand	SI prefix; symbol already in the dictionary unit table (mnemonic_context.py)
+cu	capture_cross_section	cu	1	0	CU	capture unit (1 cu = 1e-3 cm-1)	symbol already in the dictionary unit table (SIGF, HSIG)
+scf/ton	specific_volume	scf/ton	1	0	SCF/TON|SCF/T|scf/t		Standard cubic feet of gas per short ton of rock (gas content)
+A	current	A	1	0	AMP|amp		SI base unit; symbol already in the dictionary unit table
+mA	current	A	0.001	0	MA		SI prefix m = 10^-3; symbol already in the dictionary unit table

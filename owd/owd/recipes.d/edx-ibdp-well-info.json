@@ -1,0 +1,29 @@
+{
+ "id": "edx-ibdp-well-info",
+ "version": 1,
+ "level": "A",
+ "license": "LicenseRef-EDX-CC-BY-SA-unversioned",
+ "source": "https://edx.netl.doe.gov/dataset/illinois-state-geological-survey-isgs-illinois-basin-decatur-project-ibdp-well-information",
+ "terms": "https://edx.netl.doe.gov/dataset/illinois-state-geological-survey-isgs-illinois-basin-decatur-project-ibdp-well-information",
+ "download": "auto",
+ "domains": [
+  "edx.netl.doe.gov"
+ ],
+ "files": [
+  {
+   "name": "ibdp_well_information.zip",
+   "url": "https://edx.netl.doe.gov/storage/f/edx/2021/07/2021-07-09T20:56:55.522Z/353c30db-2bb9-4bc9-8b36-a9fedf4024f7/ibdp_well_information.zip",
+   "bytes": 4593990724,
+   "sha256": "6b45cc0152d8d94431c5dd130f1fb40f6080c4fa0de3c99fae993627293491c0",
+   "md5": "ff52582472b0140e62ce0388e1ee9345"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "ibdp_well_information.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "untested-large",
+ "notes": "Illinois Basin - Decatur Project (ISGS, MGSC Phase III), well information of the CCS wells: the 29 LAS of the zip (DLIS, XLS/XLSX, PDF, images and video are not used by this recipe). EDX states 'Creative Commons Attribution Share-Alike' without a version: copies must keep the same licence. md5 published by EDX, equal to our download of 8 Nov 2026 (sha256 of that download). The streaming standardization converted its LAS, DLIS and tables; this owd recipe itself has not been run (4.6 GB)."
+}

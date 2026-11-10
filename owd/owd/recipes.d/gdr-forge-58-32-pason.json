@@ -1,0 +1,25 @@
+{
+ "id": "gdr-forge-58-32-pason",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.15121/1495411",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "Well_58-32_processed_pason_log.csv",
+   "url": "https://gdr.openei.org/files/1113/Well_58-32_processed_pason_log.csv",
+   "bytes": 1298918,
+   "sha256": "065468bf3c41098541fa7d0f3b8754b32e659b0877ed0a12efca6072f022189b"
+  }
+ ],
+ "process": {
+  "type": "csv_files"
+ },
+ "tested": "yes",
+ "notes": "Utah FORGE well 58-32 (MU-ESW1, Milford, Utah), processed Pason drilling log at 1 ft, GDR 1113. Depth index; the metric copy columns are left out; channels whose unit does not resolve for their role (ROP '(1 ft)') are kept unconverted or left out and logged. The raw 1 Hz log of the same submission (603 MB) is not part of this recipe. GDR publishes no checksum: sha256 of our download of 7 Nov 2026."
+}

@@ -1,0 +1,47 @@
+{
+ "id": "edx-secarb-cranfield-logs",
+ "version": 1,
+ "level": "A",
+ "license": "LicenseRef-EDX-CC-BY-unversioned",
+ "source": "https://edx.netl.doe.gov/dataset/secarb-cranfield-well-logs",
+ "terms": "https://edx.netl.doe.gov/dataset/secarb-cranfield-well-logs",
+ "download": "auto",
+ "domains": [
+  "edx.netl.doe.gov"
+ ],
+ "files": [
+  {
+   "name": "F1 Well Logs.zip",
+   "url": "https://edx.netl.doe.gov/storage/f/edx/2017/10/2017-10-18T19:24:32.562Z/34d0e668-1a18-4fd9-961c-bb4a0dadc529/f1-well-logs.zip",
+   "bytes": 25743961,
+   "sha256": "fc2641102374f1700b9268be8d78b9a1ef961df13ab7ade4858561582774b67f",
+   "md5": "d2a6964c0d283cd614bce27e203b71ed"
+  },
+  {
+   "name": "F2 Well Logs.zip",
+   "url": "https://edx.netl.doe.gov/storage/f/edx/2017/10/2017-10-18T19:24:42.395Z/72203389-4d8c-4472-b3a5-8140e54c1248/f2-well-logs.zip",
+   "bytes": 43888290,
+   "sha256": "205c3933a572f55039887d18b633a2b6d0569737e1d8f86f619cd119e4a463a9",
+   "md5": "4fbffed435fbfc5431db7aa0c51a0891"
+  },
+  {
+   "name": "F3 Well Logs.zip",
+   "url": "https://edx.netl.doe.gov/storage/f/edx/2017/10/2017-10-18T19:24:45.576Z/5f3f0f2f-fe41-43cb-91eb-6a1d4555bb39/f3-well-logs.zip",
+   "bytes": 24538202,
+   "sha256": "da06e24edee85fa8278d9ad84e6e91f9bfcd69b6273da737fc2ab5ee4247eb51",
+   "md5": "447fd2ac2189f6f6dca89cb576fb916b"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "files": [
+   "F1 Well Logs.zip",
+   "F2 Well Logs.zip",
+   "F3 Well Logs.zip"
+  ],
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "SECARB Cranfield CO2 injection site, wells CFU 31F-1, F-2 and F-3 (Mississippi): 37 LAS (open hole, RST, sonic, CMR, injection profiles). EDX states 'Creative Commons Attribution' without a version. md5 published by EDX, equal to the download of 6 Nov 2026. 'Other Wells.zip' (56.8 MB, 119 LAS + deviation files) is not part of this recipe. Redistribution approved by Daniel Delgado-Uriarte on 7 Nov 2026 (standardized copy allowed, citing the source)."
+}

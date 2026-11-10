@@ -1,0 +1,32 @@
+{
+ "id": "wapims-wa-petroleum-wells",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://catalogue.data.wa.gov.au/dataset/wa-onshore-petroleum-wells-dmirs-025",
+ "terms": "https://wapims.dmp.wa.gov.au/WAPIMS",
+ "download": "auto",
+ "domains": [
+  "public-services.slip.wa.gov.au"
+ ],
+ "files": [
+  {
+   "name": "wa_petroleum_wells_dmirs025.geojson",
+   "url": "https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Industry_and_Mining/MapServer/13/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+   "live": true
+  }
+ ],
+ "process": {
+  "type": "geojson_table",
+  "file": "wa_petroleum_wells_dmirs025.geojson",
+  "date_fields": [
+   "spud_date",
+   "rig_release_date",
+   "extract_date"
+  ]
+ },
+ "attribution": "© State of Western Australia (Department of Mines, Petroleum and Exploration) 2026",
+ "attribution_derived": "Based on Department of Mines, Petroleum and Exploration material",
+ "tested": "yes",
+ "notes": "Header table of the petroleum wells of Western Australia from the Department of Mines, Petroleum and Exploration (DMPE), SLIP layer «WA Onshore Petroleum Wells (DMIRS-025)», updated daily: well name, UWI, basin, lease, operator, class, status, field, spud and rig release dates, and location. 4,371 rows on 9 Nov 2026 (extract date 6 Nov 2026; 3,678 distinct UWI, sidetracks share the UWI of their well). The layer changes every day, so the recipe checks no size or checksum; the copy of 9 Nov 2026 has sha256 3e36b81b52e92a4e4d2f5f91c66e0ff6a37e4eecc8bda606469d64f36fe23265. Licence: «is licensed under a Creative Commons Attribution 4.0 International licence» (WAPIMS, DASC and the data.wa.gov.au record, read 9 Nov 2026), confirmed in writing by DMPE on 9 Nov 2026 for all copyright content of the data. Credit as DMPE asks: «© State of Western Australia (Department of Mines, Petroleum and Exploration) 2026»; for derived material such as this standardized table: «Based on Department of Mines, Petroleum and Exploration material». Keep any copyright or related notices that accompany the material. The Government of Western Australia logo, images and trade marks are not covered. Well reports and digital logs are downloaded one by one in WAPIMS (https://wapims.dmp.wa.gov.au/WAPIMS/Search/Wells) or requested as basin data packages; no bulk route without an order was found, so they are not part of this recipe."
+}

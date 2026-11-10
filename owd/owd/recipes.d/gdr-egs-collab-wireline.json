@@ -1,0 +1,28 @@
+{
+ "id": "gdr-egs-collab-wireline",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.15121/2350797",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "E1 Testbed Wireline Geophysics.zip",
+   "url": "https://gdr.openei.org/files/1602/E1%20Testbed%20Wireline%20Geophysics.zip",
+   "bytes": 1325008958,
+   "sha256": "d2ee11a0023409b0488bbcf03534dda55c693063fb7754d08441825e28cd42b8"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "E1 Testbed Wireline Geophysics.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "untested-large",
+ "notes": "EGS Collab Experiment 1 testbed (SURF, 4850 level, South Dakota), wireline geophysics of 8 boreholes, GDR 1602: the 14 LAS of the zip (TXT/CSV results, raw .tfd logger files, PDFs and XLSX are not used by this recipe). GDR publishes no checksum: sha256 of our download of 8 Nov 2026. The streaming standardization (tools/stream_std.py) converted its LAS, CSV and TXT tables; this owd recipe itself has not been run (1.2 GB)."
+}

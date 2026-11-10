@@ -1,0 +1,26 @@
+{
+ "id": "gdr-tuscarora-las",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.15121/1593278",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "LAS Files.zip",
+   "url": "https://gdr.openei.org/files/1188/LAS%20Files.zip",
+   "bytes": 7520091,
+   "sha256": "14bba44189805f4213e666b37a51833ec126fa43f6235d966a12db3a05ff9f43"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "LAS Files.zip",
+  "pattern": "(?i)\\.las$"
+ },
+ "notes": "Tuscarora Sandstone geophysical log digitization (WVU, GDR 1188): 90 LAS 2.0 of wells in West Virginia and neighbours, depth in feet. GDR publishes no checksum: sha256 equal in two independent downloads (6 Nov 2026). The 'Modified LAS Files.zip' of the same submission is not part of this recipe."
+}

@@ -1,0 +1,30 @@
+{
+ "id": "tno-nieuwerkerk-well-logs",
+ "version": 1,
+ "level": "A",
+ "license": "CC0-1.0",
+ "source": "https://doi.org/10.5281/zenodo.20428397",
+ "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "download": "auto",
+ "domains": [
+  "zenodo.org"
+ ],
+ "files": [
+  {
+   "name": "original_las.zip",
+   "url": "https://zenodo.org/api/records/20428397/files/original_las.zip/content",
+   "bytes": 103831939,
+   "sha256": "b2448a8d4db07e92ffb0bd32a76892ae9295d667662b17fc35814698bb528765",
+   "md5": "1dcc40cd87f8716e09e5067dce4bc37b"
+  }
+ ],
+ "process": {
+  "type": "nested_zip_members",
+  "file": "original_las.zip",
+  "inner": "(?i)\\.zip$",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "Well logs of Dutch wells (TNO, Deliverable 2.1 dataset, Zenodo 20428397): 406 LAS in a zip inside the zip. Processed end to end with owd on 7 Nov 2026 from the whole download of 6 Nov: 401 of 406 LAS; the 5 *-CS.las without ~ sections are listed in _failures.json. md5 published by Zenodo, equal to the download of 6 Nov 2026. processed_csv.zip (69.5 MB, the authors' CSV) is not part of this recipe."
+}

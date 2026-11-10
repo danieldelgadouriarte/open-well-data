@@ -1,0 +1,2715 @@
+{
+"note": "Pages we read, or tried and found dead, and decided not to list as catalogue records. URLs are shown as text, not links.",
+"built_from": "the not-read list of the 2 Nov 2026 search, reconciled and read on 7 Nov 2026",
+"items": [
+{
+"url": "https://adminapp.dsif.dawlmknpdprd01.ienergycloud.solutions/my-tools",
+"host": "adminapp.dsif.dawlmknpdprd01.ienergycloud.solutions",
+"group": "paid",
+"reason": "DSIF (ienergycloud): login page; restricted (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://ags.aer.ca/publications/all-publications/dig-2026-0017",
+"host": "ags.aer.ca",
+"group": "covered",
+"reason": "Core list publication of a listed source (ags-alberta)",
+"related_record": "ags-alberta"
+},
+{
+"url": "https://ags.aer.ca/publications/atlas-western-canada-sedimentary-basin/atlas-well-control-data",
+"host": "ags.aer.ca",
+"group": "covered",
+"reason": "Atlas well control data, publication of a listed source (ags-alberta)",
+"related_record": "ags-alberta"
+},
+{
+"url": "https://api.emnrd.nm.gov",
+"host": "api.emnrd.nm.gov",
+"group": "not_data",
+"reason": "New Mexico Water Data Act API page, not oil and gas data",
+"related_record": ""
+},
+{
+"url": "https://apps.kgs.ku.edu/web/qualified/index",
+"host": "apps.kgs.ku.edu",
+"group": "covered",
+"reason": "Master well list of a listed source (kgs-las-kansas)",
+"related_record": "kgs-las-kansas"
+},
+{
+"url": "http://archives.datapages.com/data/ipa/data/027/027001/1_ipa027b-154.htm",
+"host": "archives.datapages.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://arxiv.org/html/2604.20909v1",
+"host": "arxiv.org",
+"group": "not_data",
+"reason": "Research paper (arXiv), not a data source",
+"related_record": ""
+},
+{
+"url": "https://arxiv.org/html/2605.00060v1",
+"host": "arxiv.org",
+"group": "not_data",
+"reason": "Research paper (arXiv), not a data source",
+"related_record": ""
+},
+{
+"url": "https://arxiv.org/pdf/2604.20909",
+"host": "arxiv.org",
+"group": "not_data",
+"reason": "Research paper (arXiv PDF), not a data source",
+"related_record": ""
+},
+{
+"url": "https://arxiv.org/pdf/2605.00060",
+"host": "arxiv.org",
+"group": "not_data",
+"reason": "Research paper (arXiv PDF), not a data source",
+"related_record": ""
+},
+{
+"url": "https://bmt.mt.gov/",
+"host": "bmt.mt.gov",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": "ext-montana-bogc-data-miner"
+},
+{
+"url": "https://catalog.data.gov/dataset?tags=well-logs",
+"host": "catalog.data.gov",
+"group": "covered",
+"reason": "Catalogue search of a listed source (data-gov)",
+"related_record": "data-gov"
+},
+{
+"url": "https://cdp.anp.gov.br/ords/r/cdp_apex/consulta-dados-publicos-cdp/consulta-de-po%C3%A7os",
+"host": "cdp.anp.gov.br",
+"group": "covered",
+"reason": "Well query of a listed source (geoanp)",
+"related_record": "geoanp"
+},
+{
+"url": "https://ckan.publishing.service.gov.uk/dataset/8beb1819-6d1d-4d4e-a66c-f2491e79195a",
+"host": "ckan.publishing.service.gov.uk",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": ""
+},
+{
+"url": "https://cnh.gob.mx/informacion/licencias/",
+"host": "cnh.gob.mx",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": "ext-cnh-cnih"
+},
+{
+"url": "https://cnsoer.ca/news-resources/external-resources",
+"host": "cnsoer.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (cnsoer)",
+"related_record": "cnsoer"
+},
+{
+"url": "https://cnsoer.ca/oil-gas-energy/current-activity",
+"host": "cnsoer.ca",
+"group": "covered",
+"reason": "Activity page of a listed source (cnsoer)",
+"related_record": "cnsoer"
+},
+{
+"url": "https://cnsoer.ca/website-terms-of-use",
+"host": "cnsoer.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (cnsoer)",
+"related_record": "cnsoer"
+},
+{
+"url": "https://community.opengroup.org/osdu",
+"host": "community.opengroup.org",
+"group": "covered",
+"reason": "OSDU GitLab, already listed (ext-osdu-open-test-data) (Chrome)",
+"related_record": "ext-osdu-open-test-data"
+},
+{
+"url": "https://creativecommons.org/publicdomain/zero/1.0/",
+"host": "creativecommons.org",
+"group": "not_data",
+"reason": "Licence text (CC0), not a data source",
+"related_record": ""
+},
+{
+"url": "https://data.conservation.ca.gov/",
+"host": "data.conservation.ca.gov",
+"group": "covered",
+"reason": "Conservation Open Data portal of a listed source (ca-calgem-wellstar); licence per dataset (Chrome)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://data.europa.eu/api/hub/search/",
+"host": "data.europa.eu",
+"group": "not_data",
+"reason": "data.europa.eu API, not a data source (not visited)",
+"related_record": ""
+},
+{
+"url": "https://data.europa.eu/licensing-assistant/licences?locale=en",
+"host": "data.europa.eu",
+"group": "not_data",
+"reason": "data.europa.eu tool, not a data source (not visited)",
+"related_record": ""
+},
+{
+"url": "https://data.geoscience.earth/",
+"host": "data.geoscience.earth",
+"group": "unreadable",
+"reason": "data.geoscience.earth loads no content even in Chrome; unresolved",
+"related_record": ""
+},
+{
+"url": "https://data.geus.dk/geusmap/?mapname=oil_and_gas&lang=en",
+"host": "data.geus.dk",
+"group": "covered",
+"reason": "Map viewer of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://data.norge.no/nlod/en",
+"host": "data.norge.no",
+"group": "not_data",
+"reason": "Licence text (NLOD), not a data source",
+"related_record": ""
+},
+{
+"url": "https://data.nzpam.govt.nz/",
+"host": "data.nzpam.govt.nz",
+"group": "unreadable",
+"reason": "Connection refused or reset",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://data.openei.org/data_lakes",
+"host": "data.openei.org",
+"group": "covered",
+"reason": "Data lakes page of a listed source (oedi)",
+"related_record": "oedi"
+},
+{
+"url": "https://data.openei.org/faq",
+"host": "data.openei.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (oedi)",
+"related_record": "oedi"
+},
+{
+"url": "https://data.tgs.com/map",
+"host": "data.tgs.com",
+"group": "paid",
+"reason": "TGS Data Verse map behind «Sign In»: commercial, paid (tgs-log-line-plus) (Chrome)",
+"related_record": "tgs-log-line-plus"
+},
+{
+"url": "https://dataeuropa.gitlab.io/data-provider-manual/",
+"host": "dataeuropa.gitlab.io",
+"group": "not_data",
+"reason": "Documentation of the European Data Portal, not a data source",
+"related_record": ""
+},
+{
+"url": "https://dataexplorer.wogcc.wyo.gov/",
+"host": "dataexplorer.wogcc.wyo.gov",
+"group": "covered",
+"reason": "Data explorer of a listed source (wy-wogcc-data)",
+"related_record": "wy-wogcc-data"
+},
+{
+"url": "https://dataservices.gfz-potsdam.de/portal/",
+"host": "dataservices.gfz-potsdam.de",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "gfz-data-services"
+},
+{
+"url": "https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/44TKZR",
+"host": "dataverse.geus.dk",
+"group": "covered",
+"reason": "Dataverse dataset of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/FK2/ITDOPC",
+"host": "dataverse.geus.dk",
+"group": "covered",
+"reason": "Dataverse dataset of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://dataverse.harvard.edu/",
+"host": "dataverse.harvard.edu",
+"group": "unreadable",
+"reason": "Harvard Dataverse: anti-bot redirect to another domain in Chrome; not bypassed",
+"related_record": ""
+},
+{
+"url": "https://datos.energia.gob.ar/",
+"host": "datos.energia.gob.ar",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ext-sigma-argentina"
+},
+{
+"url": "https://datos.minem.gob.ar/dataset/produccion-de-petroleo-desde-1950",
+"host": "datos.minem.gob.ar",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": ""
+},
+{
+"url": "https://digitalporousmedia.org/digital-rocks-portal-tombstone",
+"host": "digitalporousmedia.org",
+"group": "covered",
+"reason": "Tombstone page of a listed source (digital-rocks-portal)",
+"related_record": "digital-rocks-portal"
+},
+{
+"url": "https://dlisio.readthedocs.io/",
+"host": "dlisio.readthedocs.io",
+"group": "not_data",
+"reason": "Software documentation (dlisio), not a data source",
+"related_record": ""
+},
+{
+"url": "https://dmp.icdp-online.org/",
+"host": "dmp.icdp-online.org",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://dnr.alaska.gov/shared/notices/copyright.htm",
+"host": "dnr.alaska.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (ak-dog-data)",
+"related_record": "ak-dog-data"
+},
+{
+"url": "https://dog.dnr.alaska.gov/Information/GeologicalAndGeophysicalData",
+"host": "dog.dnr.alaska.gov",
+"group": "covered",
+"reason": "Geological and geophysical data page of a listed source (ak-dog-data)",
+"related_record": "ak-dog-data"
+},
+{
+"url": "https://doi.org/10.1038/s41597-026-07225-z",
+"host": "doi.org",
+"group": "covered",
+"reason": "Article describing a listed source (3w-petrobras)",
+"related_record": "3w-petrobras"
+},
+{
+"url": "https://doi.org/10.5066/P95BNWT3",
+"host": "doi.org",
+"group": "covered",
+"reason": "DOI of a listed source (usgs-cwldb-gulf-coast); landing on ScienceBase",
+"related_record": "usgs-cwldb-gulf-coast"
+},
+{
+"url": "https://doi.org/10.5066/P9F4IVDL",
+"host": "doi.org",
+"group": "covered",
+"reason": "DOI of a listed source (usgs-subsurface-inventory), landing on ScienceBase",
+"related_record": "usgs-subsurface-inventory"
+},
+{
+"url": "https://doi.org/10.5281/zenodo.12759014",
+"host": "doi.org",
+"group": "covered",
+"reason": "DOI of a listed source (datadrill), landing on Zenodo",
+"related_record": "datadrill"
+},
+{
+"url": "https://doi.org/10.6084/m9.figshare.29205836.v1",
+"host": "doi.org",
+"group": "covered",
+"reason": "DOI of the 3W dataset on Figshare, a listed source (3w-petrobras)",
+"related_record": "3w-petrobras"
+},
+{
+"url": "https://drillbotics.com/2026-guidelines-application-form/",
+"host": "drillbotics.com",
+"group": "not_data",
+"reason": "Competition guidelines (drillbotics), not a data source",
+"related_record": "drillbotics"
+},
+{
+"url": "https://drillbotics.com/archives/",
+"host": "drillbotics.com",
+"group": "not_data",
+"reason": "Competition archive (drillbotics), not a data source",
+"related_record": "drillbotics"
+},
+{
+"url": "https://drive.google.com/drive/folders/0B7brcf-eGK8CRUhfRW9rSG91bW8",
+"host": "drive.google.com",
+"group": "covered",
+"reason": "Google Drive folder of a listed source (ext-poseidon-nw-australia)",
+"related_record": "ext-poseidon-nw-australia"
+},
+{
+"url": "https://drive.google.com/drive/folders/1Hu4VJN9xLOWixSMdf2xN6fRk0zmOz-1J?usp=sharing",
+"host": "drive.google.com",
+"group": "covered",
+"reason": "FORCE 2020 fault competition folder; related to a listed source (force-2020)",
+"related_record": "force-2020"
+},
+{
+"url": "https://earthchem.org/legal/terms-of-use/",
+"host": "earthchem.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (earthchem)",
+"related_record": "earthchem"
+},
+{
+"url": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/857c5e68-6a83-4d1c-955e-5a71bd390c71",
+"host": "ecat.ga.gov.au",
+"group": "unreadable",
+"reason": "GA eCat record 857c5e68: cookie wall in Chrome, not accepted; unresolved",
+"related_record": ""
+},
+{
+"url": "https://ecmc.colorado.gov/data-maps-reports",
+"host": "ecmc.colorado.gov",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://edx.netl.doe.gov/about",
+"host": "edx.netl.doe.gov",
+"group": "covered",
+"reason": "About page of a listed source (netl-edx), now redirects to its reference shelf",
+"related_record": "netl-edx"
+},
+{
+"url": "https://edx.netl.doe.gov/dataset/",
+"host": "edx.netl.doe.gov",
+"group": "covered",
+"reason": "Submission list of a listed source (netl-edx)",
+"related_record": "netl-edx"
+},
+{
+"url": "https://energy.ihs.com/",
+"host": "energy.ihs.com",
+"group": "paid",
+"reason": "Redirects to S&P Global (commercial data vendor); paid",
+"related_record": ""
+},
+{
+"url": "https://energymining.sa.gov.au/industry/energy-resources/data-centre/well-data/digital-logs",
+"host": "energymining.sa.gov.au",
+"group": "covered",
+"reason": "Digital logs page of a listed source (au-sa-sarig)",
+"related_record": "au-sa-sarig"
+},
+{
+"url": "https://eng.geus.dk/about/news/news-from-deep-subsurface-data-portal",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://eng.geus.dk/products-services-facilities/archives/inspection-of-drill-cores",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Core inspection page of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://eng.geus.dk/products-services-facilities/archives/the-subsurface-archive",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Subsurface archive page of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://eng.geus.dk/products-services-facilities/archives/well-data-archive",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Well data archive page of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://eng.geus.dk/products-services-facilities/data-and-maps/deep-geothermal-energy-portal",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Geothermal portal page of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://eng.geus.dk/products-services-facilities/data-and-maps/national-well-database-jupiter",
+"host": "eng.geus.dk",
+"group": "covered",
+"reason": "Well database page of a listed source (geus-deep-subsurface)",
+"related_record": "geus-deep-subsurface"
+},
+{
+"url": "https://estadisticas.energia.gob.ar/portal/datos/oferta_interna.html#hidrocarburos",
+"host": "estadisticas.energia.gob.ar",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ext-sigma-argentina"
+},
+{
+"url": "https://eur-lex.europa.eu/eli/dec/2011/833/oj",
+"host": "eur-lex.europa.eu",
+"group": "not_data",
+"reason": "EU legal act, not a data source",
+"related_record": ""
+},
+{
+"url": "https://experience.arcgis.com/experience/1167cc6050f142bdb14a3a6c58e0f584/",
+"host": "experience.arcgis.com",
+"group": "covered",
+"reason": "Alberta Core Data interactive map of a listed source (ags-alberta) (Chrome)",
+"related_record": "ags-alberta"
+},
+{
+"url": "https://experience.arcgis.com/experience/a985d596e0d540c993b47d19cd779485/",
+"host": "experience.arcgis.com",
+"group": "covered",
+"reason": "ANH geoportal of a listed source (bip-sgc-colombia) (Chrome)",
+"related_record": "bip-sgc-colombia"
+},
+{
+"url": "https://factpages.sodir.no/en/wellbore/Attributes",
+"host": "factpages.sodir.no",
+"group": "covered",
+"reason": "Wellbore attributes page of a listed source (sodir-factpages)",
+"related_record": "sodir-factpages"
+},
+{
+"url": "https://factpages.sodir.no/en/wellbore/Statistics",
+"host": "factpages.sodir.no",
+"group": "covered",
+"reason": "Statistics page of a listed source (sodir-factpages)",
+"related_record": "sodir-factpages"
+},
+{
+"url": "https://forestridgehealth.com/",
+"host": "forestridgehealth.com",
+"group": "redirect",
+"reason": "Redirects to an unrelated domain (not opened)",
+"related_record": ""
+},
+{
+"url": "https://fracfocus.org/wellfinder",
+"host": "fracfocus.org",
+"group": "covered",
+"reason": "Well finder of a listed source (fracfocus)",
+"related_record": "fracfocus"
+},
+{
+"url": "https://fractracker.org/2025/08/oil-gas-petrochemical-data-portals/",
+"host": "fractracker.org",
+"group": "covered",
+"reason": "News post about a listed source (fractracker)",
+"related_record": "fractracker"
+},
+{
+"url": "https://fractracker.org/data-statement/",
+"host": "fractracker.org",
+"group": "covered",
+"reason": "Data statement of a listed source (fractracker)",
+"related_record": "fractracker"
+},
+{
+"url": "https://fractracker.org/data/",
+"host": "fractracker.org",
+"group": "covered",
+"reason": "Data page of a listed source (fractracker)",
+"related_record": "fractracker"
+},
+{
+"url": "https://fractracker.org/terms-of-service/",
+"host": "fractracker.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (fractracker)",
+"related_record": "fractracker"
+},
+{
+"url": "https://gdr.openei.org/about",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (oedi)",
+"related_record": "oedi"
+},
+{
+"url": "https://gdr.openei.org/data_lakes",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Data lakes page of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://gdr.openei.org/drilling_data_standard",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Data standards page of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://gdr.openei.org/geoscience_data_standard",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Data standards page of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://gdr.openei.org/search?pj[]=utah_forge&pj[]=fallon_nv&pj[]=newberry_or&pj[]=snake_river_forge&pj[]=west_flank&sort=relevance",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Search page of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://gdr.openei.org/search?q=EE0009255",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Search page of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://gdr.openei.org/submissions/1153",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Utah FORGE submission in the GDR, part of a listed source (utah-forge-gdr)",
+"related_record": "utah-forge-gdr"
+},
+{
+"url": "https://gdr.openei.org/submissions/all",
+"host": "gdr.openei.org",
+"group": "covered",
+"reason": "Submission list of a listed source (gdr)",
+"related_record": "gdr"
+},
+{
+"url": "https://geology.rutgers.edu/rutgers-core-repository",
+"host": "geology.rutgers.edu",
+"group": "covered",
+"reason": "Rutgers IODP core repository page; scientific ocean drilling cores already listed (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "https://geoportal.petroleumagencysa.com/Storefront/Viewer/index_map.html",
+"host": "geoportal.petroleumagencysa.com",
+"group": "paid",
+"reason": "Storefront viewer of a listed source (za-pasa): sales (Chrome)",
+"related_record": "za-pasa"
+},
+{
+"url": "https://geoportal.pgi.gov.pl/",
+"host": "geoportal.pgi.gov.pl",
+"group": "covered",
+"reason": "CBDG geoportal of a listed source (ext-pgi-cbdg) (Chrome)",
+"related_record": "ext-pgi-cbdg"
+},
+{
+"url": "https://geosteam.conservation.ca.gov/",
+"host": "geosteam.conservation.ca.gov",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://geotermica.dk/",
+"host": "geotermica.dk",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://github.com/OPM/opm-data/tree/master/norne",
+"host": "github.com",
+"group": "covered",
+"reason": "Norne deck folder of a listed source (opm-data)",
+"related_record": "opm-data"
+},
+{
+"url": "https://github.com/petrobras/3W/blob/main/3W_DATASET_STRUCTURE.md",
+"host": "github.com",
+"group": "covered",
+"reason": "Dataset structure file of a listed source (3w-petrobras)",
+"related_record": "3w-petrobras"
+},
+{
+"url": "https://github.com/petrobras/3W/blob/main/dataset/dataset.ini",
+"host": "github.com",
+"group": "covered",
+"reason": "Dataset file description of a listed source (3w-petrobras)",
+"related_record": "3w-petrobras"
+},
+{
+"url": "https://github.com/ricardovvargas/3w_dataset",
+"host": "github.com",
+"group": "covered",
+"reason": "Mirror of a listed source (3w-petrobras)",
+"related_record": "3w-petrobras"
+},
+{
+"url": "https://github.com/seg/tutorials-2016",
+"host": "github.com",
+"group": "not_data",
+"reason": "Tutorial repository (SEG), not a data source",
+"related_record": ""
+},
+{
+"url": "https://github.com/softwareunderground/awesome-open-geoscience#data-repositories",
+"host": "github.com",
+"group": "covered",
+"reason": "Anchor in a listed source (awesome-open-geoscience)",
+"related_record": "awesome-open-geoscience"
+},
+{
+"url": "https://hidrocarburos.gob.mx/",
+"host": "hidrocarburos.gob.mx",
+"group": "unreadable",
+"reason": "Server error (HTTP 522)",
+"related_record": ""
+},
+{
+"url": "https://hidrocarburos.gob.mx/cnih/informaci%C3%B3n-digital/acceso-a-la-informaci%C3%B3n/",
+"host": "hidrocarburos.gob.mx",
+"group": "unreadable",
+"reason": "Server error (HTTP 522)",
+"related_record": ""
+},
+{
+"url": "https://huggingface.co/datasets/lauristwn/Nothern_Light_Well_Log",
+"host": "huggingface.co",
+"group": "covered",
+"reason": "Community dataset on a listed platform (huggingface-datasets)",
+"related_record": "huggingface-datasets"
+},
+{
+"url": "https://huggingface.co/datasets/pvyas96/well_log_data",
+"host": "huggingface.co",
+"group": "covered",
+"reason": "Community dataset on a listed platform (huggingface-datasets)",
+"related_record": "huggingface-datasets"
+},
+{
+"url": "https://huggingface.co/datasets/sambal/welllog-dpo-pairs",
+"host": "huggingface.co",
+"group": "covered",
+"reason": "Community dataset on a listed platform (huggingface-datasets)",
+"related_record": "huggingface-datasets"
+},
+{
+"url": "https://icecores.org/",
+"host": "icecores.org",
+"group": "not_data",
+"reason": "Ice core facility (NSF), out of scope for subsurface energy data",
+"related_record": ""
+},
+{
+"url": "https://info.deepcarbon.net/vivo/",
+"host": "info.deepcarbon.net",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": ""
+},
+{
+"url": "https://info.igme.es/",
+"host": "info.igme.es",
+"group": "covered",
+"reason": "InfoIGME catalogue of a listed source (ext-igme-ath); conditions page holds only a title (Chrome and reader)",
+"related_record": "ext-igme-ath"
+},
+{
+"url": "http://iodp.tamu.edu/curation/gcr/index.html",
+"host": "iodp.tamu.edu",
+"group": "covered",
+"reason": "IODP Gulf Coast Repository; scientific ocean drilling cores already listed (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "http://iodp.tamu.edu/database/",
+"host": "iodp.tamu.edu",
+"group": "covered",
+"reason": "IODP JRSO database page of a listed source (jrso-janus-lims)",
+"related_record": "jrso-janus-lims"
+},
+{
+"url": "https://journal.jogmec.go.jp/index.html",
+"host": "journal.jogmec.go.jp",
+"group": "not_data",
+"reason": "Corporate magazine (JOGMEC Journal), not a data source",
+"related_record": ""
+},
+{
+"url": "https://jpt.spe.org/uk-releases-130-terabytes-oil-and-gas-data",
+"host": "jpt.spe.org",
+"group": "not_data",
+"reason": "News article (JPT), not a data source",
+"related_record": ""
+},
+{
+"url": "https://kenya-petroleum.go.ke/",
+"host": "kenya-petroleum.go.ke",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://lamont.columbia.edu/research-divisions/marine-large-program",
+"host": "lamont.columbia.edu",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ldeo-mlp-logdb"
+},
+{
+"url": "https://lamont.columbia.edu/research-divisions/marine-large-programs",
+"host": "lamont.columbia.edu",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ldeo-mlp-logdb"
+},
+{
+"url": "https://lasio.readthedocs.io/",
+"host": "lasio.readthedocs.io",
+"group": "not_data",
+"reason": "Software documentation (lasio), not a data source",
+"related_record": "lasio"
+},
+{
+"url": "https://marketplace.databricks.com/provider/006d1a44-e5d8-4d20-8bd7-e9a311106007/Equinor-ASA",
+"host": "marketplace.databricks.com",
+"group": "covered",
+"reason": "Databricks Marketplace listing of a listed source (volve) (Chrome)",
+"related_record": "volve"
+},
+{
+"url": "https://mdis2.marum.de/#/",
+"host": "mdis2.marum.de",
+"group": "covered",
+"reason": "MDIS (MARUM) login for curators; IODP data public after moratorium, already listed (sedis) (Chrome)",
+"related_record": "sedis"
+},
+{
+"url": "https://mlp.ldeo.columbia.edu/",
+"host": "mlp.ldeo.columbia.edu",
+"group": "covered",
+"reason": "Moved to lamont.columbia.edu (same institution); listed source (ldeo-mlp-logdb)",
+"related_record": "ldeo-mlp-logdb"
+},
+{
+"url": "http://mom.gov.af/en/news/1637",
+"host": "mom.gov.af",
+"group": "unreadable",
+"reason": "Server error (HTTP 503)",
+"related_record": ""
+},
+{
+"url": "https://ndr.nstauthority.co.uk/spapidoc",
+"host": "ndr.nstauthority.co.uk",
+"group": "covered",
+"reason": "API documentation moved to SharePoint of the same organisation; listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://ndr.ogauthority.co.uk/",
+"host": "ndr.ogauthority.co.uk",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://nogec.nuprc.gov.ng/",
+"host": "nogec.nuprc.gov.ng",
+"group": "unreadable",
+"reason": "NUPRC nogec application with no text even in Chrome; unresolved",
+"related_record": ""
+},
+{
+"url": "https://novilabs.com/energy-analytics/novi-data-network/",
+"host": "novilabs.com",
+"group": "paid",
+"reason": "Proprietary data network of a listed source (novi-labs)",
+"related_record": "novi-labs"
+},
+{
+"url": "https://novilabs.com/energy-analytics/upstream-data/",
+"host": "novilabs.com",
+"group": "paid",
+"reason": "Commercial data analytics (Novi Labs), listed source (novi-labs)",
+"related_record": "novi-labs"
+},
+{
+"url": "https://novilabs.com/enverus-drillinginfo-alternatives-competitors/",
+"host": "novilabs.com",
+"group": "not_data",
+"reason": "Marketing page of a commercial vendor (novi-labs), not a data source",
+"related_record": "novi-labs"
+},
+{
+"url": "https://novilabs.com/faq/",
+"host": "novilabs.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (novi-labs)",
+"related_record": "novi-labs"
+},
+{
+"url": "https://novilabs.com/llm-info.html",
+"host": "novilabs.com",
+"group": "not_data",
+"reason": "Company information page aimed at automated readers (novi-labs); not a data source, its content was not used",
+"related_record": "novi-labs"
+},
+{
+"url": "https://ntgs-open-data-ntgs.hub.arcgis.com/",
+"host": "ntgs-open-data-ntgs.hub.arcgis.com",
+"group": "covered",
+"reason": "NWT Geological Survey open data, a listed source (ext-ntgs): restricted, no commercial use without consent (Chrome)",
+"related_record": "ext-ntgs"
+},
+{
+"url": "https://ocd-hub-nm-emnrd.hub.arcgis.com/",
+"host": "ocd-hub-nm-emnrd.hub.arcgis.com",
+"group": "covered",
+"reason": "OCD ArcGIS Hub of a listed source (nm-ocd-well-data) (Chrome)",
+"related_record": "nm-ocd-well-data"
+},
+{
+"url": "https://ogisp.nuprc.gov.ng/",
+"host": "ogisp.nuprc.gov.ng",
+"group": "covered",
+"reason": "Industry services portal (login) of a listed source (ng-ndr-nuprc)",
+"related_record": "ng-ndr-nuprc"
+},
+{
+"url": "https://ohiodnr.gov/",
+"host": "ohiodnr.gov",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "ext-ohio-gs"
+},
+{
+"url": "https://oklahoma.gov/about/policy-disclaimers.html",
+"host": "oklahoma.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (ok-occ-data-files)",
+"related_record": "ok-occ-data-files"
+},
+{
+"url": "https://oklahoma.gov/occ/divisions/oil-gas/admin-department/well-records.html",
+"host": "oklahoma.gov",
+"group": "covered",
+"reason": "Well records page of a listed source (ok-occ-data-files)",
+"related_record": "ok-occ-data-files"
+},
+{
+"url": "https://oklahoma.gov/occ/divisions/oil-gas/gis-data-and-maps.html",
+"host": "oklahoma.gov",
+"group": "covered",
+"reason": "GIS data page of a listed source (ok-occ-data-files)",
+"related_record": "ok-occ-data-files"
+},
+{
+"url": "https://online.dghindia.org/oalp1/Content/pdf/NDR_Brochure.pdf",
+"host": "online.dghindia.org",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": ""
+},
+{
+"url": "https://onrr.gov/",
+"host": "onrr.gov",
+"group": "not_data",
+"reason": "ONRR (US Office of Natural Resources Revenue) home page, revenue statistics; no well data page (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://open-data-ukcs-transition.hub.arcgis.com/search",
+"host": "open-data-ukcs-transition.hub.arcgis.com",
+"group": "unreadable",
+"reason": "NSTA open data hub loads no content even in Chrome; related to a listed source (nsta-open-data-hub)",
+"related_record": "nsta-open-data-hub"
+},
+{
+"url": "https://open.alberta.ca/licence",
+"host": "open.alberta.ca",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ext-quest-ccs"
+},
+{
+"url": "https://opencoredata.org/",
+"host": "opencoredata.org",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": ""
+},
+{
+"url": "https://openei.org/services/",
+"host": "openei.org",
+"group": "not_data",
+"reason": "OpenEI services page, not a data source",
+"related_record": ""
+},
+{
+"url": "https://openei.org/wiki/OpenEI:General_disclaimer",
+"host": "openei.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (oedi)",
+"related_record": "oedi"
+},
+{
+"url": "https://openei.org/wiki/UtahFORGE",
+"host": "openei.org",
+"group": "not_data",
+"reason": "Wiki page about Utah FORGE, not a data source",
+"related_record": ""
+},
+{
+"url": "https://osduforum.org/",
+"host": "osduforum.org",
+"group": "not_data",
+"reason": "OSDU Forum page (industry consortium, The Open Group), not a data source",
+"related_record": ""
+},
+{
+"url": "https://petroleumagencysa.com/wp/copyrights/",
+"host": "petroleumagencysa.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (za-pasa)",
+"related_record": "za-pasa"
+},
+{
+"url": "https://pipeline.wyo.gov",
+"host": "pipeline.wyo.gov",
+"group": "covered",
+"reason": "Pipeline application of a listed source (wy-wogcc-data) (Chrome)",
+"related_record": "wy-wogcc-data"
+},
+{
+"url": "https://ppdm.org/",
+"host": "ppdm.org",
+"group": "not_data",
+"reason": "Professional association (PPDM), not a data source",
+"related_record": ""
+},
+{
+"url": "https://public.dsif.dawlmknpdprd01.ienergycloud.solutions",
+"host": "public.dsif.dawlmknpdprd01.ienergycloud.solutions",
+"group": "paid",
+"reason": "DSIF (ienergycloud): login page, «By entering this site, you agree to the Terms of Use»; restricted (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://public.dsif.dawlmknpdprd01.ienergycloud.solutions/pdm",
+"host": "public.dsif.dawlmknpdprd01.ienergycloud.solutions",
+"group": "paid",
+"reason": "DSIF (ienergycloud): login page; restricted (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://rbdmsonline.org/",
+"host": "rbdmsonline.org",
+"group": "not_data",
+"reason": "RBDMS software vendor (GWPC), not a data source",
+"related_record": ""
+},
+{
+"url": "https://resourcegovernance.org/resource-governance-assessment",
+"host": "resourcegovernance.org",
+"group": "not_data",
+"reason": "Governance index (NRGI), not a data source",
+"related_record": ""
+},
+{
+"url": "https://resources.vic.gov.au/",
+"host": "resources.vic.gov.au",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ext-gsv"
+},
+{
+"url": "https://sedis.iodp.org/search.php",
+"host": "sedis.iodp.org",
+"group": "covered",
+"reason": "Page of a listed source (sedis); Terms page URL not found (Chrome)",
+"related_record": "sedis"
+},
+{
+"url": "http://sigeth.anh.gov.co/por/visor-general.html",
+"host": "sigeth.anh.gov.co",
+"group": "covered",
+"reason": "ANH SIGETH viewer, part of ANH data (bip-sgc-colombia); its terms page was not found by the reader (Chrome)",
+"related_record": "bip-sgc-colombia"
+},
+{
+"url": "https://sodir.no/en/diskos/",
+"host": "sodir.no",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "sodir-factpages"
+},
+{
+"url": "https://support.uk-ndr.co.uk/hc/en-gb",
+"host": "support.uk-ndr.co.uk",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://threewtoolkit.readthedocs.io",
+"host": "threewtoolkit.readthedocs.io",
+"group": "not_data",
+"reason": "Software documentation (3W toolkit), not a data source",
+"related_record": ""
+},
+{
+"url": "https://timsweb.bsee.gov/",
+"host": "timsweb.bsee.gov",
+"group": "covered",
+"reason": "TIMS Web of a listed source (bsee-data-center); needs Chrome or Firefox",
+"related_record": "bsee-data-center"
+},
+{
+"url": "https://towardsdatascience.com/public-datasets-for-machine-learning-in-geoscience-cf880862300a/",
+"host": "towardsdatascience.com",
+"group": "not_data",
+"reason": "Blog article listing datasets, not a data source",
+"related_record": ""
+},
+{
+"url": "https://ukogl.org.uk/blog/about",
+"host": "ukogl.org.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (ukogl)",
+"related_record": "ukogl"
+},
+{
+"url": "https://ukogl.org.uk/blog/archives",
+"host": "ukogl.org.uk",
+"group": "not_data",
+"reason": "Blog archive of a listed source (ukogl)",
+"related_record": "ukogl"
+},
+{
+"url": "https://ukogl.org.uk/map",
+"host": "ukogl.org.uk",
+"group": "covered",
+"reason": "Map viewer of a listed source (ukogl) (Chrome)",
+"related_record": "ukogl"
+},
+{
+"url": "https://utahforge.com/",
+"host": "utahforge.com",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": ""
+},
+{
+"url": "https://wapims.dmp.wa.gov.au/",
+"host": "wapims.dmp.wa.gov.au",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "au-wa-wapims"
+},
+{
+"url": "https://web.archive.org/web/20080430165041/http://www.adnoc.ae/",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.archive.org/web/20100903183715/http://www.inp.gov.mz/",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.archive.org/web/20110509171748/http://www.mome.gov.et/petroleum.html",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.archive.org/web/20110720202617/http://www.mrd.gov.fj/gfiji/petroleum/petroleum.html",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.archive.org/web/20110925120857/http://www.mni.gov.il/mni/en-US/NaturalResources/OilandgasExploration/OilMaps",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.archive.org/web/20170802182657/http://www.oil.gov.iq/",
+"host": "web.archive.org",
+"group": "not_data",
+"reason": "Web archive copy of an old page; not used",
+"related_record": ""
+},
+{
+"url": "https://web.iodp.tamu.edu/janusweb/",
+"host": "web.iodp.tamu.edu",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "jrso-janus-lims"
+},
+{
+"url": "https://web01.unisim.cepetro.unicamp.br/sgr-wiki/",
+"host": "web01.unisim.cepetro.unicamp.br",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "unisim-benchmarks"
+},
+{
+"url": "https://wellstar-public.conservation.ca.gov/Well/Well/Index",
+"host": "wellstar-public.conservation.ca.gov",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://wogcc.wyo.gov/public-resources/oil-gas-resources",
+"host": "wogcc.wyo.gov",
+"group": "covered",
+"reason": "Resources page of a listed source (wy-wogcc-data)",
+"related_record": "wy-wogcc-data"
+},
+{
+"url": "http://www-udc.ig.utexas.edu/sdc/",
+"host": "www-udc.ig.utexas.edu",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ext-texas-beg"
+},
+{
+"url": "https://www.aer.ca/copyright-and-disclaimer",
+"host": "www.aer.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (aer-well-data)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://www.aer.ca/data-and-performance-reports",
+"host": "www.aer.ca",
+"group": "covered",
+"reason": "Data and reports page of a listed source (aer-well-data)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/oil-pressure-test-file",
+"host": "www.aer.ca",
+"group": "covered",
+"reason": "Oil pressure test file page of a listed source (aer-well-data)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/product-reference-layouts",
+"host": "www.aer.ca",
+"group": "covered",
+"reason": "Product layouts of a listed source (aer-well-data)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://www.anh.gov.co/es/hidrocarburos/informaci%C3%B3n-geol%C3%B3gica-y-geof%C3%ADsica/",
+"host": "www.anh.gov.co",
+"group": "covered",
+"reason": "Geology and geophysics page of a listed source (bip-sgc-colombia)",
+"related_record": "bip-sgc-colombia"
+},
+{
+"url": "http://www.anp-tl.org/webs/anptlweb.nsf/pgMaps",
+"host": "www.anp-tl.org",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": ""
+},
+{
+"url": "https://www.anp.gov.br/",
+"host": "www.anp.gov.br",
+"group": "covered",
+"reason": "Home page of a listed source (geoanp)",
+"related_record": "geoanp"
+},
+{
+"url": "https://www.aogc2.state.ak.us/",
+"host": "www.aogc2.state.ak.us",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.argentina.gob.ar/economia/energia/hidrocarburos/mapas-del-sector-de-hidrocarburos",
+"host": "www.argentina.gob.ar",
+"group": "covered",
+"reason": "Maps page of a listed source (ar-energy-upstream)",
+"related_record": "ar-energy-upstream"
+},
+{
+"url": "https://www.argentina.gob.ar/economia/energia/hidrocarburos/produccion-de-petroleo-y-gas/pozos-y-metros-perforados-tablas-dinamicas",
+"host": "www.argentina.gob.ar",
+"group": "covered",
+"reason": "Wells drilled tables of a listed source (ar-energy-upstream)",
+"related_record": "ar-energy-upstream"
+},
+{
+"url": "https://www.argentina.gob.ar/economia/energia/informacion-geografica-energia",
+"host": "www.argentina.gob.ar",
+"group": "covered",
+"reason": "Energy GIS page of a listed source (ar-energy-upstream)",
+"related_record": "ar-energy-upstream"
+},
+{
+"url": "http://www.aurep.org",
+"host": "www.aurep.org",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.bc-er.ca/data-reports/data-centre/p2/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Data centre page of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/data-reports/data-centre/p3/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Data centre page of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/data-reports/gis-open-data-portal/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "GIS open data portal of a listed source (bcer-data-centre), on ArcGIS Hub",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/energy-professionals/core-research-facility/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Core research facility page of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/energy-professionals/online-systems/elibrary/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "eLibrary of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/energy-professionals/online-systems/reports-well-data/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Well data page of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/energy-professionals/operations-documentation/petroleum-geology-data/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Geoscience data page of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.bc-er.ca/terms/",
+"host": "www.bc-er.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (bcer-data-centre)",
+"related_record": "bcer-data-centre"
+},
+{
+"url": "https://www.beg.utexas.edu/facilities/core-research-centers",
+"host": "www.beg.utexas.edu",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "ext-texas-beg"
+},
+{
+"url": "https://www.bgr.bund.de/",
+"host": "www.bgr.bund.de",
+"group": "not_data",
+"reason": "BGR institutional home page, no concrete data source (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://www.bgs.ac.uk/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Home page of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/bgs-intellectual-property-rights/open-government-licence/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/geological-data/national-geological-repository/accessing-ngr-material-collections/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Access page of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/geological-data/national-geological-repository/borehole-core-collections/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Core collections page of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/geological-data/national-geological-repository/hydrocarbons-database/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Hydrocarbons database page of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/news/a-new-open-dataset-to-benefit-onshore-geoscience-research/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/news/national-hydrocarbons-data-archive-files-now-accessible-through-the-national-data-repository/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.bgs.ac.uk/technologies/web-services/",
+"host": "www.bgs.ac.uk",
+"group": "covered",
+"reason": "Web services page of a listed source (bgs-ngr-opengeoscience)",
+"related_record": "bgs-ngr-opengeoscience"
+},
+{
+"url": "https://www.boem.gov/Disclaimer/",
+"host": "www.boem.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.boem.gov/Fees-for-Services/",
+"host": "www.boem.gov",
+"group": "paid",
+"reason": "Fees page of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.bsee.gov/stats-facts/bsee-regions-technical-data",
+"host": "www.bsee.gov",
+"group": "covered",
+"reason": "Regional technical data page of a listed source (bsee-data-center)",
+"related_record": "bsee-data-center"
+},
+{
+"url": "https://www.cer-rec.gc.ca/en/index.html",
+"host": "www.cer-rec.gc.ca",
+"group": "not_data",
+"reason": "Canada Energy Regulator home page: energy statistics, no well data on the page",
+"related_record": ""
+},
+{
+"url": "https://www.cer-rec.gc.ca/en/terms-conditions.html",
+"host": "www.cer-rec.gc.ca",
+"group": "not_data",
+"reason": "Terms and conditions of the Canada Energy Regulator site, not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.cjmpc.us/dashboards.html",
+"host": "www.cjmpc.us",
+"group": "not_data",
+"reason": "Consulting company dashboards, not a primary data source",
+"related_record": ""
+},
+{
+"url": "https://www.cnloer.ca/about/csrc/",
+"host": "www.cnloer.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (cnloer-hub)",
+"related_record": "cnloer-hub"
+},
+{
+"url": "https://www.cnloer.ca/disclaimer/",
+"host": "www.cnloer.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (cnloer-hub)",
+"related_record": "cnloer-hub"
+},
+{
+"url": "https://www.cnloer.ca/information/centre/",
+"host": "www.cnloer.ca",
+"group": "covered",
+"reason": "Information centre page of a listed source (cnloer-hub)",
+"related_record": "cnloer-hub"
+},
+{
+"url": "https://www.cnloer.ca/information/statistics/",
+"host": "www.cnloer.ca",
+"group": "covered",
+"reason": "Statistics page of a listed source (cnloer-hub)",
+"related_record": "cnloer-hub"
+},
+{
+"url": "http://www.cnpa-cambodia.com/",
+"host": "www.cnpa-cambodia.com",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "http://www.cnpc.com.cn/en/",
+"host": "www.cnpc.com.cn",
+"group": "unreadable",
+"reason": "Blocked (HTTP 412)",
+"related_record": ""
+},
+{
+"url": "https://www.conservation.ca.gov/calgem/Pages/WellFinder.aspx",
+"host": "www.conservation.ca.gov",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://www.conservation.ca.gov/calgem/Pages/Wellstar-Public.aspx",
+"host": "www.conservation.ca.gov",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://www.conservation.ca.gov/calgem/maps/Documents/GIS-metadata-ReadMe.pdf",
+"host": "www.conservation.ca.gov",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "ca-calgem-wellstar"
+},
+{
+"url": "https://www.cwls.org/products/",
+"host": "www.cwls.org",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": ""
+},
+{
+"url": "https://www.data.boem.gov/Main/AlaskaWell.aspx",
+"host": "www.data.boem.gov",
+"group": "covered",
+"reason": "Alaska well page of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.data.boem.gov/Main/HtmlPage.aspx?page=historical",
+"host": "www.data.boem.gov",
+"group": "covered",
+"reason": "Historical data page of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.data.boem.gov/Other/FileRequestSystem/ScanWellFiles.aspx",
+"host": "www.data.boem.gov",
+"group": "covered",
+"reason": "Query page of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.data.boem.gov/Other/FileRequestSystem/WellData.aspx",
+"host": "www.data.boem.gov",
+"group": "covered",
+"reason": "Query page of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.data.boem.gov/Other/PIOrderingSystem/Default.aspx",
+"host": "www.data.boem.gov",
+"group": "paid",
+"reason": "Ordering system with fees of a listed source (boem-data-center)",
+"related_record": "boem-data-center"
+},
+{
+"url": "https://www.datos.gov.co/",
+"host": "www.datos.gov.co",
+"group": "covered",
+"reason": "Portal home of listed datasets (co-datos-fdvb-hsrf)",
+"related_record": "co-datos-fdvb-hsrf"
+},
+{
+"url": "https://www.dep.pa.gov/",
+"host": "www.dep.pa.gov",
+"group": "not_data",
+"reason": "Agency home page (Pennsylvania DEP), no data page",
+"related_record": ""
+},
+{
+"url": "https://www.diskos.com/faqs",
+"host": "www.diskos.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (diskos)",
+"related_record": "diskos"
+},
+{
+"url": "https://www.dmp.wa.gov.au/",
+"host": "www.dmp.wa.gov.au",
+"group": "covered",
+"reason": "Department home page of a listed source (au-wa-wapims)",
+"related_record": "au-wa-wapims"
+},
+{
+"url": "https://www.dmr.nd.gov/oilgas/basicservice.asp",
+"host": "www.dmr.nd.gov",
+"group": "paid",
+"reason": "Subscription service of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.dmr.nd.gov/oilgas/mprindex.asp",
+"host": "www.dmr.nd.gov",
+"group": "covered",
+"reason": "Monthly production reports of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.dmr.nd.gov/oilgas/seismic/seismic.asp",
+"host": "www.dmr.nd.gov",
+"group": "covered",
+"reason": "Seismic programme page of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.dmr.nd.gov/oilgas/stats/statisticsvw.asp",
+"host": "www.dmr.nd.gov",
+"group": "covered",
+"reason": "Statistics page of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.dmr.nd.gov/oilgas/subscriptionservice.asp",
+"host": "www.dmr.nd.gov",
+"group": "paid",
+"reason": "Subscription service of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.dnr.louisiana.gov/",
+"host": "www.dnr.louisiana.gov",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ext-sonris"
+},
+{
+"url": "https://www.earthchem.org/ecl/policies",
+"host": "www.earthchem.org",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (earthchem)",
+"related_record": "earthchem"
+},
+{
+"url": "https://www.earthchem.org/resources/developers",
+"host": "www.earthchem.org",
+"group": "covered",
+"reason": "Developer resources of a listed source (earthchem)",
+"related_record": "earthchem"
+},
+{
+"url": "https://www.ecord.org/resources/databases/",
+"host": "www.ecord.org",
+"group": "covered",
+"reason": "ECORD list of IODP databases, already listed (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "https://www.ecord.org/science/get-involved/get-data-and-samples/",
+"host": "www.ecord.org",
+"group": "covered",
+"reason": "ECORD page on getting IODP data and samples, already listed (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "https://www.egdi.org/",
+"host": "www.egdi.org",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.eia.gov/opendata/",
+"host": "www.eia.gov",
+"group": "covered",
+"reason": "Open data API of a listed source (eia)",
+"related_record": "eia"
+},
+{
+"url": "https://www.emnrd.nm.gov/ocd/ocd-data/ocd-imaging/",
+"host": "www.emnrd.nm.gov",
+"group": "covered",
+"reason": "Imaging page of a listed source (nm-ocd-well-data)",
+"related_record": "nm-ocd-well-data"
+},
+{
+"url": "https://www.emnrd.nm.gov/officeofsecretary/legal-disclaimer/",
+"host": "www.emnrd.nm.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nm-ocd-well-data)",
+"related_record": "nm-ocd-well-data"
+},
+{
+"url": "http://www.energy.gov.mm/upstreampetroleumsubsector.htm",
+"host": "www.energy.gov.mm",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": ""
+},
+{
+"url": "https://www.energy.gov.tt/data/energy-data-center/",
+"host": "www.energy.gov.tt",
+"group": "covered",
+"reason": "Energy data centre page of a listed source (tt-meei-data)",
+"related_record": "tt-meei-data"
+},
+{
+"url": "https://www.energy.gov.tt/data/historical-oil-and-gas-production-data/",
+"host": "www.energy.gov.tt",
+"group": "covered",
+"reason": "Historical production data page of a listed source (tt-meei-data)",
+"related_record": "tt-meei-data"
+},
+{
+"url": "https://www.energy.gov.tt/services/sale-of-data/",
+"host": "www.energy.gov.tt",
+"group": "paid",
+"reason": "Sale of data page of a listed source (tt-meei-data)",
+"related_record": "tt-meei-data"
+},
+{
+"url": "https://www.energy.gov.tt/terms-of-use",
+"host": "www.energy.gov.tt",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (tt-meei-data)",
+"related_record": "tt-meei-data"
+},
+{
+"url": "http://www.energyandminerals.go.ug",
+"host": "www.energyandminerals.go.ug",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.enverus.com/",
+"host": "www.enverus.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "http://www.equatorialoil.com/database.html",
+"host": "www.equatorialoil.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.equinor.com/energy/volve-data-sharing#equinor-open-data-licence",
+"host": "www.equinor.com",
+"group": "covered",
+"reason": "Licence section of a listed source (volve)",
+"related_record": "volve"
+},
+{
+"url": "https://www.equinor.com/news/archive/14jun2018-disclosing-volve-data",
+"host": "www.equinor.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (volve)",
+"related_record": "volve"
+},
+{
+"url": "http://www.etap.com.tn",
+"host": "www.etap.com.tn",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": ""
+},
+{
+"url": "https://www.ga.gov.au/about/projects/resources/the-repository",
+"host": "www.ga.gov.au",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (au-nopims)",
+"related_record": "au-nopims"
+},
+{
+"url": "https://www.ga.gov.au/copyright",
+"host": "www.ga.gov.au",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (au-nopims)",
+"related_record": "au-nopims"
+},
+{
+"url": "http://www.gabon-industriel.com/les-actions/energie/petrole",
+"host": "www.gabon-industriel.com",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.geo.tuwien.ac.at/",
+"host": "www.geo.tuwien.ac.at",
+"group": "not_data",
+"reason": "University department site (TU Wien), not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.geonorge.no/",
+"host": "www.geonorge.no",
+"group": "not_data",
+"reason": "Norwegian national map catalogue (Geonorge), general geodata, not subsurface data",
+"related_record": ""
+},
+{
+"url": "https://www.geothermal-energy.org/",
+"host": "www.geothermal-energy.org",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": ""
+},
+{
+"url": "https://www.ghanapetroleumregister.com/",
+"host": "www.ghanapetroleumregister.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.gnpcghana.com/publications/financial-and-operational_reports",
+"host": "www.gnpcghana.com",
+"group": "not_data",
+"reason": "Financial and operational reports (GNPC), not subsurface data",
+"related_record": ""
+},
+{
+"url": "http://www.godac.jamstec.go.jp/darwin/",
+"host": "www.godac.jamstec.go.jp",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": "jamstec-sio7-chikyu"
+},
+{
+"url": "https://www.google.com/maps/d/viewer?mid=1by9vDDoWwnZD0f8vNt_le2TThTU",
+"host": "www.google.com",
+"group": "not_data",
+"reason": "Map of national data repositories (Google My Maps), not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.gov.br/anp/pt-br/acesso-a-informacao/termos-de-uso-privacidade-e-seguranca-1",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Terms of use of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "E&P page of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/assuntos/exploracao-e-producao-de-oleo-e-gas/dados-tecnicos",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Technical data page of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/amostras-de-rochas-e-fluidos",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Rock and fluid samples page of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-poco",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Production by well page of a listed source (anp-open-data-well)",
+"related_record": "anp-open-data-well"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/resultados-de-poco",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Well results dataset page of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.br/anp/pt-br/rodadas-anp/acesso-dados-tecnicos",
+"host": "www.gov.br",
+"group": "covered",
+"reason": "Data access page of a listed source (anp-bdep)",
+"related_record": "anp-bdep"
+},
+{
+"url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/services/search-petroleum-exploration-and-production-data",
+"host": "www.gov.ie",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.gwpc.org/",
+"host": "www.gwpc.org",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "http://www.hcu.org.bd/",
+"host": "www.hcu.org.bd",
+"group": "dead",
+"reason": "Domain answers «Site is not available»",
+"related_record": ""
+},
+{
+"url": "https://www.jamstec.go.jp/e/",
+"host": "www.jamstec.go.jp",
+"group": "covered",
+"reason": "Home page of a listed source (jamstec-sio7-chikyu)",
+"related_record": "jamstec-sio7-chikyu"
+},
+{
+"url": "https://www.jamstec.go.jp/sio7/contents/",
+"host": "www.jamstec.go.jp",
+"group": "covered",
+"reason": "Contents page of a listed source (jamstec-sio7-chikyu)",
+"related_record": "jamstec-sio7-chikyu"
+},
+{
+"url": "https://www.jogmec.go.jp/about/policy/sitepolicy.html",
+"host": "www.jogmec.go.jp",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (ext-jogmec)",
+"related_record": "ext-jogmec"
+},
+{
+"url": "https://www.jogmec.go.jp/activities/geothermal/resource-survey/survey-data.html",
+"host": "www.jogmec.go.jp",
+"group": "covered",
+"reason": "Geothermal survey data page of a listed source (ext-jogmec)",
+"related_record": "ext-jogmec"
+},
+{
+"url": "https://www.jogmec.go.jp/activities/oilgas/info-collection/resources.html",
+"host": "www.jogmec.go.jp",
+"group": "covered",
+"reason": "Resource information page of a listed source (ext-jogmec)",
+"related_record": "ext-jogmec"
+},
+{
+"url": "https://www.jogmec.go.jp/activities/oilgas/overseas-survey/basic-survey.html",
+"host": "www.jogmec.go.jp",
+"group": "covered",
+"reason": "Domestic basic survey page of a listed source (ext-jogmec)",
+"related_record": "ext-jogmec"
+},
+{
+"url": "https://www.kaggle.com/datasets?search=well+log",
+"host": "www.kaggle.com",
+"group": "not_data",
+"reason": "Kaggle search page, a generic search engine (not visited)",
+"related_record": ""
+},
+{
+"url": "https://www.kgs.ku.edu/Geophysics/CoreImages/",
+"host": "www.kgs.ku.edu",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "kgs-las-kansas"
+},
+{
+"url": "http://www.knoc.co.kr",
+"host": "www.knoc.co.kr",
+"group": "not_data",
+"reason": "Corporate site of KNOC (Korea), no data access; KIGAM is listed (ext-kigam)",
+"related_record": "ext-kigam"
+},
+{
+"url": "http://www.kochi-core.jp/en/iodp-curation/index.html",
+"host": "www.kochi-core.jp",
+"group": "unreadable",
+"reason": "Kochi Core Center site under maintenance",
+"related_record": ""
+},
+{
+"url": "https://www.lacore.umn.edu/",
+"host": "www.lacore.umn.edu",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": "csd-facility"
+},
+{
+"url": "https://www.marum.de/en/Data-management.html",
+"host": "www.marum.de",
+"group": "covered",
+"reason": "Data management page of MARUM, which runs a listed source (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "https://www.marum.de/en/Research/IODP-Bremen-Core-Repository.html",
+"host": "www.marum.de",
+"group": "covered",
+"reason": "IODP Bremen Core Repository page, scientific ocean drilling data already listed (sedis)",
+"related_record": "sedis"
+},
+{
+"url": "http://www.mcit.gov.cy/mcit/mcit.nsf/dmlhexploration_en/dmlhexploration_en?OpenDocument",
+"host": "www.mcit.gov.cy",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "ext-cyprus"
+},
+{
+"url": "https://www.mem.gob.ve/",
+"host": "www.mem.gob.ve",
+"group": "unreadable",
+"reason": "Timed out (two attempts)",
+"related_record": ""
+},
+{
+"url": "https://www.mh21japan.gr.jp/",
+"host": "www.mh21japan.gr.jp",
+"group": "not_data",
+"reason": "Methane hydrate research consortium (MH21-S), no data access on the page",
+"related_record": ""
+},
+{
+"url": "https://www.michigan.gov/egle",
+"host": "www.michigan.gov",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "ext-michigan-egle"
+},
+{
+"url": "https://www.mme.gov.na/",
+"host": "www.mme.gov.na",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.mofep.gov.gh/publications/petroleum-reports",
+"host": "www.mofep.gov.gh",
+"group": "not_data",
+"reason": "Petroleum revenue reports (Ministry of Finance, Ghana), not subsurface data",
+"related_record": ""
+},
+{
+"url": "https://www.mrt.tas.gov.au/",
+"host": "www.mrt.tas.gov.au",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.mseel.org/",
+"host": "www.mseel.org",
+"group": "redirect",
+"reason": "Redirects to an unrelated domain (not opened)",
+"related_record": ""
+},
+{
+"url": "https://www.nd.gov/content.htm?id=Disclaimer",
+"host": "www.nd.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nd-dmr-oilgas)",
+"related_record": "nd-dmr-oilgas"
+},
+{
+"url": "https://www.ndr.gov.ng/",
+"host": "www.ndr.gov.ng",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.neb-one.gc.ca/",
+"host": "www.neb-one.gc.ca",
+"group": "not_data",
+"reason": "Old NEB address redirecting to the Canada Energy Regulator home page (energy statistics, no well data on the page)",
+"related_record": ""
+},
+{
+"url": "https://www.netl.doe.gov/home/disclaimer",
+"host": "www.netl.doe.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (netl-edx)",
+"related_record": "netl-edx"
+},
+{
+"url": "http://www.nioc.ir",
+"host": "www.nioc.ir",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.nlog.nl/datacenter/?lang=en",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Data centre page of a listed source (nlog) (Chrome)",
+"related_record": "nlog"
+},
+{
+"url": "https://www.nlog.nl/datacenter/brh-overview",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Borehole overview of a listed source (nlog) (Chrome)",
+"related_record": "nlog"
+},
+{
+"url": "https://www.nlog.nl/en/core-collection-geological-survey",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Core collection page of a listed source (nlog)",
+"related_record": "nlog"
+},
+{
+"url": "https://www.nlog.nl/en/data-supply",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Data supply page of a listed source (nlog)",
+"related_record": "nlog"
+},
+{
+"url": "https://www.nlog.nl/en/rock-samples",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Rock samples page of a listed source (nlog)",
+"related_record": "nlog"
+},
+{
+"url": "https://www.nlog.nl/faq-page",
+"host": "www.nlog.nl",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nlog)",
+"related_record": "nlog"
+},
+{
+"url": "http://www.nocal-lr.com/",
+"host": "www.nocal-lr.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "http://www.nockenya.co.ke/",
+"host": "www.nockenya.co.ke",
+"group": "dead",
+"reason": "Old NOCK domain answers «Page cannot be displayed»; the current site is a listed source (ext-nock)",
+"related_record": "ext-nock"
+},
+{
+"url": "https://www.nopta.gov.au/",
+"host": "www.nopta.gov.au",
+"group": "covered",
+"reason": "Home page of a listed source (ext-nopims-public)",
+"related_record": "ext-nopims-public"
+},
+{
+"url": "https://www.npd.no/en/force/events/machine-learning-contest-with-wells-and-seismic/",
+"host": "www.npd.no",
+"group": "covered",
+"reason": "Old FORCE contest page moved to sodir.no; listed source (force-2020)",
+"related_record": "force-2020"
+},
+{
+"url": "https://www.nstauthority.co.uk/data-and-insights/about-nsta-data/how-to-access-our-data/",
+"host": "www.nstauthority.co.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://www.nstauthority.co.uk/data-and-insights/data/uk-national-data-repository/reporting-and-disclosure-of-information/",
+"host": "www.nstauthority.co.uk",
+"group": "covered",
+"reason": "Reporting page of a listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://www.nstauthority.co.uk/regulatory-information/exploration-and-production/onshore/onshore-reports-and-data/",
+"host": "www.nstauthority.co.uk",
+"group": "covered",
+"reason": "Onshore reports and data page of a listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://www.nstauthority.co.uk/site-tools/terms-and-conditions/",
+"host": "www.nstauthority.co.uk",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://www.nuprc.gov.ng/npms",
+"host": "www.nuprc.gov.ng",
+"group": "covered",
+"reason": "Production monitoring page of a listed source (ng-ndr-nuprc)",
+"related_record": "ng-ndr-nuprc"
+},
+{
+"url": "https://www.nuprc.gov.ng/portal",
+"host": "www.nuprc.gov.ng",
+"group": "covered",
+"reason": "Portals page of a listed source (ng-ndr-nuprc)",
+"related_record": "ng-ndr-nuprc"
+},
+{
+"url": "https://www.nuprc.gov.ng/reports",
+"host": "www.nuprc.gov.ng",
+"group": "covered",
+"reason": "Reports page of a listed source (ng-ndr-nuprc)",
+"related_record": "ng-ndr-nuprc"
+},
+{
+"url": "https://www.nzpam.govt.nz/about/copyright",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/about/news/updated-petroleum-exploration-data-pack-released",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/maps-geoscience/core-store",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Core store page of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/maps-geoscience/core-store/core-sampling-terms-and-conditions",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/maps-geoscience/geodata-catalogue/user-guide",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "User guide of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/maps-geoscience/petroleum-datapack/order",
+"host": "www.nzpam.govt.nz",
+"group": "paid",
+"reason": "Paid data pack order page of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/maps-geoscience/using-web-services",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Web services page of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "https://www.nzpam.govt.nz/nz-industry/nz-petroleum/petroleum-statistics",
+"host": "www.nzpam.govt.nz",
+"group": "covered",
+"reason": "Petroleum statistics page of a listed source (nz-geodata-catalogue)",
+"related_record": "nz-geodata-catalogue"
+},
+{
+"url": "http://www.ogauthority.co.uk/",
+"host": "www.ogauthority.co.uk",
+"group": "covered",
+"reason": "Old OGA domain now redirects to the NSTA (renamed authority); listed source (uk-ndr)",
+"related_record": "uk-ndr"
+},
+{
+"url": "https://www.opendatacommons.org/",
+"host": "www.opendatacommons.org",
+"group": "not_data",
+"reason": "Licence steward (Open Data Commons), not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.opengroup.org/",
+"host": "www.opengroup.org",
+"group": "not_data",
+"reason": "The Open Group home page, not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.pepa.go.ug/",
+"host": "www.pepa.go.ug",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.petrinex.ca/public-data/apd/",
+"host": "www.petrinex.ca",
+"group": "covered",
+"reason": "Public data page of a listed source (petrinex-public-data)",
+"related_record": "petrinex-public-data"
+},
+{
+"url": "https://www.petrinex.ca/public-data/bcpd/",
+"host": "www.petrinex.ca",
+"group": "covered",
+"reason": "British Columbia public data on a listed platform (petrinex-public-data)",
+"related_record": "petrinex-public-data"
+},
+{
+"url": "https://www.petrinex.ca/public-data/mbpd/",
+"host": "www.petrinex.ca",
+"group": "covered",
+"reason": "Manitoba public data on a listed platform (petrinex-public-data)",
+"related_record": "petrinex-public-data"
+},
+{
+"url": "https://www.petrinex.ca/public-data/spd/",
+"host": "www.petrinex.ca",
+"group": "covered",
+"reason": "Saskatchewan public data on a listed platform (petrinex-public-data)",
+"related_record": "petrinex-public-data"
+},
+{
+"url": "https://www.petrinex.ca/terms",
+"host": "www.petrinex.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (petrinex-public-data)",
+"related_record": "petrinex-public-data"
+},
+{
+"url": "http://www.petroci.ci/index.php?numlien=31",
+"host": "www.petroci.ci",
+"group": "covered",
+"reason": "Page of a listed source (ext-petroci)",
+"related_record": "ext-petroci"
+},
+{
+"url": "http://www.petrodata.kz",
+"host": "www.petrodata.kz",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.petroleumagencysa.com/dataset-standard-format/",
+"host": "www.petroleumagencysa.com",
+"group": "covered",
+"reason": "Dataset standard page of a listed source (za-pasa)",
+"related_record": "za-pasa"
+},
+{
+"url": "https://www.petroleumagencysa.com/obtain-our-technical-data/",
+"host": "www.petroleumagencysa.com",
+"group": "covered",
+"reason": "Data request page of a listed source (za-pasa)",
+"related_record": "za-pasa"
+},
+{
+"url": "https://www.petroleumagencysa.com/petroleum-data-standards/",
+"host": "www.petroleumagencysa.com",
+"group": "covered",
+"reason": "Data standards page of a listed source (za-pasa)",
+"related_record": "za-pasa"
+},
+{
+"url": "https://www.petroleumagencysa.com/viewing-our-technical-data/",
+"host": "www.petroleumagencysa.com",
+"group": "covered",
+"reason": "Technical data viewing page of a listed source (za-pasa)",
+"related_record": "za-pasa"
+},
+{
+"url": "http://www.petronas.com.my",
+"host": "www.petronas.com.my",
+"group": "unreadable",
+"reason": "Server error (HTTP 502)",
+"related_record": ""
+},
+{
+"url": "http://www.pnoc.com.ph",
+"host": "www.pnoc.com.ph",
+"group": "not_data",
+"reason": "Corporate site of PNOC (Philippines), no data access; the regulator is listed (ext-doe-philippines)",
+"related_record": "ext-doe-philippines"
+},
+{
+"url": "http://www.pttep.com/",
+"host": "www.pttep.com",
+"group": "not_data",
+"reason": "Corporate site of PTTEP (Thailand), not a data source",
+"related_record": ""
+},
+{
+"url": "http://www.qp.com.qa",
+"host": "www.qp.com.qa",
+"group": "not_data",
+"reason": "Old qp.com.qa redirects to QatarEnergy, corporate site without licence; not a data source (Chrome)",
+"related_record": ""
+},
+{
+"url": "https://www.re3data.org/repository/r3d100011011",
+"host": "www.re3data.org",
+"group": "covered",
+"reason": "Registry entry of a listed source (pk-ppepdr)",
+"related_record": "pk-ppepdr"
+},
+{
+"url": "https://www.re3data.org/search?query=well+log",
+"host": "www.re3data.org",
+"group": "not_data",
+"reason": "re3data search page answered with a bot-protection notice; registry, not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.recursosyenergia.gob.ec/",
+"host": "www.recursosyenergia.gob.ec",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/obtaining-commission-records/oil-and-gas-well-records-online/",
+"host": "www.rrc.texas.gov",
+"group": "covered",
+"reason": "Records page of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rrc.texas.gov/oil-and-gas/research-and-statistics/obtaining-commission-records/oil-and-gas-well-records-price-list/",
+"host": "www.rrc.texas.gov",
+"group": "paid",
+"reason": "Price list of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rrc.texas.gov/resource-center/research/gis-viewer/",
+"host": "www.rrc.texas.gov",
+"group": "covered",
+"reason": "GIS viewer of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rrc.texas.gov/resource-center/research/research-queries/imaged-records/imaged-records-menu/",
+"host": "www.rrc.texas.gov",
+"group": "covered",
+"reason": "Imaged records page of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rrc.texas.gov/resource-center/subscription-services/",
+"host": "www.rrc.texas.gov",
+"group": "paid",
+"reason": "Subscription services of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rrc.texas.gov/site-policies/",
+"host": "www.rrc.texas.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (tx-rrc-datasets)",
+"related_record": "tx-rrc-datasets"
+},
+{
+"url": "https://www.rvo.nl/subsidies-financiering/rnes",
+"host": "www.rvo.nl",
+"group": "not_data",
+"reason": "Geothermal subsidy page (RVO), not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey",
+"host": "www.saskatchewan.ca",
+"group": "covered",
+"reason": "Geological Survey page of a listed source (saskatchewan-oil-gas)",
+"related_record": "saskatchewan-oil-gas"
+},
+{
+"url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas/oil-and-gas-news-and-bulletins",
+"host": "www.saskatchewan.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (saskatchewan-oil-gas)",
+"related_record": "saskatchewan-oil-gas"
+},
+{
+"url": "https://www.saskatchewan.ca/copyright",
+"host": "www.saskatchewan.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (saskatchewan-oil-gas)",
+"related_record": "saskatchewan-oil-gas"
+},
+{
+"url": "https://www.saskatchewan.ca/terms-of-use",
+"host": "www.saskatchewan.ca",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (saskatchewan-oil-gas)",
+"related_record": "saskatchewan-oil-gas"
+},
+{
+"url": "http://www.saudiaramco.com",
+"host": "www.saudiaramco.com",
+"group": "unreadable",
+"reason": "empty page",
+"related_record": ""
+},
+{
+"url": "https://www.sciencebase.gov/mercury/#/",
+"host": "www.sciencebase.gov",
+"group": "covered",
+"reason": "ScienceBase viewer item of a listed USGS source (usgs-cwldb-gulf-coast) (Chrome)",
+"related_record": "usgs-cwldb-gulf-coast"
+},
+{
+"url": "https://www.skkmigas.go.id/",
+"host": "www.skkmigas.go.id",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.sodir.no/en/facts/about-us/open-data/",
+"host": "www.sodir.no",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "sodir-factpages"
+},
+{
+"url": "https://www.sodir.no/en/facts/geology/geobank/",
+"host": "www.sodir.no",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "sodir-factpages"
+},
+{
+"url": "http://www.sopac.org/index.php/member-countries/solomon-islands",
+"host": "www.sopac.org",
+"group": "not_data",
+"reason": "Old SOPAC page now redirects to the home page of SPC's Geoscience, Energy and Maritime Division (successor); no data page identified",
+"related_record": ""
+},
+{
+"url": "http://www.sopac.org/index.php/member-countries/tonga",
+"host": "www.sopac.org",
+"group": "not_data",
+"reason": "Old SOPAC page now redirects to the home page of SPC's Geoscience, Energy and Maritime Division (successor); no data page identified",
+"related_record": ""
+},
+{
+"url": "http://www.sopac.org/index.php/member-countries/vanuatu",
+"host": "www.sopac.org",
+"group": "not_data",
+"reason": "Old SOPAC page now redirects to the home page of SPC's Geoscience, Energy and Maritime Division (successor); no data page identified",
+"related_record": ""
+},
+{
+"url": "http://www.spc-sy.com/en/aboutus/aboutus1_en.php",
+"host": "www.spc-sy.com",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "http://www.spc.gov.sd",
+"host": "www.spc.gov.sd",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www.spglobal.com/commodityinsights/",
+"host": "www.spglobal.com",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": ""
+},
+{
+"url": "https://www.tgs.com/",
+"host": "www.tgs.com",
+"group": "paid",
+"reason": "Commercial data company home page of a listed source (tgs-log-line-plus)",
+"related_record": "tgs-log-line-plus"
+},
+{
+"url": "https://www.tgs.com/seismic/multi-client/data-types",
+"host": "www.tgs.com",
+"group": "paid",
+"reason": "Multi-client data library of a listed source (tgs-log-line-plus)",
+"related_record": "tgs-log-line-plus"
+},
+{
+"url": "https://www.tgs.com/terms-and-conditions",
+"host": "www.tgs.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (tgs-log-line-plus)",
+"related_record": "tgs-log-line-plus"
+},
+{
+"url": "https://www.thinkgeoenergy.com/about/terms-conditions/",
+"host": "www.thinkgeoenergy.com",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (thinkgeoenergy)",
+"related_record": "thinkgeoenergy"
+},
+{
+"url": "https://www.thinkgeoenergy.com/map/",
+"host": "www.thinkgeoenergy.com",
+"group": "not_data",
+"reason": "Power plant map of a news site (thinkgeoenergy), not subsurface data",
+"related_record": "thinkgeoenergy"
+},
+{
+"url": "https://www.tpdc.co.tz/documents/reports",
+"host": "www.tpdc.co.tz",
+"group": "not_data",
+"reason": "Corporate reports page (TPDC), not subsurface data",
+"related_record": ""
+},
+{
+"url": "https://www.uky.edu/KGS/",
+"host": "www.uky.edu",
+"group": "unreadable",
+"reason": "TLS certificate or protocol error",
+"related_record": "ext-kentucky-gs"
+},
+{
+"url": "https://www.unisim.cepetro.unicamp.br/benchmarks/en/unisim-i/overview",
+"host": "www.unisim.cepetro.unicamp.br",
+"group": "covered",
+"reason": "UNISIM-I page of a listed source (unisim-benchmarks)",
+"related_record": "unisim-benchmarks"
+},
+{
+"url": "https://www.unisim.cepetro.unicamp.br/benchmarks/en/unisim-iv/unisim-iv-2026",
+"host": "www.unisim.cepetro.unicamp.br",
+"group": "covered",
+"reason": "UNISIM-IV page of a listed source (unisim-benchmarks)",
+"related_record": "unisim-benchmarks"
+},
+{
+"url": "https://www.usgs.gov/core-research-center/links-core-repositories",
+"host": "www.usgs.gov",
+"group": "not_data",
+"reason": "USGS list of links to core repositories, not a data source itself",
+"related_record": ""
+},
+{
+"url": "https://www.usgs.gov/core-research-center/policies-and-forms",
+"host": "www.usgs.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (usgs-cwldb-gulf-coast)",
+"related_record": "usgs-cwldb-gulf-coast"
+},
+{
+"url": "https://www.usgs.gov/core-science-systems/nggdpp/core-research-center",
+"host": "www.usgs.gov",
+"group": "dead",
+"reason": "Dead address (HTTP 404)",
+"related_record": "usgs-cwldb-gulf-coast"
+},
+{
+"url": "https://www.usgs.gov/policies-and-notices",
+"host": "www.usgs.gov",
+"group": "covered",
+"reason": "Sub-page (terms, about, help or news) of a listed source (usgs-cwldb-gulf-coast)",
+"related_record": "usgs-cwldb-gulf-coast"
+},
+{
+"url": "https://www.usgs.gov/programs/national-geological-and-geophysical-data-preservation-program/physical-repositories",
+"host": "www.usgs.gov",
+"group": "not_data",
+"reason": "USGS programme page about physical repositories, not a data source itself",
+"related_record": ""
+},
+{
+"url": "https://www.usgs.gov/sciencebase-instructions-and-documentation/api-and-web-services",
+"host": "www.usgs.gov",
+"group": "not_data",
+"reason": "USGS ScienceBase API documentation, not a data source",
+"related_record": ""
+},
+{
+"url": "https://www.wvgs.wvnet.edu/",
+"host": "www.wvgs.wvnet.edu",
+"group": "covered",
+"reason": "Home page of a listed source (ext-wvges)",
+"related_record": "ext-wvges"
+},
+{
+"url": "https://www.yacimientos.bo/",
+"host": "www.yacimientos.bo",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "http://www.zambiageosurvey.gov.zm/",
+"host": "www.zambiageosurvey.gov.zm",
+"group": "dead",
+"reason": "Dead address (host not found)",
+"related_record": ""
+},
+{
+"url": "https://www1.aer.ca/ProductCatalogue/index.html",
+"host": "www1.aer.ca",
+"group": "paid",
+"reason": "Products catalogue (paid products) of a listed source (aer-well-data)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://www2.aer.ca/t/Production/views/PRD_0100_General_Well_Identifier_Search/WellIdentifierSearch",
+"host": "www2.aer.ca",
+"group": "unreadable",
+"reason": "Blocked (HTTP 403)",
+"related_record": "aer-well-data"
+},
+{
+"url": "https://zenodo.org/search?q=drilling%20data%20well",
+"host": "zenodo.org",
+"group": "not_data",
+"reason": "Zenodo search results page, not a data source",
+"related_record": ""
+}
+]
+}

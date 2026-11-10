@@ -1,0 +1,28 @@
+{
+ "id": "gdr-srp-forge-inel1",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.15121/1261969",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "INEL-1 LAS raw data.zip",
+   "url": "https://gdr.openei.org/files/792/INEL-1%20LAS%20raw%20data.zip",
+   "bytes": 1536610,
+   "sha256": "c81d1caba05b95504de78c22a241248b79374dd0c5f32dd0c245708c65ca5111"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "INEL-1 LAS raw data.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "Snake River Plain FORGE, well INEL-1 (Idaho, 1979 logs), GDR 792: 21 LAS 1.2 (GR, DT, caliper, neutron, SP, induction), depth in feet; curves without units are listed in _failures.json when a LAS cannot be standardized. GDR publishes no checksum: sha256 of the whole download of 6 Nov 2026."
+}

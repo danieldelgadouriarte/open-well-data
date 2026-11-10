@@ -1,0 +1,6 @@
+﻿# Synthetic table for the Open Well Data tests. Not real data.
+TIME;"Hook Load (klbs)";Standpipe Pressure;Flow In;"Note, free text";Temperature
+h;;psi;GPM;;degrees Fahrenheit
+0.5;250.5;3000;650;"first; row";68
+1.0;-999.25;3010.5;655;"say ""hi""";-40
+1.5;251;;660;;212

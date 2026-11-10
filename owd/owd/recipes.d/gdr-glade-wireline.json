@@ -1,0 +1,28 @@
+{
+ "id": "gdr-glade-wireline",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://gdr.openei.org/submissions/1857",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "Wireline Logs.zip",
+   "url": "https://gdr.openei.org/files/1857/Wireline%20Logs.zip",
+   "bytes": 421885982,
+   "sha256": "86c7ef4485bb825760d9df049f98d2ce683520f11f04f24cde5aaf6194c0ef8c"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "Wireline Logs.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "GLADE East and GLADE West geothermal wells (Oxy, DJ Basin, Colorado), GDR 1857: wireline logs, 14 LAS (image, sonic, triple combo...) and PDFs in a 422 MB zip. Processed end to end with owd on 7 Nov 2026 from the whole download of 6 Nov: 12 of 14 LAS; 2 with a malformed ~Parameter line are listed in _failures.json. GDR publishes no checksum: sha256 of the whole download of 6 Nov 2026."
+}

@@ -1,0 +1,27 @@
+{
+ "id": "zenodo-italia-taboo",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.5281/zenodo.21722086",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "zenodo.org"
+ ],
+ "files": [
+  {
+   "name": "NFO_TABOO_well_logs_v.2.0.zip",
+   "url": "https://zenodo.org/api/records/21722086/files/NFO_TABOO_well_logs_v.2.0.zip/content",
+   "bytes": 7632917,
+   "sha256": "8658a3d6246d6e89fc1f7aa6101210199cf51729218c0cc1a8ec2efe9547dd28",
+   "md5": "4370544d016c69225edae6583b849dfe"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "NFO_TABOO_well_logs_v.2.0.zip",
+  "pattern": "(?i)\\.las$"
+ },
+ "notes": "Digitized legacy logs of deep boreholes, Alto Tiberina Near Fault Observatory (TABOO), Italy, v2.0: 29 LAS in metres (the CSV copies in the zip are not used). md5 from the Zenodo record, sha256 of a download checked against it (6 Nov 2026)."
+}

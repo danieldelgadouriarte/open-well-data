@@ -1,0 +1,29 @@
+{
+ "id": "zenodo-italia-pesaro-fano",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.5281/zenodo.17492273",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "zenodo.org"
+ ],
+ "files": [
+  {
+   "name": "PESARO- FANO_Deep Boreholes_V1.0.zip",
+   "url": "https://zenodo.org/api/records/17492273/files/PESARO-%20FANO_Deep%20Boreholes_V1.0.zip/content",
+   "bytes": 140703659,
+   "sha256": "9d2268de12760ecdd7baa7e81709fade1d33ae10460292293196b47e01fb2aa1",
+   "md5": "2cd6f96c87ed45ca00065f11c9fc52f1"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "PESARO- FANO_Deep Boreholes_V1.0.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "Digitized logs of deep boreholes in the 2022 Fano-Pesaro earthquake area (Adriatic Sea, Italy), Zenodo 17492273 v1.0: 7 LAS (the PNG scans, ODS and CSV copies in the zip are not used). md5 from the Zenodo record, equal to our download of 7 Nov 2026 (sha256 of that download)."
+}

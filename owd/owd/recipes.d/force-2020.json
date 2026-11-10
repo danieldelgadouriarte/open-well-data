@@ -1,0 +1,29 @@
+{
+ "id": "force-2020",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.5281/zenodo.4351156",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "zenodo.org"
+ ],
+ "files": [
+  {
+   "name": "LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip",
+   "url": "https://zenodo.org/api/records/4351156/files/LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip/content",
+   "bytes": 169785172,
+   "md5": "da0d72d5783a780ac71779453d9fbfbf",
+   "sha256": "042ef1d473100dc12768cae7107a8cead071a394f137af3bc1ddaf8a5d1b8dda"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "FORCE 2020 well-log competition, 118 Norwegian Sea wells (Zenodo 4351156): LAS zip only (the NPD xlsx tables are not used). Size and md5 from the Zenodo API; sha256 of our download of 7 Nov 2026, whose md5 matches. Processed end to end with owd: 118 of 118 LAS, 2,337,639 rows. Licence: CC BY 4.0 on Zenodo; the original logs come under NLOD 2.0."
+}

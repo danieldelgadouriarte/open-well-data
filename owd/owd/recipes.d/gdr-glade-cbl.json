@@ -1,0 +1,27 @@
+{
+ "id": "gdr-glade-cbl",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://gdr.openei.org/submissions/1857",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "Cement Bond Logs.zip",
+   "url": "https://gdr.openei.org/files/1857/Cement%20Bond%20Logs.zip",
+   "bytes": 37672304,
+   "sha256": "b8f765e3ad83cbc08a7b1c75a498789954ea550d7afd12c3a2b3d1379c99b5be"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "Cement Bond Logs.zip",
+  "pattern": "(?i)\\.las$"
+ },
+ "tested": "yes",
+ "notes": "GLADE East and GLADE West geothermal wells (Oxy, DJ Basin, Colorado), GDR 1857: radial cement bond logs, 2 LAS (the PDFs are not used). GDR publishes no checksum: sha256 of the whole download of 6 Nov 2026."
+}

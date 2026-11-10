@@ -1,0 +1,116 @@
+# Groups of equivalent search terms (English, Spanish and abbreviations): bilingual search on purpose. One group per line, separated by TAB. Normalized to lower case without accents.
+sismica	seismic	seismics	sismico	reflection seismic
+3d	tridimensional	three-dimensional
+2d	bidimensional	two-dimensional
+pozo	pozos	well	wells	wellbore	wellbores	borehole	boreholes	sondeo	sondeos
+perforacion	drilling	drill	rig
+registro	registros	log	logs	logging	diagrafia	diagrafias	wireline	las
+testigo	testigos	nucleo	nucleos	core	cores	coring
+produccion	production	producing
+yacimiento	yacimientos	reservoir	reservoirs
+campo	campos	field	fields
+geotermia	geotermal	geothermal
+almacenamiento de co2	ccs	ccus	co2 storage	carbon storage	secuestro de carbono	carbon capture
+co2	dioxido de carbono	carbon dioxide
+gas natural	natural gas
+petroleo	crudo	oil	petroleum
+regulador	regulator	regulatory	autoridad	authority	agencia	agency	comision	commission
+servicio geologico	geological survey	geologic survey
+mapa	mapas	map	maps	visor	viewer	gis
+licencia	licence	license
+abierto	abierta	open	publico	publica	public
+descarga	descargas	download	downloads
+presion	pressure
+temperatura	temperature
+sismicidad inducida	induced seismicity	microsismicidad	microseismic	microseismicity	terremoto	terremotos	earthquake	earthquakes	sismo	sismos
+perfil sismico vertical	vsp
+fibra optica	das	distributed acoustic sensing	fiber optic
+modelo	modelos	model	models	simulacion	simulation	simulador	simulator
+programa	software	codigo	code	libreria	library
+aprendizaje automatico	machine learning	ml	inteligencia artificial	ai
+costa afuera	offshore	marino	marine
+terrestre	onshore
+noruega	norway	norwegian	noruego
+reino unido	united kingdom	uk	britain	british
+paises bajos	holanda	netherlands	dutch
+estados unidos	united states	usa
+australia	australian	australiano
+canada	canadian	canadiense
+brasil	brazil	brazilian
+mexico	mexican	mexicano
+golfo de mexico	gulf of mexico	gom	gulf of america	golfo de america
+mar del norte	north sea
+fractura	fracturas	fracture	fractures	fracturing	fracking	fracturamiento
+completacion	completion	completions	terminacion
+prueba de pozo	well test	well testing	dst
+pvt	fluid properties	propiedades de fluidos
+gravimetria	gravity	gravimetric
+magnetometria	magnetic	magnetics	aeromagnetic
+estratigrafia	stratigraphy	stratigraphic
+geomecanica	geomechanics	geomechanical	tensiones	stress
+plataforma continental exterior	outer continental shelf	ocs
+marruecos	morocco	moroccan
+argelia	algeria	algerian
+libia	libya	libyan
+egipto	egypt	egyptian
+tunez	tunisia
+nigeria	nigerian
+angola	angolan
+ghana	ghanaian
+senegal
+mozambique
+tanzania
+kenia	kenya
+uganda
+namibia
+sudafrica	south africa
+gabon
+madagascar
+liberia
+costa de marfil	ivory coast	cote d ivoire
+guyana
+trinidad y tobago	trinidad and tobago
+venezuela
+peru
+ecuador
+chile
+bolivia
+uruguay
+dinamarca	denmark	danish
+alemania	germany	german
+francia	france	french
+italia	italy	italian
+espana	spain	spanish
+portugal	portuguese
+grecia	greece	greek
+croacia	croatia
+polonia	poland	polish
+austria	austrian
+suiza	switzerland	swiss
+irlanda	ireland	irish
+islandia	iceland
+rumania	romania
+turquia	turkey	turkiye
+chequia	czechia	czech republic
+india	indian
+indonesia	indonesian
+malasia	malaysia
+tailandia	thailand
+vietnam
+filipinas	philippines
+japon	japan	japanese
+corea del sur	south korea	korea
+china	chinese
+pakistan
+oman
+jordania	jordan
+arabia saudi	saudi arabia
+emiratos arabes unidos	united arab emirates	uae
+qatar
+kuwait
+irak	iraq
+iran
+kazajistan	kazakhstan
+nueva zelanda	new zealand
+papua nueva guinea	papua new guinea
+sri lanka

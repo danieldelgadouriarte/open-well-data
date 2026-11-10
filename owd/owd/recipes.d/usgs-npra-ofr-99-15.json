@@ -1,0 +1,133 @@
+{
+ "id": "usgs-npra-ofr-99-15",
+ "version": 1,
+ "level": "A",
+ "license": "LicenseRef-USGS-Public-Domain",
+ "source": "https://pubs.usgs.gov/of/1999/ofr-99-0015/",
+ "terms": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+ "download": "auto",
+ "domains": [
+  "pubs.usgs.gov"
+ ],
+ "files": [
+  {
+   "name": "DrewPt1_DP1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/DrewPt1/LAS/DP1.LAS",
+   "bytes": 2261759,
+   "sha256": "cc8393f3bc26fd2d55a81353c6c9179ea010a44a54de9b97b10d74bff8a095fe"
+  },
+  {
+   "name": "DrewPt1_DP1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/DrewPt1/GammaRay/DP1GR.LAS",
+   "bytes": 97282,
+   "sha256": "4d79e4cf47500256fc1fb8b2fb8912d4471d76d59d553b5e8fd4c25a200ad812"
+  },
+  {
+   "name": "ESimp1_ES1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/ESimp1/LAS/ES1.LAS",
+   "bytes": 2204488,
+   "sha256": "2798fbedf40af56c24f9374ed10825d51e91711d5c1285f5594bd7f0860ed5ab"
+  },
+  {
+   "name": "ESimp1_ES1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/ESimp1/GammaRay/ES1GR.LAS",
+   "bytes": 36032,
+   "sha256": "56dc7c6a3f74d833ff849c56f24a024b574afba5bc1fd95faaa81ee0b7d203f1"
+  },
+  {
+   "name": "Ikpik1_IK1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Ikpik1/LAS/IK1.LAS",
+   "bytes": 4437352,
+   "sha256": "7ad41ae05befc03c253175caa1c9d848dc9a7c3c846dd47093792ea5b34dd1a4"
+  },
+  {
+   "name": "Ikpik1_IK1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Ikpik1/GammaRay/IK1GR.LAS",
+   "bytes": 12682,
+   "sha256": "13742b71bbe10e28ab0ab787b6314ea9423bc91e41eeeef796ed03f41a228d04"
+  },
+  {
+   "name": "Inigok1_IN1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Inigok1/LAS/IN1.LAS",
+   "bytes": 7341352,
+   "sha256": "52ba0c9bb0f8c66f375100d9e2a86a2bbb09abe4e60d0a884281f13cac10be29"
+  },
+  {
+   "name": "JWDalt1_JWD1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/JWDalt1/LAS/JWD1.LAS",
+   "bytes": 2690632,
+   "sha256": "33997e48286590e3a037e2019dec2d842a1e2124d8f824b63c3453c018779e18"
+  },
+  {
+   "name": "JWDalt1_JWD1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/JWDalt1/GammaRay/JWD1GR.LAS",
+   "bytes": 1982,
+   "sha256": "06ad3abf87f49565c00dd68dbe82dac06ed33ecaed3cd051925f04f964de8446"
+  },
+  {
+   "name": "Kuyanak1_KU1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Kuyanak1/LAS/KU1.LAS",
+   "bytes": 2422167,
+   "sha256": "b7e0d57c1d600895da37d54684a84b2f11f7fda663ec36320c98012e3d9e96f8"
+  },
+  {
+   "name": "Kuyanak1_KU1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Kuyanak1/GammaRay/KU1GR.LAS",
+   "bytes": 57633,
+   "sha256": "deaf2667eec1d71f54531429feda67891f972190f85da414fe947f3139a938eb"
+  },
+  {
+   "name": "NInigok1_NI1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/NInigok1/LAS/NI1.LAS",
+   "bytes": 2900764,
+   "sha256": "338a782b3fee1afb599fe28e51347253c008433591e3fd75b86d99d33d851bd5"
+  },
+  {
+   "name": "NKalik1_NK1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/NKalik1/LAS/NK1.LAS",
+   "bytes": 2293673,
+   "sha256": "9ac706f641b4fbd560a74d272048916cd33cf393350042730f5d420ad904defa"
+  },
+  {
+   "name": "NKalik1_NK1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/NKalik1/GammaRay/NK1GR.LAS",
+   "bytes": 10032,
+   "sha256": "b2e9862763e3ab314905615e88b5b324f205a93e382b54f26384d27c856420e7"
+  },
+  {
+   "name": "Peard1_PE1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Peard1/LAS/PE1.LAS",
+   "bytes": 3192969,
+   "sha256": "42d1e65cec3cf37553b510c1ce34a36f16b36e0b955122ebd56799db601f2d2c"
+  },
+  {
+   "name": "Peard1_PE1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/Peard1/GammaRay/PE1GR.LAS",
+   "bytes": 85632,
+   "sha256": "560ad38a2fc229c290e88edc1741b40adacb57c77f047111dbc1b56fb29862fd"
+  },
+  {
+   "name": "SMeade1_SM1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/SMeade1/LAS/SM1.LAS",
+   "bytes": 2759342,
+   "sha256": "7129d7dd89c08943cc02219899169385673f74dc730808544798a6e933b17a51"
+  },
+  {
+   "name": "WDease1_WD1.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/WDease1/LAS/WD1.LAS",
+   "bytes": 1196078,
+   "sha256": "b9f166b6c7b263d3874f2fc146efc7a79cc91f5cbdc6b782ce2f01e825582e44"
+  },
+  {
+   "name": "WDease1_WD1GR.LAS",
+   "url": "https://pubs.usgs.gov/of/1999/ofr-99-0015/Wells/WDease1/GammaRay/WD1GR.LAS",
+   "bytes": 3133,
+   "sha256": "006ffb5dbe836134d59b8783fd619976cc107f678348c0ae4c3f937123a0b606"
+  }
+ ],
+ "process": {
+  "type": "las_files"
+ },
+ "tested": "yes",
+ "notes": "USGS Open-File Report 99-015: LAS of 11 wildcat wells in the National Petroleum Reserve in Alaska (wireline) and 8 core gamma-ray LAS. The report page states no licence; the redistribution bucket is 'permitida' by the USGS public-domain policy. USGS publishes no checksum: sha256 of the whole download of 6 Nov 2026. Redistribution approved by Daniel Delgado-Uriarte on 7 Nov 2026 (standardized copy allowed, citing the source)."
+}

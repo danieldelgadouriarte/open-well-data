@@ -1,0 +1,27 @@
+{
+ "id": "gdr-cubo-esh1-time-jul-sep",
+ "version": 1,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://gdr.openei.org/submissions/1849",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "gdr.openei.org"
+ ],
+ "files": [
+  {
+   "name": "Pason 20220718-20220901 all traces (10 sec).zip",
+   "url": "https://gdr.openei.org/files/1849/Pason%2020220718-20220901%20all%20traces%20(10%20sec).zip",
+   "bytes": 25200849,
+   "sha256": "b031eb929cfcb8437666b56e417f130130e39b217256df12cab54e3093844b08"
+  }
+ ],
+ "process": {
+  "type": "zip_csv_by_day",
+  "file": "Pason 20220718-20220901 all traces (10 sec).zip",
+  "member": "Pason 20220718-20220901 all traces (10 sec).csv"
+ },
+ "tested": "yes",
+ "notes": "CUBO ESH-1, Pason drilling parameters in the time domain at 10 s, 18 Jul - 1 Sep 2022 (582 MB CSV in the zip), GDR 1849. Split by day and standardized. Times are local and the file has no time zone. GDR publishes no checksum: sha256 of our download of 7 Nov 2026."
+}

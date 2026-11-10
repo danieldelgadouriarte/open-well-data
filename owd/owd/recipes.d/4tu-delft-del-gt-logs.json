@@ -1,0 +1,29 @@
+{
+ "id": "4tu-delft-del-gt-logs",
+ "version": 2,
+ "level": "A",
+ "license": "CC-BY-4.0",
+ "source": "https://doi.org/10.4121/2a7b2a63-dd7b-46bc-a275-97729b3ab348.v2",
+ "terms": "https://creativecommons.org/licenses/by/4.0/",
+ "download": "auto",
+ "domains": [
+  "data.4tu.nl"
+ ],
+ "files": [
+  {
+   "name": "DELGT01_DELGT02_wireline_logs.zip",
+   "url": "https://data.4tu.nl/file/2a7b2a63-dd7b-46bc-a275-97729b3ab348/b877d2d9-5f04-4351-ba98-0e28d1e09130",
+   "bytes": 1294228557,
+   "md5": "2054c13fb23d7378ec2dd6fe62b70e6c",
+   "sha256": "70f7dd481942b748f68972fc500185621168cea5d9dc621f1272cc7e1bd8d8fa"
+  }
+ ],
+ "process": {
+  "type": "zip_members",
+  "file": "DELGT01_DELGT02_wireline_logs.zip",
+  "pattern": "(?i)\\.las$",
+  "skip_unreadable": true
+ },
+ "tested": "yes",
+ "notes": "TU Delft campus geothermal wells DEL-GT-01 and DEL-GT-02 (sidetrack S2), wireline logs of 2023 (4TU.ResearchData, v2, embargo ended 31 Dec 2025): 18 LAS (the DLIS, PDF and META copies are not used); one image-log LAS is 467 MB uncompressed. Size and computed_md5 from the 4TU API; our download of 7 Nov 2026 matches both, and its sha256 is recorded. The download URL answers 200 from data.4tu.nl (no redirect)."
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Open Well Data: public subsurface data for oil, gas and CCS (code, catalogue and site)",
+ "upload_type": "software",
+ "description": "Open Well Data is a tool that helps researchers, operators and regulators find and use public data. It indexes public subsurface data sources for oil, gas and CCS (wireline logs, drilling, production, seismic, CO2 storage) with a verification status and date per record, and ships the openwelldata Python package: readers that return standard channel names in standard units, recipes for datasets that cannot be redistributed, a variable index, and an MCP server. Website: https://openwelldata.org Licences: code PolyForm Noncommercial 1.0.0; a separate commercial licence is available from the author on request (currently no fee) (contact@openwelldata.org, https://openwelldata.org/permission/).",
+ "creators": [
+  {
+   "name": "Delgado-Uriarte, Daniel",
+   "orcid": "0009-0006-0536-5158"
+  }
+ ],
+ "license": "PolyForm-Noncommercial-1.0.0",
+ "keywords": [
+  "well data",
+  "well logs",
+  "drilling data",
+  "petroleum engineering",
+  "geoscience",
+  "subsurface",
+  "CCS",
+  "open data",
+  "data catalogue",
+  "LAS",
+  "WITSML",
+  "MCP"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://openwelldata.org",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  }
+ ],
+ "notes": "© 2026 Daniel Delgado-Uriarte, sole creator. Open Well Data™. Code PolyForm Noncommercial 1.0.0 (non-commercial use), with a separate commercial licence available from the author; catalogue, dictionaries, schema and recipes CC BY-NC 4.0. Commercial use needs prior written permission, on request: contact@openwelldata.org (https://openwelldata.org/permission/). Provided as is, without warranty; not for regulatory, legal, safety or investment decisions; not affiliated with or endorsed by any regulator, company or university. Terms: https://openwelldata.org/terms/",
+ "version": "1.1.0"
+}
